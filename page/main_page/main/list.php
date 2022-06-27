@@ -106,7 +106,7 @@ $tool = new Tool();
                     <div class="outer">
                         <div class="content">
                             <div class="img_card">
-                                <a href="../medicine/detail.php?id=<?php echo $item['id']; ?>">
+                                <a href="../../product/medicine/detail.php?id=<?php echo $item['id']; ?>">
                                     <img src=<?php echo Helper::return_img($item['id']);?> width="60%">
                                 </a>
                             </div>
@@ -116,7 +116,7 @@ $tool = new Tool();
                             <h3>NSX: <?php echo $data1['name']; ?></h3>
                             <div class="button">
                                 <a href="#"><?php echo number_format($item['price'],0,",","."); ?> đồng</a>
-                                <a class="cart-btn" href="../medicine/detail.php?id=<?php echo $item['id']; ?>"><i
+                                <a class="cart-btn" href="../../product/medicine/detail.php?id=<?php echo $item['id']; ?>"><i
                                         class="cart-icon ion-bag">
                                     </i>Chi tiết
                                 </a>
@@ -152,7 +152,7 @@ $tool = new Tool();
                     <div class="outer">
                         <div class="content">
                             <div class="img_card">
-                                <a href="../medicine/detail.php?id=<?php echo $item['id']; ?>"><img
+                                <a href="../../product/medicine/detail.php?id=<?php echo $item['id']; ?>"><img
                                         src=<?php echo Helper::return_img($item['id']);?> width="60%"></a>
                             </div>
                             <span class="bg animated fadeInDown">Thuốc y tế</span>
@@ -161,7 +161,7 @@ $tool = new Tool();
                             <h3>NSX: <?php echo $data1['name']; ?></h3>
                             <div class="button">
                                 <a href="#"><?php echo number_format($item['price'],0,",","."); ?> đồng</a><a
-                                    class="cart-btn" href="../medicine/detail.php?id=<?php echo $item['id']; ?>">
+                                    class="cart-btn" href="../../product/medicine/detail.php?id=<?php echo $item['id']; ?>">
                                     <i class="cart-icon ion-bag"></i>Chi tiết
                                 </a>
                             </div>
