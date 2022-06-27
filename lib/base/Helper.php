@@ -16,6 +16,10 @@ class Helper {
 		header('Location: ' . BASE_URL . $url);
 	}
 
+	public static function redirect_err() {
+		header('Location: ' . BASE_URL . 'page/templates/404/404.php');
+	}
+
 	public static function return_img($id) {
 		$temp = '../../../lib/images/medicine_img/';
 		$temp .= $id;

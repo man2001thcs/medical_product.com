@@ -1,10 +1,10 @@
 <?php
-require_once '../lib/config/const.php';
-require_once '../lib/config/database.php';
-require_once '../lib/model/Buy_Log.php';
-require_once '../lib/base/Session.php';
-require_once '../lib/model/User.php';
-require_once '../lib/model/Medicine.php';
+require_once '../../../lib/config/const.php';
+require_once '../../../lib/config/database.php';
+require_once '../../../lib/model/Buy_Log.php';
+require_once '../../../lib/base/Session.php';
+require_once '../../../lib/model/User.php';
+require_once '../../../lib/model/Medicine.php';
 
 $links = ( isset( $_GET['links'] ) ) ? $_GET['links'] : 7;
 $limit = ( isset( $_GET['limit'] ) ) ? $_GET['limit'] : 6;
@@ -15,7 +15,7 @@ if (!isset($user)) {
 }
 
 if (!$user->isLoggedIn()) {
-	Helper::redirect('404/404.php');
+	Helper::redirect_err();
 }
 
 $buy_log = new Buy_Log();
@@ -34,14 +34,14 @@ $buy_log = new Buy_Log();
 ?>
 <!DOCTYPE html>
 <title>Danh sách hóa đơn đặt hàng</title>
-<?php include "../templates/css.php"; ?>
-<?php include "../templates/js.php"; ?>
+<?php include "../../templates/css/css.php"; ?>
+<?php include "../../templates/js/js.php"; ?>
 
 </head>
 
 <body>
     <div>
-        <?php include '../templates/head.php'; ?>
+        <?php include '../../templates/header/head.php'; ?>
     </div>
     <div class="bodycontain">
 
@@ -99,7 +99,7 @@ $buy_log = new Buy_Log();
 
 </body>
 <footer>
-    <?php include '../templates/footer.php'; ?>
+    <?php include '../../templates/footer/footer.php'; ?>
 </footer>
 
 </html>

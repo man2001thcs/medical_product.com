@@ -17,7 +17,7 @@ if (!isset($user)) {
 }
 
 if (!$user->isLoggedIn() || !$user->isAdmin()) {
-	Helper::redirect('404/404.php');
+	Helper::redirect_err();
 }
 
 $medicine = new Medicine_M();

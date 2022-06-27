@@ -35279,3 +35279,229 @@
 2022-06-27 01:50:42 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
 2022-06-27 01:50:42 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
 2022-06-27 01:50:42 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:52:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-27 01:52:53 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-27 01:52:53 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-27 01:52:53 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:52:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:52:53 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 5
+2022-06-27 01:52:53 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:52:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:52:53 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:52:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:52:53 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:52:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:52:53 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:52:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:52:53 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:52:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:52:55 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-27 01:52:55 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-27 01:52:55 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-27 01:52:55 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-27 01:52:55 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:52:55 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:52:55 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:52:55 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:52:55 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:52:55 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:52:55 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:52:55 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:52:55 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:52:55 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:52:58 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-27 01:52:58 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-27 01:52:58 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-27 01:52:58 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:52:58 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:52:58 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 5
+2022-06-27 01:52:58 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:52:58 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:52:58 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:52:58 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:52:58 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:52:58 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:52:58 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:52:58 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:52:58 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:52:58 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:14 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-27 01:53:14 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-27 01:53:14 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-27 01:53:14 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:53:14 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:14 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 5
+2022-06-27 01:53:14 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:53:14 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:14 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:53:14 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:53:14 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:53:15 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:53:15 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:53:15 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:15 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:53:15 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:16 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-27 01:53:16 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-27 01:53:16 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-27 01:53:16 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-27 01:53:16 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:53:16 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:16 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:53:16 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:53:16 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:53:16 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:53:16 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:53:16 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:16 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:53:16 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:18 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-27 01:53:18 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-27 01:53:18 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-27 01:53:18 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:53:18 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:18 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 5
+2022-06-27 01:53:18 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:53:18 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:18 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:53:18 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:53:18 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:53:18 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:53:18 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:53:18 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:18 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:53:18 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-27 01:53:22 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-27 01:53:22 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-27 01:53:22 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:53:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:22 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 5
+2022-06-27 01:53:22 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:53:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:22 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:53:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:53:22 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:53:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:53:22 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:53:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:22 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:53:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:25 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-27 01:53:25 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-27 01:53:25 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-27 01:53:25 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:53:26 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:26 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 5
+2022-06-27 01:53:26 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:53:26 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:26 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:53:26 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:53:26 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:53:26 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:53:26 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:53:26 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:26 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:53:26 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-27 01:53:53 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-27 01:53:53 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-27 01:53:53 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:53:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:53 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 5
+2022-06-27 01:53:53 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:53:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:53 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:53:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:53:53 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:53:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:53:53 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:53:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:53:53 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:53:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:54:27 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-27 01:54:27 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-27 01:54:27 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-27 01:54:27 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:54:27 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:54:27 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 5
+2022-06-27 01:54:27 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:54:27 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:54:27 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:54:27 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:54:27 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:54:27 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 01:54:27 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 01:54:27 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 01:54:27 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 01:54:27 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 02:00:21 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-27 02:00:21 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-27 02:00:21 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-27 02:00:21 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-27 02:00:21 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 02:00:21 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 02:00:21 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 02:00:21 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 02:00:21 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 02:00:21 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 02:00:21 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 02:00:21 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 02:00:21 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 02:00:21 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 02:33:21 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-27 02:33:21 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-27 02:33:21 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-27 02:33:21 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-27 02:33:21 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 02:33:21 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 02:33:21 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 02:33:21 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 02:33:21 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 02:33:21 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 02:33:21 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 02:33:21 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 02:33:21 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 02:33:21 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 02:33:25 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-27 02:33:25 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-27 02:33:25 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-27 02:33:25 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-27 02:33:25 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 02:33:25 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 02:33:25 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 02:33:25 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 02:33:25 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 02:33:25 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 02:33:25 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 02:33:25 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 02:33:25 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 02:33:25 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 02:35:42 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-27 02:35:42 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-27 02:35:42 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-27 02:35:42 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-27 02:35:42 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 02:35:42 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 02:35:42 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 02:35:42 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 02:35:42 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 02:35:42 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 02:35:42 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 02:35:42 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 02:35:42 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 02:35:42 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 02:35:45 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-27 02:35:45 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-27 02:35:45 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-27 02:35:45 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-27 02:35:45 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 02:35:45 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 02:35:45 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 02:35:45 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 02:35:45 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 02:35:45 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-27 02:35:45 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-27 02:35:45 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-27 02:35:45 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-27 02:35:45 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
