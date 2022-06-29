@@ -1,15 +1,15 @@
 <?php
-require_once '../lib/config/const.php';
-require_once '../lib/config/database.php';
-require_once '../lib/base/Helper.php';
-require_once '../lib/model/User.php';
+require_once '../../../lib/config/const.php';
+require_once '../../../lib/config/database.php';
+require_once '../../../lib/base/Helper.php';
+require_once '../../../lib/model/User.php';
 
 if (!isset($user)) {
 	$user = new User();
 }
 
 if (!$user->isLoggedIn()) {
-	Helper::redirect('404/404.php');
+	Helper::redirect_err();
 }
 
 $id = $user->welcomeID();
@@ -67,14 +67,14 @@ if (isset($_POST['Change'])){
 ?>
 <!DOCTYPE html>
 <title>Chỉnh sửa thông tin</title>
-<?php include "../templates/css.php"; ?>
-<?php include "../templates/js.php"; ?>
+<?php include "../../templates/css/css.php"; ?>
+<?php include "../../templates/js/js.php"; ?>
 
 </head>
 
 <body>
     <div>
-        <?php include '../templates/head.php'; ?>
+        <?php include '../../templates/header/head.php'; ?>
     </div>
 
     <div class="bodycontain">
@@ -161,7 +161,7 @@ if (isset($_POST['Change'])){
     </div>
 </body>
 <footer>
-    <?php include '../templates/footer.php'; ?>
+    <?php include '../../templates/footer/footer.php'; ?>
 </footer>
 
 </html>

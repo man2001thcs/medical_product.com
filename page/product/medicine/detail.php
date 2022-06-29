@@ -12,7 +12,7 @@ if (!isset($user)) {
 }
 
 if (!$user->isLoggedIn()) {
-	Helper::redirect('404/404.php');
+	Helper::redirect_err();
 }
 
 $user = new User();
@@ -22,7 +22,7 @@ $buy_log = new Buy_log();
 $id = isset($_GET['id']) ? intval($_GET['id']) : null;
 
 if (empty($id)) {
-	Helper::redirect('medicine');
+	Helper::redirect('page/product/medicine');
 }
 
 /*$detail = $medicine->find(array(
@@ -59,7 +59,7 @@ if ($_POST) {
 		);
 	//echo json_encode($dataSub);
 	$user->addCart($dataSub);
-  Helper::redirect('medicine/list.php');
+  Helper::redirect('page/product/medicine/list.php');
 	
 
 }

@@ -10,7 +10,7 @@ if (!isset($user)) {
 }
 
 if (!$user->isLoggedIn() || !$user->isAdmin()) {
-	Helper::redirect('404/404.php');
+	Helper::redirect_err();
 }
 
 $medicine = new Medicine_M();
@@ -18,7 +18,7 @@ $medicine = new Medicine_M();
 $id = isset($_GET['id']) ? intval($_GET['id']) : null;
 
 if (empty($id)) {
-	Helper::redirect('medicine');
+	Helper::redirect('page/product/medicine');
 }
 
 $medicine->findById($id);

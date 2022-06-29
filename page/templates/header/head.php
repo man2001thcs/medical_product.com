@@ -18,16 +18,18 @@ if (!isset($user)) {
             <li style="color: white; font-weight: bold;">
                 <a href="<?php echo BASE_URL; ?>page/user/change_info/edit.php">
                     <span
-                        style="font-weight: bold; font-style: italic; font-size:15px;"><?php echo($user->welcome()); ?>
+                        style="font-weight: bold; font-style: italic; font-size:18px;"><?php echo($user->welcome()); ?>
                     </span>
                 </a>
-                <a href="<?php echo BASE_URL; ?>page/user/log/logout.php"> <i class="fa fa-sign-out" aria-hidden="true" style="color: white;"></i></a>
+                <a href="<?php echo BASE_URL; ?>page/user/log/logout.php"> <i class="fa fa-sign-out" aria-hidden="true"
+                        style="color: white;"></i></a>
             </li>
 
             <?php endif; ?>
 
             <?php if (!$user->isLoggedIn()) :?>
-            <li><a href="<?php echo BASE_URL; ?>page/user/log/login.php"> <i class="fa fa-sign-in" aria-hidden="true" style="color: white;"></i></a>
+            <li><a href="<?php echo BASE_URL; ?>page/user/log/login.php"> <i class="fa fa-sign-in" aria-hidden="true"
+                        style="color: white;"></i></a>
             </li>
             <?php endif; ?>
         </ul>

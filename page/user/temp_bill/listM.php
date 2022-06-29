@@ -1,18 +1,18 @@
 <?php
-require_once '../lib/config/const.php';
-require_once '../lib/config/database.php';
-require_once '../lib/model/Buy_Log.php';
-require_once '../lib/base/Session.php';
-require_once '../lib/model/User.php';
-require_once '../lib/model/Medicine.php';
-require_once '../lib/model/Tool.php';
+require_once '../../../lib/config/const.php';
+require_once '../../../lib/config/database.php';
+require_once '../../../lib/model/Buy_Log.php';
+require_once '../../../lib/base/Session.php';
+require_once '../../../lib/model/User.php';
+require_once '../../../lib/model/Medicine.php';
+require_once '../../../lib/model/Tool.php';
 
 if (!isset($user)) {
 	$user = new User();
 }
 
 if (!$user->isLoggedIn()) {
-	Helper::redirect('404/404.php');
+	Helper::redirect_err();
 }
 
 $buy_log = new Buy_Log();
@@ -24,18 +24,18 @@ $code = $buy_log->verifyCode();
 
 <head>
     <title>Shopping cart</title>
-    <?php include "../templates/css.php"; ?>
-    <?php include "../templates/js.php"; ?>
+    <?php include "../../templates/css/css.php"; ?>
+    <?php include "../../templates/js/js.php"; ?>
 </head>
 
 <body>
 
     <div>
-        <?php include '../templates/head.php'; ?>
+        <?php include '../../templates/header/head.php'; ?>
     </div>
 
-    <link href="../css/shopping_cart/shop_cart.css" rel="stylesheet" type="text/css" media="all">
-    <script src="../lib/script/shopping_cart.js"></script>
+    <link href="../../../css/shopping_cart/shop_cart.css" rel="stylesheet" type="text/css" media="all">
+    <script src="../../../lib/script/shopping_cart.js"></script>
 
     <div class="bodycontain">
         <main>
@@ -163,7 +163,7 @@ $code = $buy_log->verifyCode();
 </body>
 
 <footer>
-    <?php include '../templates/footer.php'; ?>
+    <?php include '../../templates/footer/footer.php'; ?>
 </footer>
 
 </html>

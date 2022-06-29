@@ -17,7 +17,7 @@ if ($_POST) {
 		if ($user->isAdmin()) {
 			header('Location: ./');
 		} else {
-			header('Location: ../../../page/medicine/list.php');
+			header('Location: ../../../page/main_page/main/list.php');
 		}
 	} else {
 		$login = false;
