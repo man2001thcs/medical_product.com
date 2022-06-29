@@ -20,15 +20,16 @@ $target_dir = "../../../lib/images/medicine_img/";
 
 
 if ($_POST) {
-	$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
-	$uploadOk = 1;
-	$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+	
 
 	$data = $_POST['data'];
 	echo json_encode($data);
 	$data['WpMedicine']['created'] = date('Y-m-d H:i:s');
 	$data['WpMedicine']['modified'] = date('Y-m-d H:i:s');
-
+	
+	$target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+	$uploadOk = 1;
+	$imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
 // Check if image file is a actual image or fake image
 
 	$check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
