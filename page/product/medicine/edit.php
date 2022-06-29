@@ -15,23 +15,34 @@ if (!$user->isLoggedIn() || !$user->isAdmin()) {
 
 $medicine = new Medicine_M();
 
+
+
 $id = isset($_GET['id']) ? intval($_GET['id']) : null;
 
 if (empty($id)) {
 	Helper::redirect('page/product/medicine');
 }
 
-$medicine->findById($id);
+$this_data = $medicine->findById($id);
 
-if ($_POST) {
+$target_folder = "medicine_img";
+$save_name = $id;
+
+if (isset($_POST['submit'])) {
+
 	$data = $_POST['data'];
 	$data['WpMedicine']['created'] = date('Y-m-d H:i:s');
 	$data['WpMedicine']['modified'] = date('Y-m-d H:i:s');
 	
 	if ($medicine->save($data)) {
-		header('Location: index.php');
+		//header('Location: index.php');
 	}
 }
+
+
+
+
+
 ?>
 <!DOCTYPE html>
 <title>Chỉnh sửa thông tin thuốc</title>
@@ -46,7 +57,7 @@ if ($_POST) {
 </div>
 <div class="bodycontain">
 <div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i> Chỉnh sửa thông tin thuốc</div>
-<form action="" class="form" method="post">
+<form action="" class="form" method="post" enctype="multipart/form-data">
 	<?php echo $medicine->form->input('id'); ?>
 	<section>
 		<dl>
@@ -126,6 +137,9 @@ if ($_POST) {
 			</dd>
 		</dl>
 	</section>
+	
+	<?php include '../../../lib/images/save_img.php'; ?>
+
 	<section>
 		<dl>
 			<dd>

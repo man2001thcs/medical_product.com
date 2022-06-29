@@ -434,10 +434,10 @@ class MysqlDriver {
 				$orders = array ();
 				foreach ( $ordersCache as $item ) {
 					$itemArr = explode ( " ", $item );
-					if (isset ( $itemArr [1] )) {
-						$orders [$itemArr [0]] = $itemArr [1];
+					if (isset ( $itemArr[1] )) {
+						$orders [$itemArr[0]] = $itemArr [1];
 					} else {
-						$orders [$itemArr [0]] = 'ASC';
+						$orders [$itemArr[0]] = 'ASC';
 					}
 				}
 			}

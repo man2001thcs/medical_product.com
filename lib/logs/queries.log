@@ -35950,3 +35950,752 @@
 2022-06-29 10:26:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
 2022-06-29 10:26:23 Query: SELECT * FROM wp_manufacturer WpManufacturer     
 2022-06-29 10:26:23 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:05:48 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:05:48 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:05:49 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:05:49 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 5
+2022-06-29 14:05:49 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:05:49 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:05:49 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:05:49 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:05:49 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:05:49 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:05:49 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:05:49 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:05:49 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:05:49 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:05:49 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 5, 5
+2022-06-29 14:05:54 Query: SELECT * FROM user User   WHERE  email = 'dochu8@gmail.com' AND  password = '40bd001563085fc35165329ea1ff5c5ecbdbbeef'   
+2022-06-29 14:05:54 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:05:54 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:05:54 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:05:54 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 5
+2022-06-29 14:05:54 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:05:54 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:05:54 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:05:54 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:05:54 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:05:54 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:05:54 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:05:54 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:05:54 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:05:54 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:05:54 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 5, 5
+2022-06-29 14:05:57 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:05:57 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:05:57 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:05:57 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 5
+2022-06-29 14:05:57 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:05:57 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:05:57 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:05:57 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:05:57 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:05:57 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:05:57 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:05:57 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:05:57 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:05:57 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:05:57 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 5, 5
+2022-06-29 14:06:02 Query: SELECT * FROM user User   WHERE  email = 'dochu4@gmail.com' AND  password = '7110eda4d09e062aa5e4a390b0a572ac0d2c0220'   
+2022-06-29 14:06:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:06:53 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:06:53 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-29 14:06:53 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-29 14:06:53 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:06:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:06:53 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:06:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:06:53 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:06:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:06:53 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:06:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:06:53 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:06:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:06:56 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:06:56 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:06:56 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:07:01 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:07:01 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:07:01 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:07:01 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 14:07:01', modified = '2022-06-29 14:07:01'  WHERE  id = '1'
+2022-06-29 14:07:01 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:07:01 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:07:01 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-29 14:07:01 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-29 14:07:01 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:07:01 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:07:01 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:07:01 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:07:01 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:07:01 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:07:01 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:07:01 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:07:01 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:07:01 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:07:04 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:07:04 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:07:04 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-29 14:07:04 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6, 6
+2022-06-29 14:07:06 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:07:06 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:07:06 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-29 14:07:06 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-29 14:07:06 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:07:06 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:07:06 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:07:06 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:07:06 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:07:06 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:07:06 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:07:06 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:07:06 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:07:06 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:09:01 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:09:01 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:09:01 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-29 14:09:01 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-29 14:09:01 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:09:01 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:09:01 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:09:01 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:09:01 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:09:01 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:09:01 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:09:01 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:09:01 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:09:01 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:09:03 Query: SELECT WpMedicineTypeS.id FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:09:03 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS      LIMIT 6
+2022-06-29 14:09:05 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '13'   
+2022-06-29 14:09:07 Query: SELECT WpMedicineTypeS.id FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:09:07 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS      LIMIT 6
+2022-06-29 14:09:26 Query: SELECT WpManufacturer.id FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:09:26 Query: SELECT * FROM wp_manufacturer WpManufacturer      LIMIT 6
+2022-06-29 14:09:28 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:09:30 Query: SELECT WpManufacturer.id FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:09:30 Query: SELECT * FROM wp_manufacturer WpManufacturer      LIMIT 6
+2022-06-29 14:10:31 Query: SELECT WpManufacturer.id FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:10:31 Query: SELECT * FROM wp_manufacturer WpManufacturer      LIMIT 6
+2022-06-29 14:10:32 Query: SELECT WpBuyLog.id FROM wp_buy_log WpBuyLog     
+2022-06-29 14:10:32 Query: SELECT * FROM wp_buy_log WpBuyLog      LIMIT 6
+2022-06-29 14:10:32 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:10:32 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:10:32 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '31'   
+2022-06-29 14:10:32 Query: SELECT User.email, User.fullname FROM user User   WHERE  User.id = '11'   
+2022-06-29 14:10:32 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:10:32 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:10:32 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '31'   
+2022-06-29 14:10:32 Query: SELECT User.email, User.fullname FROM user User   WHERE  User.id = '11'   
+2022-06-29 14:10:32 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:10:32 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:10:32 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:10:32 Query: SELECT User.email, User.fullname FROM user User   WHERE  User.id = '11'   
+2022-06-29 14:10:32 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:10:32 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:10:32 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:10:32 Query: SELECT User.email, User.fullname FROM user User   WHERE  User.id = '11'   
+2022-06-29 14:10:32 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:10:32 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:10:32 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:10:32 Query: SELECT User.email, User.fullname FROM user User   WHERE  User.id = '11'   
+2022-06-29 14:10:32 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:10:32 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:10:32 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:10:32 Query: SELECT User.email, User.fullname FROM user User   WHERE  User.id = '11'   
+2022-06-29 14:10:36 Query: SELECT WpBuyLog.id FROM wp_buy_log WpBuyLog     
+2022-06-29 14:10:36 Query: SELECT * FROM wp_buy_log WpBuyLog      LIMIT 6, 6
+2022-06-29 14:10:36 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:10:36 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:10:36 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:10:36 Query: SELECT User.email, User.fullname FROM user User   WHERE  User.id = '11'   
+2022-06-29 14:10:38 Query: SELECT WpBuyLog.id FROM wp_buy_log WpBuyLog     
+2022-06-29 14:10:38 Query: SELECT * FROM wp_buy_log WpBuyLog      LIMIT 6
+2022-06-29 14:10:38 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:10:38 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:10:38 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '31'   
+2022-06-29 14:10:38 Query: SELECT User.email, User.fullname FROM user User   WHERE  User.id = '11'   
+2022-06-29 14:10:38 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:10:38 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:10:38 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '31'   
+2022-06-29 14:10:38 Query: SELECT User.email, User.fullname FROM user User   WHERE  User.id = '11'   
+2022-06-29 14:10:38 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:10:38 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:10:38 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:10:38 Query: SELECT User.email, User.fullname FROM user User   WHERE  User.id = '11'   
+2022-06-29 14:10:38 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:10:38 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:10:38 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:10:38 Query: SELECT User.email, User.fullname FROM user User   WHERE  User.id = '11'   
+2022-06-29 14:10:38 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:10:38 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:10:38 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:10:38 Query: SELECT User.email, User.fullname FROM user User   WHERE  User.id = '11'   
+2022-06-29 14:10:38 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:10:38 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:10:38 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:10:38 Query: SELECT User.email, User.fullname FROM user User   WHERE  User.id = '11'   
+2022-06-29 14:17:39 Query: SELECT WpBuyLog.id FROM wp_buy_log WpBuyLog     
+2022-06-29 14:17:39 Query: SELECT * FROM wp_buy_log WpBuyLog      LIMIT 6
+2022-06-29 14:17:39 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:17:39 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:17:39 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '31'   
+2022-06-29 14:17:39 Query: SELECT User.email, User.fullname FROM user User   WHERE  User.id = '11'   
+2022-06-29 14:17:39 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:17:39 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:17:39 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '31'   
+2022-06-29 14:17:39 Query: SELECT User.email, User.fullname FROM user User   WHERE  User.id = '11'   
+2022-06-29 14:17:39 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:17:39 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:17:39 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:17:39 Query: SELECT User.email, User.fullname FROM user User   WHERE  User.id = '11'   
+2022-06-29 14:17:39 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:17:39 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:17:39 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:17:39 Query: SELECT User.email, User.fullname FROM user User   WHERE  User.id = '11'   
+2022-06-29 14:17:39 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:17:39 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:17:39 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:17:39 Query: SELECT User.email, User.fullname FROM user User   WHERE  User.id = '11'   
+2022-06-29 14:17:39 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:17:39 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:17:39 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:17:39 Query: SELECT User.email, User.fullname FROM user User   WHERE  User.id = '11'   
+2022-06-29 14:17:40 Query: SELECT * FROM user User     
+2022-06-29 14:17:46 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:17:46 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:17:46 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-29 14:17:46 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-29 14:17:46 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:17:46 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:17:46 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:17:46 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:17:46 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:17:46 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:17:46 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:17:46 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:17:46 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:17:46 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:32:58 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:32:58 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:32:58 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:33:34 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:33:34 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:33:34 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:33:34 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 14:33:34', modified = '2022-06-29 14:33:34'  WHERE  id = '1'
+2022-06-29 14:33:34 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:33:34 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:33:34 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-29 14:33:34 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-29 14:33:34 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:33:34 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:33:34 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:33:34 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:33:34 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:33:34 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:33:34 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:33:34 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:33:34 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:33:34 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:33:38 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:33:38 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:33:38 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:39:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:39:22 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:39:22 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:39:33 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:39:33 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:39:33 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:39:35 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:39:35 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:39:35 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:39:41 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:39:41 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:39:41 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:39:51 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:39:51 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:39:51 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:39:52 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:39:52 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:39:52 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:40:03 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:40:03 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:40:03 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:40:06 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:40:06 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:40:06 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:40:19 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:40:19 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:40:19 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:40:40 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:40:40 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:40:40 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:41:02 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:41:02 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:41:02 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:49:42 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:49:42 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:49:42 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:49:42 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 14:49:42', modified = '2022-06-29 14:49:42'  WHERE  id = '1'
+2022-06-29 14:49:42 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:49:42 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:49:42 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-29 14:49:42 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-29 14:49:42 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:49:42 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:49:42 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:49:42 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:49:42 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:49:42 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:49:42 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:49:42 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:49:42 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:49:42 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:49:44 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:49:44 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:49:44 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:49:47 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:49:47 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:49:47 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:49:47 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 14:49:47', modified = '2022-06-29 14:49:47'  WHERE  id = '1'
+2022-06-29 14:49:47 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:49:47 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:49:47 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-29 14:49:47 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-29 14:49:47 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:49:47 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:49:47 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:49:47 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:49:47 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:49:47 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:49:47 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:49:47 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:49:47 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:49:47 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:49:58 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:49:58 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:49:58 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:50:04 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:50:04 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:50:04 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:50:04 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 14:50:04', modified = '2022-06-29 14:50:04'  WHERE  id = '1'
+2022-06-29 14:50:04 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:50:04 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:50:04 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-29 14:50:04 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-29 14:50:04 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:50:04 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:50:04 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:50:04 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:50:04 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:50:04 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:50:04 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:50:04 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:50:04 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:50:04 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:50:13 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:50:13 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:50:13 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:50:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:50:22 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:50:22 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:50:22 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 14:50:22', modified = '2022-06-29 14:50:22'  WHERE  id = '1'
+2022-06-29 14:50:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:50:22 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:50:22 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-29 14:50:22 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-29 14:50:22 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:50:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:50:22 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:50:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:50:22 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:50:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 14:50:22 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 14:50:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:50:22 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 14:50:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 14:50:49 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:50:49 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:50:49 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:50:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 14:50:53 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 14:50:53 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 14:50:53 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 14:50:53', modified = '2022-06-29 14:50:53'  WHERE  id = '1'
+2022-06-29 15:00:13 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:00:13 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:00:13 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:00:16 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:00:17 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:00:17 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:00:17 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:00:17', modified = '2022-06-29 15:00:17'  WHERE  id = '1'
+2022-06-29 15:00:43 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:00:43 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:00:43 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:00:45 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:00:45 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:00:45 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:00:45 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:00:45', modified = '2022-06-29 15:00:45'  WHERE  id = '1'
+2022-06-29 15:07:21 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:07:21 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:07:21 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:07:21 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:07:21', modified = '2022-06-29 15:07:21'  WHERE  id = '1'
+2022-06-29 15:07:46 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:07:46 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:07:46 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:07:46 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:07:46', modified = '2022-06-29 15:07:46'  WHERE  id = '1'
+2022-06-29 15:08:43 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:08:43 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:08:43 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-29 15:08:43 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-29 15:08:43 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 15:08:43 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 15:08:43 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 15:08:43 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 15:08:43 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 15:08:43 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 15:08:43 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 15:08:43 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 15:08:43 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 15:08:43 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 15:08:48 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:08:48 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:08:48 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:08:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:08:53 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:08:53 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:08:53 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:08:53', modified = '2022-06-29 15:08:53'  WHERE  id = '1'
+2022-06-29 15:19:03 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:19:03 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:19:03 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:19:03 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:19:03', modified = '2022-06-29 15:19:03'  WHERE  id = '1'
+2022-06-29 15:20:24 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:20:24 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:20:24 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:20:24 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:20:24', modified = '2022-06-29 15:20:24'  WHERE  id = '1'
+2022-06-29 15:21:37 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:21:37 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:21:37 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-29 15:21:37 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-29 15:21:37 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 15:21:37 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 15:21:37 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 15:21:37 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 15:21:37 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 15:21:37 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 15:21:37 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 15:21:37 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 15:21:37 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 15:21:37 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 15:21:39 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:21:39 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:21:39 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:21:59 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:21:59 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:21:59 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:22:33 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:22:33 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:22:33 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:22:37 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:22:37 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:22:37 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:22:37 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:22:37', modified = '2022-06-29 15:22:37'  WHERE  id = '1'
+2022-06-29 15:22:58 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:22:58 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:22:58 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:22:58 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:22:58', modified = '2022-06-29 15:22:58'  WHERE  id = '1'
+2022-06-29 15:23:02 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:23:02 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:23:02 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:23:02 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:23:02', modified = '2022-06-29 15:23:02'  WHERE  id = '1'
+2022-06-29 15:23:23 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:23:23 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:23:23 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:23:23 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:23:23', modified = '2022-06-29 15:23:23'  WHERE  id = '1'
+2022-06-29 15:23:27 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:23:27 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:23:27 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:23:27 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:23:27', modified = '2022-06-29 15:23:27'  WHERE  id = '1'
+2022-06-29 15:23:44 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:23:44 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:23:44 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:23:44 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:23:44', modified = '2022-06-29 15:23:44'  WHERE  id = '1'
+2022-06-29 15:23:50 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:23:50 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:23:50 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:23:50 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:23:50', modified = '2022-06-29 15:23:50'  WHERE  id = '1'
+2022-06-29 15:27:02 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:27:02 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:27:02 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:27:02 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:27:02', modified = '2022-06-29 15:27:02'  WHERE  id = '1'
+2022-06-29 15:28:26 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:28:26 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:28:26 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:28:26 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:28:26', modified = '2022-06-29 15:28:26'  WHERE  id = '1'
+2022-06-29 15:28:32 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:28:32 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:28:32 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:28:32 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:28:32', modified = '2022-06-29 15:28:32'  WHERE  id = '1'
+2022-06-29 15:28:37 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:28:37 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:28:37 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:28:37 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:28:37', modified = '2022-06-29 15:28:37'  WHERE  id = '1'
+2022-06-29 15:29:00 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:29:00 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:29:00 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:29:00 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:29:00', modified = '2022-06-29 15:29:00'  WHERE  id = '1'
+2022-06-29 15:29:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:29:53 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:29:53 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:29:53 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:29:53', modified = '2022-06-29 15:29:53'  WHERE  id = '1'
+2022-06-29 15:30:30 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:30:30 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:30:30 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:30:30 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:30:30', modified = '2022-06-29 15:30:30'  WHERE  id = '1'
+2022-06-29 15:31:01 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:31:01 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:31:01 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:31:01 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:31:01', modified = '2022-06-29 15:31:01'  WHERE  id = '1'
+2022-06-29 15:32:26 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:32:26 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:32:26 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:32:26 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:32:26', modified = '2022-06-29 15:32:26'  WHERE  id = '1'
+2022-06-29 15:32:32 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:32:32 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:32:32 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:32:32 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:32:32', modified = '2022-06-29 15:32:32'  WHERE  id = '1'
+2022-06-29 15:33:08 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:33:08 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:33:08 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:33:08 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:33:08', modified = '2022-06-29 15:33:08'  WHERE  id = '1'
+2022-06-29 15:34:15 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:34:15 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:34:15 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:34:15 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:34:15', modified = '2022-06-29 15:34:15'  WHERE  id = '1'
+2022-06-29 15:34:36 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:34:36 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:34:36 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:34:36 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:34:36', modified = '2022-06-29 15:34:36'  WHERE  id = '1'
+2022-06-29 15:35:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:35:22 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:35:22 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:35:22 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:35:22', modified = '2022-06-29 15:35:22'  WHERE  id = '1'
+2022-06-29 15:35:26 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:35:26 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:35:26 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:35:26 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:35:26', modified = '2022-06-29 15:35:26'  WHERE  id = '1'
+2022-06-29 15:36:08 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:36:08 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:36:08 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:36:08 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:36:08', modified = '2022-06-29 15:36:08'  WHERE  id = '1'
+2022-06-29 15:36:59 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:36:59 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:36:59 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:36:59 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:36:59', modified = '2022-06-29 15:36:59'  WHERE  id = '1'
+2022-06-29 15:37:48 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:37:48 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:37:48 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:37:48 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:37:48', modified = '2022-06-29 15:37:48'  WHERE  id = '1'
+2022-06-29 15:38:08 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:38:08 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:38:08 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:38:08 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:38:08', modified = '2022-06-29 15:38:08'  WHERE  id = '1'
+2022-06-29 15:38:16 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:38:16 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:38:16 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-29 15:38:16 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-29 15:38:16 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 15:38:16 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 15:38:16 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 15:38:16 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 15:38:16 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 15:38:16 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 15:38:16 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 15:38:16 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 15:38:16 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 15:38:16 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 15:38:17 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:38:17 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:38:17 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:38:21 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:38:21 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:38:21 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:38:21 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:38:21', modified = '2022-06-29 15:38:21'  WHERE  id = '1'
+2022-06-29 15:39:01 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:39:01 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:39:01 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:39:01 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:39:01', modified = '2022-06-29 15:39:01'  WHERE  id = '1'
+2022-06-29 15:43:05 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:43:05 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:43:05 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:43:05 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:43:05', modified = '2022-06-29 15:43:05'  WHERE  id = '1'
+2022-06-29 15:43:53 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:43:53 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:43:53 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:43:53 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:43:53', modified = '2022-06-29 15:43:53'  WHERE  id = '1'
+2022-06-29 15:44:42 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:44:42 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:44:42 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:44:42 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:44:42', modified = '2022-06-29 15:44:42'  WHERE  id = '1'
+2022-06-29 15:45:05 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:45:05 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:45:05 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:45:05 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:45:05', modified = '2022-06-29 15:45:05'  WHERE  id = '1'
+2022-06-29 15:46:04 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:46:04 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:46:04 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:46:04 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:46:04', modified = '2022-06-29 15:46:04'  WHERE  id = '1'
+2022-06-29 15:46:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:46:22 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:46:22 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:46:22 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:46:22', modified = '2022-06-29 15:46:22'  WHERE  id = '1'
+2022-06-29 15:47:34 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:47:34 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:47:34 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:47:34 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:47:34', modified = '2022-06-29 15:47:34'  WHERE  id = '1'
+2022-06-29 15:56:19 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 15:56:19 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 15:56:19 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-06-29 15:56:19 Query: UPDATE wp_medicine SET name = 'Humasis COVID-19 Ag Home Test Kit', HSD = '18', price = '450000', manufacturer_id = '4', type = '22', description = 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', manual = 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', created = '2022-06-29 15:56:19', modified = '2022-06-29 15:56:19'  WHERE  id = '1'
+2022-06-29 16:08:27 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:08:27 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:08:41 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:08:41 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:08:41 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = ''  ORDER BY DESC ASC 
+2022-06-29 16:08:41 Query: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC ASC' at line 1
+2022-06-29 16:09:05 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:09:05 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:09:05 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine    ORDER BY DESC ASC 
+2022-06-29 16:09:05 Query: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC ASC' at line 1
+2022-06-29 16:09:06 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:09:06 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:09:06 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine    ORDER BY DESC ASC 
+2022-06-29 16:09:06 Query: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC ASC' at line 1
+2022-06-29 16:09:32 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:09:32 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:09:32 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine    ORDER BY DESC ASC 
+2022-06-29 16:09:32 Query: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC ASC' at line 1
+2022-06-29 16:09:33 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:09:33 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:09:33 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine    ORDER BY DESC ASC 
+2022-06-29 16:09:33 Query: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC ASC' at line 1
+2022-06-29 16:09:54 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:09:54 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:09:54 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine    ORDER BY DESC ASC 
+2022-06-29 16:09:54 Query: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC ASC' at line 1
+2022-06-29 16:10:42 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:10:42 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:10:42 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine    ORDER BY DESC ASC 
+2022-06-29 16:10:42 Query: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC ASC' at line 1
+2022-06-29 16:11:06 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:11:06 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:11:06 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine    ORDER BY DESC ASC 
+2022-06-29 16:11:06 Query: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC ASC' at line 1
+2022-06-29 16:12:27 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:12:27 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:12:27 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-29 16:12:34 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:12:34 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:12:34 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine    ORDER BY DESC ASC 
+2022-06-29 16:12:34 Query: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC ASC' at line 1
+2022-06-29 16:12:46 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:12:46 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:12:46 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine    ORDER BY ASC ASC 
+2022-06-29 16:12:46 Query: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC ASC' at line 1
+2022-06-29 16:18:24 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:18:24 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:18:24 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine    ORDER BY ASC ASC 
+2022-06-29 16:18:24 Query: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC ASC' at line 1
+2022-06-29 16:18:39 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:18:39 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:18:39 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine    ORDER BY ASC ASC 
+2022-06-29 16:18:39 Query: 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ASC ASC' at line 1
+2022-06-29 16:21:48 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:21:48 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:21:48 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine    ORDER BY WpMedicine.id DESC 
+2022-06-29 16:22:42 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:22:42 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:22:42 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine    ORDER BY WpMedicine.id DESC 
+2022-06-29 16:23:57 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:23:57 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:24:09 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:24:09 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:24:20 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:24:20 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:24:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:24:22 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:24:22 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:24:22 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 5
+2022-06-29 16:24:22 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 16:24:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 16:24:22 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 16:24:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 16:24:22 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 16:24:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 16:24:22 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 16:24:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 16:24:22 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 16:24:22 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 16:24:22 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 5, 5
+2022-06-29 16:24:23 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:24:23 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:24:23 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-29 16:24:23 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-29 16:24:23 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 16:24:23 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 16:24:23 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 16:24:23 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 16:24:23 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 16:24:23 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 16:24:23 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 16:24:23 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 16:24:23 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 16:24:23 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 16:24:55 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:24:55 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:24:55 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine     
+2022-06-29 16:24:55 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 6
+2022-06-29 16:24:55 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 16:24:55 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 16:24:55 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 16:24:55 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 16:24:55 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 16:24:55 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 16:24:55 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 16:24:55 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 16:24:55 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 16:24:55 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 16:24:57 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:24:57 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:25:09 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:25:09 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:25:09 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine    ORDER BY WpMedicine.id DESC 
+2022-06-29 16:28:29 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:28:29 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:28:29 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine    ORDER BY WpMedicine.id DESC 
+2022-06-29 16:31:27 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:31:27 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:31:27 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine    ORDER BY WpMedicine.id DESC 
+2022-06-29 16:31:41 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:31:41 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:31:41 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine    ORDER BY WpMedicine.id DESC 
+2022-06-29 16:32:03 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:32:03 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:32:03 Query: SELECT WpMedicine.id FROM wp_medicine WpMedicine    ORDER BY WpMedicine.id DESC 
+2022-06-29 16:32:03 Query: INSERT INTO wp_medicine (name, price, HSD, manufacturer_id, type, description, manual, created, modified) VALUES ('blue dose', '123123213', '13', '5', '22', 'ádasd', 'ádasd', '2022-06-29 16:32:03', '2022-06-29 16:32:03')
+2022-06-29 16:32:03 Query: SELECT LAST_INSERT_ID() AS insertID
+2022-06-29 16:32:03 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-06-29 16:32:03 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:32:03 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-06-29 16:32:03 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 5
+2022-06-29 16:32:03 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 16:32:03 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 16:32:03 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 16:32:03 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 16:32:03 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 16:32:03 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-06-29 16:32:03 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 16:32:03 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 16:32:03 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-06-29 16:32:03 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-06-29 16:32:03 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 5, 5
+2022-06-29 16:32:03 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-06-29 16:32:03 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   

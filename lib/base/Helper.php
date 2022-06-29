@@ -32,6 +32,5 @@ class Helper {
         alert("Order success!!");
         </script>');
 		header('Location: ' . BASE_URL . $url);
-	}
-	
+	}	
 }

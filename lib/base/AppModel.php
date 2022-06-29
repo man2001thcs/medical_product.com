@@ -103,6 +103,14 @@ class AppModel {
 		return $data;
 	}
 
+	public function findById_New() {
+		$data = $this->find(array(	
+			'fields' => array($this->alias.'.id'),
+			'orders' => $this->alias.'.id' . ' DESC', 
+		), 'first');
+		return intval($data[$this->alias]['id']) + 1;
+	}
+
 	public function findByNamePart($name) {
 		$temp = "LIKE '%";
 		$temp .= $name . "%'";
