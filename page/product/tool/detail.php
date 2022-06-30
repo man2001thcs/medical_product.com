@@ -145,8 +145,8 @@ if ($_POST) {
                                 <p><?php echo number_format($item_this['price'],0,",","."); ?> Đồng</p>
                             </div>
                             <div class="description">
-                                <h2>Hạn sử dụng</h2>
-                                <p><?php echo $item_this['HSD']; ?> tháng kể từ ngày sản xuất</p>
+                                <h2>Công dụng</h2>
+                                <p><?php echo nl2br($item_this['described']); ?></p>
                             </div>
                             
                         </div>

@@ -109,6 +109,17 @@ if ($_POST) {
 			</dd>
 		</dl>
 	</section>
+	<section>
+		<dl>
+			<dt>
+				Công dụng
+			</dt>
+			<dd>
+				<?php echo $tool->form->input("described"); ?>
+				<?php echo $tool->form->error("described"); ?>
+			</dd>
+		</dl>
+	</section>
 	
 	<?php include '../../../lib/images/save_img.php'; ?>
 

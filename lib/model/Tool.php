@@ -48,6 +48,15 @@ class Tool extends AppModel {
 				"message" => MSG_ERR_NOTEMPTY
 			)
 		),
+		"described" => array(
+			"form" => array(
+				"type" => "textarea"
+			),
+			"notEmpty" => array(
+				"rule" => "notEmpty",
+				"message" => MSG_ERR_NOTEMPTY
+			)
+		),
 		"description" => array(
 			"form" => array(
 				"type" => "textarea"
