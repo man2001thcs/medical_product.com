@@ -111,7 +111,7 @@ if (isset($_POST['search'])){
                         <div class="content">
                             <div class="img_card">
                                 <a href="../../product/medicine/detail.php?id=<?php echo $item['id']; ?>">
-                                    <img src=<?php echo Helper::return_img($item['id']);?> width="60%">
+                                    <img src=<?php echo Helper::return_img_M($item['id']);?> width="60%">
                                 </a>
                             </div>
                             <span class="bg animated fadeInDown">Thuốc y tế</span>
@@ -135,6 +135,55 @@ if (isset($_POST['search'])){
                 <?php endif; ?>
             </div>
 
+        </div>
+
+        <div class="heading">
+            <span><i class="fa fa-font-awesome" aria-hidden="true"></i> Dụng cụ y tế </span>
+            <div class="see_all"><a href="../tool/list.php">Xem tất cả<a></div>
+        </div>
+
+        <div class="product_con">
+            <div class="row_con">
+                <?php 
+                		//$medicine->number_All();
+                		$dataM = $tool->findByNamePart($data);
+                		//echo json_encode( $result
+	                	if (!empty($dataM)) :?>
+                <?php foreach ($dataM as $index => $_item) : $item = $_item['WpTool']; 
+			                $id = isset($item["manufacturer_id"]) ? intval($item["manufacturer_id"]) : null;
+			                $manufacturer = new Manufacturer();
+			                $data1 = $manufacturer->findById($id);
+			                $data1 = $data1["WpManufacturer"] ?? NULL;
+
+			                ?>
+                <div class="column_con">
+                    <div class="outer">
+                        <div class="content">
+                            <div class="img_card">
+                                <a href="../../product/tool/detail.php?id=<?php echo $item['id']; ?>">
+                                    <img src=<?php echo Helper::return_img_T($item['id']);?> width="60%">
+                                </a>
+                            </div>
+                            <span class="bg animated fadeInDown">Dụng cụ y tế</span>
+                            <h2>Tên thuốc: <?php echo $item['name']; ?></h2>
+                            <h3>NSX: <?php echo $data1['name']; ?></h3>
+                            <div class="button">
+                                <a href="#"><?php echo number_format($item['price'],0,",","."); ?> đồng</a>
+                                <a class="cart-btn"
+                                    href="../../product/medicine/detail.php?id=<?php echo $item['id']; ?>"><i
+                                        class="cart-icon ion-bag">
+                                    </i>Chi tiết
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <?php endforeach; ?>
+                <?php else: ?>
+                <h2 style="font-weight: bold;">Không có dữ liệu khớp.</h2>
+                <br />
+                <?php endif; ?>
+            </div>
         </div>
     </div>
     <?php //echo $tool->createLinks( $links, 'pagination'); ?>
