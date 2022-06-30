@@ -43,7 +43,7 @@ $data = $buy_log->find(array(
         <div class="box_list">
             <ul class="con_medi">
                 <?php 
-		$buy_log->number_All();
+		$buy_log->number_all_billM();
 		$result = $buy_log->getDataWithConM( $limit, $page, $user->welcomeID());
 		//echo json_encode( $result);
 		$data = $result->data; 

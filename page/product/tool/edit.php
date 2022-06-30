@@ -2,7 +2,7 @@
 require_once '../../../lib/config/const.php';
 require_once '../../../lib/config/database.php';
 require_once '../../../lib/base/Helper.php';
-require_once '../../../lib/model/Medicine.php';
+require_once '../../../lib/model/Tool.php';
 require_once '../../../lib/model/User.php';
 
 if (!isset($user)) {
@@ -13,28 +13,28 @@ if (!$user->isLoggedIn() || !$user->isAdmin()) {
 	Helper::redirect_err();
 }
 
-$medicine = new Medicine_M();
+$tool = new Tool();
 
 
 
 $id = isset($_GET['id']) ? intval($_GET['id']) : null;
 
 if (empty($id)) {
-	Helper::redirect('page/product/medicine');
+	Helper::redirect('page/product/tool');
 }
 
-$this_data = $medicine->findById($id);
+$this_data = $tool->findById($id);
 
-$target_folder = "medicine_img";
+$target_folder = "tool_img";
 $save_name = $id;
 
 if (isset($_POST['submit'])) {
 
 	$data = $_POST['data'];
-	$data['WpMedicine']['created'] = date('Y-m-d H:i:s');
-	$data['WpMedicine']['modified'] = date('Y-m-d H:i:s');
+	$data['WpTool']['created'] = date('Y-m-d H:i:s');
+	$data['WpTool']['modified'] = date('Y-m-d H:i:s');
 	
-	if ($medicine->save($data)) {
+	if ($tool->save($data)) {
 		header('Location: index.php');
 	}
 }
@@ -58,38 +58,26 @@ if (isset($_POST['submit'])) {
 <div class="bodycontain">
 <div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i> Chỉnh sửa thông tin thuốc</div>
 <form action="" class="form" method="post" enctype="multipart/form-data">
-	<?php echo $medicine->form->input('id'); ?>
+	<?php echo $tool->form->input('id'); ?>
 	<section>
 		<dl>
 			<dt>
-				Tên thuốc
+				Tên sản phẩm
 			</dt>
 			<dd>
-				<?php echo $medicine->form->input('name'); ?>
-				<?php echo $medicine->form->error('name'); ?>
+				<?php echo $tool->form->input("name"); ?>
+				<?php echo $tool->form->error("name"); ?>
 			</dd>
 		</dl>
 	</section>
 	<section>
 		<dl>
 			<dt>
-				Hạn sử dụng (Tháng)
+				Giá
 			</dt>
 			<dd>
-				<?php echo $medicine->form->input('HSD'); ?>
-				<?php echo $medicine->form->error('HSD'); ?>
-			</dd>
-		</dl>
-	</section>
-
-	<section>
-		<dl>
-			<dt>
-				Giá cả
-			</dt>
-			<dd>
-				<?php echo $medicine->form->input('price'); ?>
-				<?php echo $medicine->form->error('price'); ?>
+				<?php echo $tool->form->input("price"); ?>
+				<?php echo $tool->form->error("price"); ?>
 			</dd>
 		</dl>
 	</section>
@@ -99,30 +87,19 @@ if (isset($_POST['submit'])) {
 				Nhà sản xuất
 			</dt>
 			<dd>
-				<?php echo $medicine->form->input('manufacturer_id'); ?>
-				<?php echo $medicine->form->error('manufacturer_id'); ?>
+				<?php echo $tool->form->input("manufacturer_id"); ?>
+				<?php echo $tool->form->error("manufacturer_id"); ?>
 			</dd>
 		</dl>
 	</section>
 	<section>
 		<dl>
 			<dt>
-				Loại
+				Cấu tạo
 			</dt>
 			<dd>
-				<?php echo $medicine->form->input('type'); ?>
-				<?php echo $medicine->form->error('type'); ?>
-			</dd>
-		</dl>
-	</section>
-	<section>
-		<dl>
-			<dt>
-				Mô tả thành phần
-			</dt>
-			<dd>
-				<?php echo $medicine->form->input('description'); ?>
-				<?php echo $medicine->form->error('description'); ?>
+				<?php echo $tool->form->input("description"); ?>
+				<?php echo $tool->form->error("description"); ?>
 			</dd>
 		</dl>
 	</section>
@@ -132,8 +109,8 @@ if (isset($_POST['submit'])) {
 				Hướng dẫn sử dụng
 			</dt>
 			<dd>
-				<?php echo $medicine->form->input('manual'); ?>
-				<?php echo $medicine->form->error('manual'); ?>
+				<?php echo $tool->form->input("manual"); ?>
+				<?php echo $tool->form->error("manual"); ?>
 			</dd>
 		</dl>
 	</section>

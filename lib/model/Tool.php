@@ -39,9 +39,9 @@ class Tool extends AppModel {
 				"message" => MSG_ERR_NUMER
 			)
 		),
-		"day_created" => array(
+		"manual" => array(
 			"form" => array(
-				"type" => "datepicker"
+				"type" => "textarea"
 			),
 			"notEmpty" => array(
 				"rule" => "notEmpty",

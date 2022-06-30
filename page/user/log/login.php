@@ -15,7 +15,7 @@ if ($_POST) {
 	
 	if ($user->login($dataSub)) {
 		if ($user->isAdmin()) {
-			header('Location: ./');
+			header('Location: ../../../page/main_page/main/list.php');
 		} else {
 			header('Location: ../../../page/main_page/main/list.php');
 		}

@@ -4,22 +4,29 @@
 		<li>
 			<a href="<?php echo BASE_URL; ?>page/product/medicine/">Thuốc y tế</a>
 			<ul>
-				<li><a href="<?php echo BASE_URL; ?>page/product/medicine/create.php">Create</a></li>
-				<li><a href="<?php echo BASE_URL; ?>page/product/medicine/">List</a></li>
+				<li><a href="<?php echo BASE_URL; ?>page/product/medicine/create.php">Tạo mới</a></li>
+				<li><a href="<?php echo BASE_URL; ?>page/product/medicine/">Danh sách</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="<?php echo BASE_URL; ?>page/product/tool/">Dụng cụ y tế</a>
+			<ul>
+				<li><a href="<?php echo BASE_URL; ?>page/product/tool/create.php">Tạo mới</a></li>
+				<li><a href="<?php echo BASE_URL; ?>page/product/tool/">Danh sách</a></li>
 			</ul>
 		</li>
 		<li>
 			<a href="<?php echo BASE_URL; ?>page/product/medicine_type_s/">Loại thuốc</a>
 			<ul>
-				<li><a href="<?php echo BASE_URL; ?>page/product/medicine_type_s/create.php">Create</a></li>
-				<li><a href="<?php echo BASE_URL; ?>page/product/medicine_type_s/">List</a></li>
+				<li><a href="<?php echo BASE_URL; ?>page/product/medicine_type_s/create.php">Tạo mới</a></li>
+				<li><a href="<?php echo BASE_URL; ?>page/product/medicine_type_s/">Danh sách</a></li>
 			</ul>
 		</li>
 		<li>
 			<a href="<?php echo BASE_URL; ?>page/manufacturer/file/">Nhà sản xuất</a>
 			<ul>
-				<li><a href="<?php echo BASE_URL; ?>page/manufacturer/file/create.php">Create</a></li>
-				<li><a href="<?php echo BASE_URL; ?>page/manufacturer/file/">List</a></li>
+				<li><a href="<?php echo BASE_URL; ?>page/manufacturer/file/create.php">Tạo mới</a></li>
+				<li><a href="<?php echo BASE_URL; ?>page/manufacturer/file/">Danh sách</a></li>
 			</ul>
 		</li>
 		<li>

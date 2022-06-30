@@ -56,7 +56,7 @@ $tool = new Tool();
 
     <div class="bodycontain">
 
-    <?php include '../../templates/product/search_bar.php'; ?>
+        <?php include '../../templates/product/search_bar.php'; ?>
 
         <script type="text/javascript">
         function confirmLogIn() {
@@ -74,7 +74,7 @@ $tool = new Tool();
             <div class="row_con">
                 <?php 
                 		//$medicine->number_All();
-                		$resultM = $medicine->getData( 5, 1);
+                		$resultM = $medicine->getData( 10, 1);
                 		//echo json_encode( $result);
 	                	$dataM = $resultM->data; 
 	                	if (!empty($dataM)) :?>
@@ -94,7 +94,7 @@ $tool = new Tool();
                         <div class="content">
                             <div class="img_card">
                                 <a href="../../product/medicine/detail.php?id=<?php echo $item['id']; ?>">
-                                    <img src=<?php echo Helper::return_img($item['id']);?> width="60%">
+                                    <img src=<?php echo Helper::return_img_M($item['id']);?> width="60%">
                                 </a>
                             </div>
                             <span class="bg animated fadeInDown">Thuốc y tế</span>
@@ -103,7 +103,8 @@ $tool = new Tool();
                             <h3>NSX: <?php echo $data1['name']; ?></h3>
                             <div class="button">
                                 <a href="#"><?php echo number_format($item['price'],0,",","."); ?> đồng</a>
-                                <a class="cart-btn" href="../../product/medicine/detail.php?id=<?php echo $item['id']; ?>"><i
+                                <a class="cart-btn"
+                                    href="../../product/medicine/detail.php?id=<?php echo $item['id']; ?>"><i
                                         class="cart-icon ion-bag">
                                     </i>Chi tiết
                                 </a>
@@ -113,43 +114,49 @@ $tool = new Tool();
                 </div>
                 <?php endforeach; ?>
                 <?php else: ?>
-                Chưa có dữ liệu.
+                <h2 style="font-weight: bold;">Không có dữ liệu khớp.</h2>
+                <br />
                 <?php endif; ?>
             </div>
+        </div>
 
+        <div class="heading">
+            <span><i class="fa fa-font-awesome" aria-hidden="true"></i> Dụng cụ y tế </span>
+            <div class="see_all"><a href="../tool/list.php">Xem tất cả<a></div>
+        </div>
+
+        <div class="product_con">
             <div class="row_con">
                 <?php 
-		                //$medicine->number_All();
-		                $resultM = $medicine->getData( 5, 2);
-		                //echo json_encode( $result);
-		                $dataM = $resultM->data; 
-		                if (!empty($dataM)) :?>
-                <?php foreach ($dataM as $index => $_item) : $item = $_item['WpMedicine']; 
-		                	$id = isset($item["manufacturer_id"]) ? intval($item["manufacturer_id"]) : null;
+                		//$medicine->number_All();
+                		$resultM = $tool->getData( 10, 1);
+                		//echo json_encode( $result);
+	                	$dataM = $resultM->data; 
+	                	if (!empty($dataM)) :?>
+                <?php foreach ($dataM as $index => $_item) : $item = $_item['WpTool']; 
+			                $id = isset($item["manufacturer_id"]) ? intval($item["manufacturer_id"]) : null;
 			                $manufacturer = new Manufacturer();
 			                $data1 = $manufacturer->findById($id);
 			                $data1 = $data1["WpManufacturer"] ?? NULL;
 
-			                $id = isset($item["type"]) ? intval($item["type"]) : null;
-			                $medicine_type_s = new Medicine_type_s();
-			                $data2 = $medicine_type_s->findById($id);
-			                $data2 = $data2["WpMedicineTypeS"] ?? NULL;
 			                ?>
                 <div class="column_con">
                     <div class="outer">
                         <div class="content">
                             <div class="img_card">
-                                <a href="../../product/medicine/detail.php?id=<?php echo $item['id']; ?>"><img
-                                        src=<?php echo Helper::return_img($item['id']);?> width="60%"></a>
+                                <a href="../../product/tool/detail.php?id=<?php echo $item['id']; ?>">
+                                    <img src=<?php echo Helper::return_img_T($item['id']);?> width="60%">
+                                </a>
                             </div>
-                            <span class="bg animated fadeInDown">Thuốc y tế</span>
-                            <span class="type animated fadeInDown"><?php echo $data2['name']; ?></span>
+                            <span class="bg animated fadeInDown">Dụng cụ y tế</span>
                             <h2>Tên thuốc: <?php echo $item['name']; ?></h2>
                             <h3>NSX: <?php echo $data1['name']; ?></h3>
                             <div class="button">
-                                <a href="#"><?php echo number_format($item['price'],0,",","."); ?> đồng</a><a
-                                    class="cart-btn" href="../../product/medicine/detail.php?id=<?php echo $item['id']; ?>">
-                                    <i class="cart-icon ion-bag"></i>Chi tiết
+                                <a href="#"><?php echo number_format($item['price'],0,",","."); ?> đồng</a>
+                                <a class="cart-btn"
+                                    href="../../product/medicine/detail.php?id=<?php echo $item['id']; ?>"><i
+                                        class="cart-icon ion-bag">
+                                    </i>Chi tiết
                                 </a>
                             </div>
                         </div>
@@ -157,9 +164,11 @@ $tool = new Tool();
                 </div>
                 <?php endforeach; ?>
                 <?php else: ?>
+                <h2 style="font-weight: bold;">Không có dữ liệu khớp.</h2>
+                <br />
                 <?php endif; ?>
             </div>
-        </div>  
+        </div>
     </div>
     <?php //echo $tool->createLinks( $links, 'pagination'); ?>
 </body>

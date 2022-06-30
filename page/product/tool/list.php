@@ -1,7 +1,7 @@
 <?php
 require_once '../../../lib/config/const.php';
 require_once '../../../lib/config/database.php';
-require_once '../../../lib/model/Medicine.php';
+require_once '../../../lib/model/Tool.php';
 require_once '../../../lib/base/Session.php';
 require_once '../../../lib/model/User.php';
 
@@ -15,9 +15,9 @@ if (!isset($user)) {
 }
 
 
-$medicine = new Medicine_M();
+$tool = new Tool();
 
-/*$data = $medicine->find(array(
+/*$data = $tool->find(array(
 	'joins' => array(
 		'movie_category' => array(
 			'type' => 'INNER',
@@ -27,7 +27,7 @@ $medicine = new Medicine_M();
 	)
 ), 'all');
 */
-//$data = $medicine->findAll();
+//$data = $tool->findAll();
 ?>
 <!DOCTYPE html>
 <title>Danh sách thuốc</title>
@@ -51,29 +51,25 @@ include "../../templates/js/js.php";
         <div class="box_list">
             <ul class="con_medi">
                 <?php 
-		    $medicine->number_All();
-			$result = $medicine->getData( $limit, $page);
+		    $tool->number_All();
+			$result = $tool->getData( $limit, $page);
 			//echo json_encode( $result);
 			$data = $result->data; 
 		    if (!empty($data)) :
 			//$country = unserialize(M_COUNTRY);
 		?>
-                <?php foreach ($data as $index => $_item) : $item = $_item['WpMedicine']; 
+                <?php foreach ($data as $index => $_item) : $item = $_item['WpTool']; 
 			$id = isset($item["manufacturer_id"]) ? intval($item["manufacturer_id"]) : null;
 			$manufacturer = new Manufacturer();
 			$data1 = $manufacturer->findById($id);
 			$data1 = $data1["WpManufacturer"] ?? NULL;
 
-			$id = isset($item["type"]) ? intval($item["type"]) : null;
-			$medicine_type_s = new Medicine_type_s();
-			$data2 = $medicine_type_s->findById($id);
-			$data2 = $data2["WpMedicineTypeS"] ?? NULL;
 			?>
                 <li class="box_medi" <?php echo $index % 2 == 1 ? 'odd' : ''; ?>>
                     <div class="detail_l">
                         <p>
                             <a href="detail.php?id=<?php echo $item['id']; ?>">
-                                <img alt="" src=<?php echo Helper::return_img_M($item['id']);?>>
+                                <img alt="" src=<?php echo Helper::return_img_T($item['id']);?>>
                             </a>
 
                         </p>
@@ -86,17 +82,16 @@ include "../../templates/js/js.php";
                             <p class="info"><span>Giá:</span> <?php echo number_format($item['price'],0,",","."); ?>
                                 Đồng</p>
                             <p class="info"><span>Nhà sản xuất:</span> <?php echo $data1['name'] ?? "NULL"; ?></p>
-                            <p class="info"><span>Loại thuốc:</span> <?php echo $data2['name'] ?? "NULL"; ?></p>
                         </div>
                     </div>
                 </li>
                 <?php endforeach; ?>
                 <?php else: ?>
-                Chưa nhập liệu. <a href="create.php">Nhập thuốc mới</a> ngay !
+                Chưa nhập liệu. <a href="create.php">Nhập mới</a> ngay !
                 <?php endif; ?>
             </ul>
         </div>
-        <?php echo $medicine->createLinks( $links, 'pagination'); ?>
+        <?php echo $tool->createLinks( $links, 'pagination'); ?>
     </div>
 
 </body>

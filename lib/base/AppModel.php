@@ -184,7 +184,7 @@ class AppModel {
 
 	//getdata but with condition for bill
 
-	public function getDataWithConM( $limit = 6, $page = 1, $user_id) {
+	public function getDataWithConM( $limit = 6, $page = 1, $user_id = 0) {
      
 		$this->_limit  = $limit;
 		$this->_page  = $page;
@@ -192,7 +192,7 @@ class AppModel {
 		if ( $this->_limit == 'all' ) {
 			$results = $this->db->select($this->_table);
 		} else {
-			if ($user_id == 0){
+			if ($user_id != 0){
 				$results = $this->db->select($this->table, array(		    
 					'offset' => ($this->_limit * ($this->_page - 1 )),
 					'limit' => $this->_limit,
@@ -219,7 +219,7 @@ class AppModel {
 		return $result;
 	}
 
-	public function getDataWithConT( $limit = 6, $page = 1, $user_id = null) {
+	public function getDataWithConT( $limit = 6, $page = 1, $user_id = 0) {
      
 		$this->_limit  = $limit;
 		$this->_page  = $page;
@@ -227,7 +227,7 @@ class AppModel {
 		if ( $this->_limit == 'all' ) {
 			$results = $this->db->select($this->_table);
 		} else {
-			if ($user_id == 0){
+			if ($user_id != 0){
 				$results = $this->db->select($this->table, array(		    
 					'offset' => ($this->_limit * ($this->_page - 1 )),
 					'limit' => $this->_limit,
@@ -252,25 +252,41 @@ class AppModel {
 		return $result;
 	}
 
-	public function number_all_billM() {
-		$data = $this->find(array(
-			'fields' => array($this->alias.'.id'),
-			'condition' => array($this->alias.'.tool_id' => 0)
-		), 'all');
-		
+
+	public function number_all_billM($user_id = 0) {
+		if ($user_id == 0){
+		    $data = $this->find(array(
+				'fields' => array($this->alias.'.id'),
+				'conditions' => array($this->alias.'.tool_id' => 0)
+			), 'all');
+		} else {
+			$data = $this->find(array(
+				'fields' => array($this->alias.'.id'),
+				'conditions' => array($this->alias.'.user_id' => $user_id, $this->alias.'.tool_id' => 0)
+			), 'all');
+		}
 		$size = sizeof($data);
+		//echo $size;
 		$this->_total = $size;
 		return $size;
 	}
 
-	public function number_all_billT() {
-		$data = $this->find(array(
-			'fields' => array($this->alias.'.id'),
-			'condition' => array($this->alias.'.medicine_id' => 0)
-		), 'all');
+	public function number_all_billT($user_id = 0) {
+		if ($user_id == 0){
+		    $data = $this->find(array(
+				'fields' => array($this->alias.'.id'),
+				'conditions' => array($this->alias.'.medicine_id' => 0)
+			), 'all');
+		} else {
+			$data = $this->find(array(
+				'fields' => array($this->alias.'.id'),
+				'conditions' => array($this->alias.'.user_id' => $user_id, $this->alias.'.medicine_id' => 0)
+			), 'all');
+		}
 		
 		$size = sizeof($data);
 		$this->_total = $size;
+		//echo $size;
 		return $size;
 	}
 

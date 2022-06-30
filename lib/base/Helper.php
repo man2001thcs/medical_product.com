@@ -20,8 +20,15 @@ class Helper {
 		header('Location: ' . BASE_URL . 'page/templates/404/404.php');
 	}
 
-	public static function return_img($id) {
+	public static function return_img_M($id) {
 		$temp = '../../../lib/images/medicine_img/';
+		$temp .= $id;
+		$temp .= ".png";
+		return $temp;
+	}
+
+	public static function return_img_T($id) {
+		$temp = '../../../lib/images/tool_img/';
 		$temp .= $id;
 		$temp .= ".png";
 		return $temp;

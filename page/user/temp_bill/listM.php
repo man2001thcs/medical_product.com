@@ -66,18 +66,19 @@ $code = $buy_log->verifyCode();
                 <?php 
 	        		  $_item['stt'];
 		        	  $item = $_item['WpBuyLog'];
+
 		        	  if ($item['tool_id']==0){
-                  //medicine bill
-			        	  $id = isset($item["medicine_id"]) ? intval($item["medicine_id"]) : null;
-                  $medicine = new Medicine_M();			
-                  $data1 = $medicine->findById($id);
-                  $data1 = $data1["WpMedicine"] ?? NULL;
-                } else {
-                  //tool bill
-                  $id = isset($item["tool_id"]) ? intval($item["tool_id"]) : null;
-                  $tool = new Tool();			
-                  $data1 = $tool->findById($id);
-                  $data1 = $data1["WpTool"] ?? NULL;
+                      //medicine bill
+                        $id = isset($item["medicine_id"]) ? intval($item["medicine_id"]) : null;
+                        $medicine = new Medicine_M();			
+                        $data1 = $medicine->findById($id);
+                        $data1 = $data1["WpMedicine"] ?? NULL;
+                    } else {
+                        //tool bill
+                        $id = isset($item["tool_id"]) ? intval($item["tool_id"]) : null;
+                        $tool = new Tool();			
+                        $data1 = $tool->findById($id);
+                        $data1 = $data1["WpTool"] ?? NULL;
 			}
 
 			?>

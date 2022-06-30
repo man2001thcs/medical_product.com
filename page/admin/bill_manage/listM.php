@@ -50,7 +50,7 @@ $buy_log = new Buy_Log();
             <ul class="con_medi">
                 <?php 
 			$buy_log->number_all_billM();
-			$result = $buy_log->getData( $limit, $page);
+			$result = $buy_log->getDataWithConM( $limit, $page);
 			//echo json_encode( $result);
 			$data = $result->data; 
 		if (!empty($data)) :

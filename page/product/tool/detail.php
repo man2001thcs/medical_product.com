@@ -2,7 +2,7 @@
 require_once '../../../lib/config/const.php';
 require_once '../../../lib/config/database.php';
 require_once '../../../lib/base/Helper.php';
-require_once '../../../lib/model/Medicine.php';
+require_once '../../../lib/model/Tool.php';
 require_once '../../../lib/model/Buy_log.php';
 require_once '../../../lib/model/User.php';
 require_once '../../../lib/model/User.php';
@@ -16,19 +16,19 @@ if (!$user->isLoggedIn()) {
 }
 
 $user = new User();
-$medicine = new Medicine_M();
+$tool = new Tool();
 $buy_log = new Buy_log();
 
 $id = isset($_GET['id']) ? intval($_GET['id']) : null;
 
 if (empty($id)) {
-	Helper::redirect('page/product/medicine');
+	Helper::redirect('page/product/tool');
 }
 
-/*$detail = $medicine->find(array(
-	'conditions' => array('Medicine.id' => $id),
+/*$detail = $tool->find(array(
+	'conditions' => array('Tool.id' => $id),
 	'joins' => array(
-		'medicine_category' => array(
+		'tool_category' => array(
 			'type' => 'INNER',
 			'main_key' => 'category_id',
 			'join_key' => 'id'
@@ -38,7 +38,7 @@ if (empty($id)) {
 */
 
 $number = isset($_GET['numberIn']) ? intval($_GET['numberIn']) : null;
-$detail = $medicine->findById($id);
+$detail = $tool->findById($id);
 $code = $buy_log->verifyCode();
 
 //echo json_encode($user->getCart());
@@ -51,15 +51,15 @@ if ($_POST) {
 		'WpBuyLog' => array(
 			'user_id' => $user->welcomeID(),
 			'number' => $_POST['quantity'],
-			'medicine_id' => $_POST['id'],
-			'tool_id' => 0,
+			'tool_id' => $_POST['id'],
+			'medicine_id' => 0,
 			'price' => $_POST['price'],
 			'total_price' => $total_price
       )
 		);
 	//echo json_encode($dataSub);
 	$user->addCart($dataSub);
-  Helper::redirect('page/product/medicine/list.php');
+  Helper::redirect('page/product/tool/list.php');
 	
 
 }
@@ -99,7 +99,7 @@ if ($_POST) {
     <div class="bodycontain">
 
         <?php if (!empty($detail)) :?>
-        <?php $item_this = $detail['WpMedicine']; 
+        <?php $item_this = $detail['WpTool']; 
         $_SESSION['price'] = $item_this['price'];
 
 
@@ -109,10 +109,6 @@ if ($_POST) {
         $data1 = $manufacturer->findById($id);
         $data1 = $data1["WpManufacturer"] ?? NULL;
 
-        $id = isset($item_this["type"]) ? intval($item_this["type"]) : null;
-        $medicine_type_s = new Medicine_type_s();
-        $data2 = $medicine_type_s->findById($id);
-        $data2 = $data2["WpMedicineTypeS"] ?? NULL;
         //echo json_encode($user->getCart());
 ?>
 
@@ -130,10 +126,9 @@ if ($_POST) {
                             <div class="featured_text">
                                 <br>
                                 <h2>Hãng: <span><?php echo $data1['name']; ?></span></h2>
-                                <h3>Loại thuốc: <span><?php echo $data2['name']; ?></span></h3>
                             </div>
                             <div class="image">
-                                <img src=<?php echo Helper::return_img_M($item_this['id']);?> alt="">
+                                <img src=<?php echo Helper::return_img_T($item_this['id']);?> alt="">
                             </div>
                         </div>
 
@@ -142,19 +137,11 @@ if ($_POST) {
                                 <br>
                                 <br>
                                 <br>
-                                <h2>Tên thuốc</h2>
+                                <h2>Tên sản phẩm</h2>
                                 <p style="font-weight: bold"><?php echo $item_this['name']; ?></p>
-                            </div>
+                            </div>                  
                             <div class="description">
-                                <h2>Loại thuốc</h2>
-                                <p><?php echo $data2['name']; ?></p>
-                            </div>
-                            <div class="description">
-                                <h2>Hỗ trợ chức năng</h2>
-                                <p><?php echo $data2['support']; ?></p>
-                            </div>
-                            <div class="description">
-                                <h2>Giá đơn thuốc</h2>
+                                <h2>Giá đơn sản phẩm</h2>
                                 <p><?php echo number_format($item_this['price'],0,",","."); ?> Đồng</p>
                             </div>
                             <div class="description">
@@ -177,7 +164,6 @@ if ($_POST) {
                                 </div>
                                 <input type="hidden" name="id" value=<?php echo $item_this['id'];?>>
                                 <input type="hidden" name="price" value=<?php echo $item_this['price'];?>>
-                                <input type="hidden" name="id" value=<?php echo $item_this['id'];?>>
                                 <button type="submit">Thêm vào giỏ hàng</button>
                                 <button type="button" style="background-color: red;" href="list.php">Quay về</button>
                             </form>
@@ -190,38 +176,33 @@ if ($_POST) {
                     <div class="suggest">
                         <div class="row">
                             <?php 
-		                  //$medicine->number_All();
-		                   $resultM = $medicine->getData( 5, 1);
+		                  //$tool->number_All();
+		                   $resultM = $tool->getData( 5, 1);
 		                   //echo json_encode( $result);
 		                    $dataM = $resultM->data; 
 		                   if (!empty($dataM)) :?>
-                            <?php foreach ($dataM as $index => $_item) : $item = $_item['WpMedicine']; 
+                            <?php foreach ($dataM as $index => $_item) : $item = $_item['WpTool']; 
 			                      $id = isset($item["manufacturer_id"]) ? intval($item["manufacturer_id"]) : null;
 			                      $manufacturer = new Manufacturer();
 			                      $data1 = $manufacturer->findById($id);
 			                      $data1 = $data1["WpManufacturer"] ?? NULL;
 
-			                      $id = isset($item["type"]) ? intval($item["type"]) : null;
-			                      $medicine_type_s = new Medicine_type_s();
-			                      $data2 = $medicine_type_s->findById($id);
-			                      $data2 = $data2["WpMedicineTypeS"] ?? NULL;
 			                   ?>
                             <div class="column">
                                 <div class="outer">
                                     <div class="content">
                                         <div class="img_card">
-                                            <a href="../medicine/detail.php?id=<?php echo $item['id']; ?>">
-                                                <img src=<?php echo Helper::return_img_M($item['id']);?> width="60%">
+                                            <a href="../tool/detail.php?id=<?php echo $item['id']; ?>">
+                                                <img src=<?php echo Helper::return_img_T($item['id']);?> width="60%">
                                             </a>
                                         </div>
-                                        <span class="bg animated fadeInDown">Thuốc y tế</span>
-                                        <span class="type animated fadeInDown"><?php echo $data2['name']; ?></span>
-                                        <h2>Tên thuốc: <?php echo $item['name']; ?></h2>
+                                        <span class="bg animated fadeInDown">Dụng cụ y tế</span>
+                                        <h2>Tên sản phẩm: <?php echo $item['name']; ?></h2>
                                         <h3>NSX: <?php echo $data1['name']; ?></h3>
                                         <div class="button">
                                             <a href="#"><?php echo number_format($item['price'],0,",","."); ?> đồng</a>
                                             <a class="cart-btn"
-                                                href="../medicine/detail.php?id=<?php echo $item['id']; ?>"><i
+                                                href="../tool/detail.php?id=<?php echo $item['id']; ?>"><i
                                                     class="cart-icon ion-bag">
                                                 </i>Chi tiết
                                             </a>

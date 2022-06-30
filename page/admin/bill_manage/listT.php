@@ -48,9 +48,9 @@ $buy_log = new Buy_Log();
         <div class="heading">Danh sách hóa đơn đặt hàng</div>
         <div class="box_list">
             <ul class="con_medi">
-                <?php 
-		$buy_log->number_All_billT();
-		$result = $buy_log->getData( $limit, $page);
+         <?php 
+		$buy_log->number_All_billT(0);
+		$result = $buy_log->getDataWithConT( $limit, $page);
 		//echo json_encode( $result);
 		$data = $result->data; 
 		if (!empty($data)) :
