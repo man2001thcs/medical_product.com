@@ -12,7 +12,7 @@ if (!isset($user)) {
 }
 
 if (!$user->isLoggedIn()) {
-	Helper::redirect_err();
+	Helper::redirect('page/user/log/login.php');
 }
 
 $user = new User();

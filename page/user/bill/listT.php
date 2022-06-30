@@ -15,7 +15,7 @@ if (!isset($user)) {
 }
 
 if (!$user->isLoggedIn()) {
-	Helper::redirect('404/404.php');
+	Helper::redirect('page/user/log/login.php');
 }
 
 $buy_log = new Buy_Log();

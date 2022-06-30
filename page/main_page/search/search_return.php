@@ -1,10 +1,10 @@
 <?php
-require_once '../../lib/config/const.php';
-require_once '../../lib/config/database.php';
-require_once '../../lib/model/Medicine.php';
-require_once '../../lib/base/Session.php';
-require_once '../../lib/model/User.php';
-require_once '../../lib/model/Tool.php';
+require_once '../../../lib/config/const.php';
+require_once '../../../lib/config/database.php';
+require_once '../../../lib/model/Medicine.php';
+require_once '../../../lib/base/Session.php';
+require_once '../../../lib/model/User.php';
+require_once '../../../lib/model/Tool.php';
 
 //$links = ( isset( $_GET['links'] ) ) ? $_GET['links'] : 7;
 //$limit = ( isset( $_GET['limit'] ) ) ? $_GET['limit'] : 6;
@@ -46,18 +46,21 @@ if (isset($_POST['search'])){
 ?>
 <!DOCTYPE html>
 <title>Danh sách</title>
-<?php include "../templates/css.php"; ?>
-<?php include "../templates/js.php"; ?>
-<link href="../../css/product/product_card.css" rel="stylesheet" type="text/css" media="all">
+<?php include "../../templates/css/css.php"; ?>
+<?php include "../../templates/js/js.php"; ?>
+<link href="../../../css/product/product_card.css" rel="stylesheet" type="text/css" media="all">
 
 </head>
 
 <body>
     <div>
-        <?php include '../templates/head.php'; ?>
+        <?php include '../../templates/header/head.php'; ?>
     </div>
 
     <div class="bodycontain">
+        <div class="heading">
+            <span><i class="fa fa-search" aria-hidden="true"></i> Kết quả tìm kiếm</span>
+        </div>
 
         <div class="search_bar">
             <div id="input">
@@ -69,7 +72,7 @@ if (isset($_POST['search'])){
                 </form>
             </div>
             <div id="cart_icon">
-                <a href="<?php echo BASE_URL; ?>temp_bill/listM.php">Giỏ hàng<img src="../images/buy_icon.png"
+                <a href="<?php echo BASE_URL; ?>temp_bill/listM.php">Giỏ hàng<img src="../../../lib/images/buy_icon.png"
                         width="55"></a>
             </div>
         </div>
@@ -77,13 +80,13 @@ if (isset($_POST['search'])){
         <script type="text/javascript">
         function confirmLogIn() {
             var flag = window.alert("Bạn cần đăng nhập!!");
-            window.open("../user/login.php");
+            window.open("../../user/log/login.php");
         }
         </script>
 
         <div class="heading">
-            <span><i class="fa fa-font-awesome" aria-hidden="true"></i> Thuốc y tế </span>
-            <div class="see_all"><a href="../medicine/list.php">Xem tất cả<a></div>
+            <span style="font-size: 25px;"><i class="fa fa-medkit" aria-hidden="true"></i> Thuốc y tế </span>
+            <div class="see_all"><a href="../../product/medicine/list.php">Xem tất cả<a></div>
         </div>
 
         <div class="product_con">
@@ -107,7 +110,7 @@ if (isset($_POST['search'])){
                     <div class="outer">
                         <div class="content">
                             <div class="img_card">
-                                <a href="../medicine/detail.php?id=<?php echo $item['id']; ?>">
+                                <a href="../../product/medicine/detail.php?id=<?php echo $item['id']; ?>">
                                     <img src=<?php echo Helper::return_img($item['id']);?> width="60%">
                                 </a>
                             </div>
@@ -138,7 +141,7 @@ if (isset($_POST['search'])){
 </body>
 
 <footer>
-    <?php include '../templates/footer.php'; ?>
+    <?php include '../../templates/footer/footer.php'; ?>
 </footer>
 
 </html>

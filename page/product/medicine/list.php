@@ -14,9 +14,6 @@ if (!isset($user)) {
 	$user = new User();
 }
 
-if (!$user->isLoggedIn()) {
-	Helper::redirect('404/404.php');
-}
 
 $medicine = new Medicine_M();
 
