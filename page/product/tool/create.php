@@ -52,7 +52,7 @@ if ($_POST) {
 </div>
 
 <div class="bodycontain">
-<div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i> Tạo đơn thuốc</div>
+<div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i> Nhập dụng cụ y tế</div>
 <form action="" class="form" method="post" enctype="multipart/form-data">
 	<section>
 		<dl>
