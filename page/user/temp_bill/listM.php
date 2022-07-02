@@ -70,12 +70,14 @@ $code = $buy_log->verifyCode();
 		        	  if ($item['tool_id']==0){
                       //medicine bill
                         $id = isset($item["medicine_id"]) ? intval($item["medicine_id"]) : null;
+                        $link_img = Helper::return_img_M($id);
                         $medicine = new Medicine_M();			
                         $data1 = $medicine->findById($id);
                         $data1 = $data1["WpMedicine"] ?? NULL;
                     } else {
                         //tool bill
                         $id = isset($item["tool_id"]) ? intval($item["tool_id"]) : null;
+                        $link_img = Helper::return_img_T($id);
                         $tool = new Tool();			
                         $data1 = $tool->findById($id);
                         $data1 = $data1["WpTool"] ?? NULL;
@@ -87,7 +89,7 @@ $code = $buy_log->verifyCode();
                 <div class="basket-product">
                     <div class="item">
                         <div class="product-image">
-                            <img src=<?php echo Helper::return_img($id); ?> alt="Placholder Image 2"
+                            <img src=<?php echo $link_img; ?> alt="Placholder Image 2"
                                 class="product-frame">
                         </div>
                         <div class="product-details">

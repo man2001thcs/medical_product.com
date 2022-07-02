@@ -19,7 +19,6 @@ $new_m =  $tool->findById_New();
 
 $target_folder = "tool_img";
 
-echo $new_m;
 $save_name = $new_m;
 
 
