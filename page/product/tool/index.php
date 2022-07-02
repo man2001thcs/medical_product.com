@@ -46,7 +46,7 @@ $data = array();
 <?php include '../../templates/header/head.php'; ?>
 </div>
 <div class="bodycontain">
-<div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i>  Quản lý thuốc</div>
+<div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i>  Quản lý dụng cụ y tế</div>
 
 <div class="box_table">
 	<table>

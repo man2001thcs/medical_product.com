@@ -32,8 +32,8 @@ $data = $user->findAll();
                     <tr>
                         <th>ID</th>
                         <th>Email</th>
-                        <th>Full name</th>
-                        <th>Address</th>
+                        <th>Tên</th>
+                        <th>Địa chỉ</th>
                     </tr>
                 </thead>
                 <tbody>

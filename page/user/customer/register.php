@@ -1,7 +1,7 @@
 <?php
-require_once '../lib/config/const.php';
-require_once '../lib/config/database.php';
-require_once '../lib/model/User.php';
+require_once '../../../lib/config/const.php';
+require_once '../../../lib/config/database.php';
+require_once '../../../lib/model/User.php';
 
 $user = new User();
 
@@ -22,7 +22,7 @@ if ($_POST) {
 			echo ("<script>alert('Mật khẩu không khớp!');</script>");
 		} else{
 			if ($user->saveLogin($data)) {
-				Helper::redirect('user/login.php');
+				Helper::redirect('page/user/log/login.php');
 			}
 		}		
 	}	
@@ -34,25 +34,25 @@ if ($_POST) {
 <!DOCTYPE html>
 <title>Register</title>
 
-<link rel="stylesheet" href="../css/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.css">
-<link rel="stylesheet" href="../css/user/register/register.css">
+<link rel="stylesheet" href="../../../css/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.css">
+<link rel="stylesheet" href="../../../css/user/register/register.css">
 
-<?php include "../templates/css.php"; ?>
-<?php include "../templates/js.php"; ?>
+<?php include "../../templates/css/css.php"; ?>
+<?php include "../../templates/js/js.php"; ?>
 
 
 </head>
 
 <body>
 <div>
-<?php include '../templates/head.php'; ?>
+<?php include '../../templates/header/head.php'; ?>
 </div>
 
 <div class="bodycontain_login">
 	<div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i> Đăng kí</div>
     <div class="row">
 		<div class="column_img">
-			<img src="../images/login_img.png" style="width:100%">
+			<img src="../../../lib/images/login_img.png" style="width:100%">
 		</div>
         <div class="column_log">
              <div class="login">
@@ -75,6 +75,6 @@ if ($_POST) {
 </body>
 
 <footer>
-    <?php include '../templates/footer.php'; ?>
+    <?php include '../../templates/footer/footer.php'; ?>
 </footer>
 </html>

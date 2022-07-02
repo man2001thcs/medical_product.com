@@ -44,7 +44,7 @@ if ($_POST){
 <div class="bodycontain">
 
 
-<div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i> Xóa thuốc</div>
+<div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i> Xóa dụng cụ y tế</div>
 <div>Bạn có chắc không?</div>
 <form action="" class="form" method="post" onSubmit="alert('Đã xóa!!')";>
 	<section>

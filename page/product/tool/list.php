@@ -45,7 +45,7 @@ include "../../templates/js/js.php";
     <div class="bodycontain">
         <?php include '../../templates/product/search_bar.php'; ?>
         <div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i>
-            Danh sách thuốc        
+            Danh sách dụng cụ y tế       
         </div>
 
         <div class="box_list">

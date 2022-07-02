@@ -33,7 +33,9 @@ $user->findById($id);
 		);
 		
 	    if ($user->save($dataS)) {
-			header('Location: ../index.php');
+			echo '<script type="text/javascript">
+				 alert("Thay đổi thành công!!");
+		</script>';
 	    }
 	}
 
@@ -60,7 +62,9 @@ if (isset($_POST['Change'])){
 		)
 	);
 	    if ($user->save($dataS)) {
-			header('Location: ../user/login.php');
+			echo '<script type="text/javascript">
+				 alert("Thay đổi thành công!!");
+		</script>';
 	    }
 	}
 }  
