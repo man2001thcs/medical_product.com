@@ -39495,3 +39495,46 @@
 2022-07-02 14:32:41 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
 2022-07-02 14:32:41 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
 2022-07-02 14:32:41 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-07-02 14:35:32 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-07-02 14:35:32 Query: SELECT * FROM wp_tool WpTool   WHERE  WpTool.id = '4'   
+2022-07-02 14:35:32 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-07-02 14:35:32 Query: SELECT * FROM wp_tool WpTool      LIMIT 5
+2022-07-02 14:35:32 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-07-02 14:35:32 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-07-02 14:35:32 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-07-02 14:35:34 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-07-02 14:35:34 Query: SELECT WpTool.id FROM wp_tool WpTool     
+2022-07-02 14:35:34 Query: SELECT * FROM wp_tool WpTool      LIMIT 6
+2022-07-02 14:35:34 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-07-02 14:35:34 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-07-02 14:35:34 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-07-02 14:35:35 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-07-02 14:35:35 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-07-02 14:35:35 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-07-02 14:35:35 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-07-02 14:35:35 Query: SELECT * FROM wp_tool WpTool   WHERE  WpTool.id = '4'   
+2022-07-02 14:35:43 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-07-02 14:35:43 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-07-02 14:35:43 Query: SELECT * FROM wp_medicine WpMedicine   WHERE  WpMedicine.id = '1'   
+2022-07-02 14:35:43 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-07-02 14:35:43 Query: SELECT * FROM wp_tool WpTool   WHERE  WpTool.id = '4'   
+2022-07-02 14:35:45 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS     
+2022-07-02 14:35:45 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-07-02 14:35:45 Query: SELECT * FROM wp_manufacturer WpManufacturer     
+2022-07-02 14:35:45 Query: SELECT * FROM wp_medicine WpMedicine      LIMIT 10
+2022-07-02 14:35:45 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-07-02 14:35:45 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-07-02 14:35:45 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-07-02 14:35:45 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-07-02 14:35:45 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-07-02 14:35:45 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '17'   
+2022-07-02 14:35:45 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-07-02 14:35:45 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-07-02 14:35:45 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-07-02 14:35:45 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-07-02 14:35:45 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-07-02 14:35:45 Query: SELECT * FROM wp_medicine_type_s WpMedicineTypeS   WHERE  WpMedicineTypeS.id = '22'   
+2022-07-02 14:35:45 Query: SELECT * FROM wp_tool WpTool      LIMIT 10
+2022-07-02 14:35:45 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '5'   
+2022-07-02 14:35:45 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   
+2022-07-02 14:35:45 Query: SELECT * FROM wp_manufacturer WpManufacturer   WHERE  WpManufacturer.id = '4'   

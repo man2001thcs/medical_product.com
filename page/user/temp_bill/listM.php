@@ -128,7 +128,7 @@ $code = $buy_log->verifyCode();
             <aside>
                 <div class="summary">
                     <div class="summary-total-items"><span class="total-items"></span> item trong Cart <a
-                            href="../medicine/list.php">Quay lại</a></div>
+                            href="../../main_page/main/list.php">Quay lại</a></div>
                     <div class="summary-subtotal">
                         <div class="subtotal-title">Tổng giá trị</div>
                         <div class="subtotal-value final-value" id="basket-subtotal">
