@@ -3,6 +3,7 @@ require_once '../../../lib/config/const.php';
 require_once '../../../lib/config/database.php';
 require_once '../../../lib/base/Helper.php';
 require_once '../../../lib/model/Medicine.php';
+require_once '../../../lib/model/Tool.php';
 require_once '../../../lib/model/Buy_log.php';
 require_once '../../../lib/model/User.php';
 
@@ -17,6 +18,7 @@ if (!$user->isLoggedIn()) {
 $buy_log = new Buy_log();
 //$calendar = new Calendar();
 $medicine = new Medicine_M();
+$tool = new Tool();
 
 //echo $total_price;
 
@@ -25,14 +27,14 @@ $medicine = new Medicine_M();
 $code = isset($_POST['code']) ? intval($_POST['code']) : null;
 
 if (empty($code)) {
-	Helper::redirect('index.php');
+	//Helper::redirect('page/main_page/main/list.php');
 }
 
 $day = date('Y-m-d H:i:s');
 $data = $user->getCart();
 
 if (empty($data)) {
-	Helper::redirect('index.php');
+	//Helper::redirect('page/main_page/main/list.php');
 }
 
 if ($_POST) {
@@ -87,8 +89,35 @@ if ($_POST) {
 						)
 					);
 					//echo json_encode($item);
-					$buy_log->save($dataS);
-					$user->destroyCart();
+					if ($buy_log->save($dataS)){
+							$item = $dataS['WpBuyLog'];
+							if ($item['medicine_id'] == 0){
+								$data_tool = $tool->findById($item['tool_id']);
+								$data_tool['WpTool']['remain_number'] = $data_tool['WpTool']['remain_number'] - $item['number']; 
+								$data_tool['WpTool']['bought_number'] = $data_tool['WpTool']['bought_number'] + $item['number']; 
+								if ($tool->save($data_tool)){
+									//echo $item['tool_id'];
+								    //echo $data_medicine['WpTool']['remain_number'];
+								} else {
+									echo $item['tool_id'];
+								    echo $data_tool['WpTool']['remain_number'];
+									echo $data_tool['WpTool']['bought_number'];
+									echo "fail";
+								}
+
+							} else if ($item['tool_id'] == 0){
+								$data_medicine = $medicine->findById($item['medicine_id']);
+								$data_medicine['WpMedicine']['remain_number'] = $data_medicine['WpMedicine']['remain_number'] - $item['number']; 
+								$data_medicine['WpMedicine']['bought_number'] = $data_medicine['WpMedicine']['bought_number'] + $item['number']; 
+								if ($medicine->save($data_medicine)){
+									//echo $item['medicine_id'];
+								    //echo $data_medicine['WpMedicine']['remain_number'];
+								}
+								
+							}
+						//$user->destroyCart();
+					}
+					
 					?>
 
 					<div class="txt" id="infos">		
@@ -97,7 +126,7 @@ if ($_POST) {
 						<p class="info"><span>Ngày:</span> <?php echo $day; ?></p>
 						<p class="info"><span>Số lượng:</span> <?php echo $item['number']; ?></p>   
 					</div>
-					<a class="btn btn-green" href="/medical_1.com/medicine/list.php" style="background-color: red"> Quay lại </a>
+					<a class="btn btn-green" href="/medical_product.com/page/main_page/main/list.php" style="background-color: red"> Quay lại </a>
 					<?php endforeach; ?>
 			</div>
 		</li>

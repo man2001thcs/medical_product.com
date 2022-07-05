@@ -179,7 +179,7 @@ class User extends AppModel {
 		$dataS = $this->session->read(CART);
 		$data['stt'] = sizeof($dataS) + 1;
 		$dataS[$data['stt']] = $data;
-		echo json_encode($dataS);
+		//echo json_encode($dataS);
 		//echo "<br>";
 		//$dataS = array_push($dataS, $data);
 		$this->session->write(CART, $dataS);
@@ -196,7 +196,7 @@ class User extends AppModel {
 		//$this->session->delete(CART);
 		$dataS = $this->session->read(CART);
 		$this->session->delete(CART);
-		echo $index;
+		//echo $index;
 		unset($dataS[$index]);
 		$data_mon = $this->session->read(CART_TOTAL);
 		$bill_money = $dataS[$index]['WpBuyLog']['total_price'];

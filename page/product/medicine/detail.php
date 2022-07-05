@@ -58,10 +58,11 @@ if ($_POST) {
       )
 		);
 	//echo json_encode($dataSub);
-	$user->addCart($dataSub);
-  Helper::redirect('page/product/medicine/list.php');
-	
-
+    if (intval($detail['WpMedicine']['remain_number']) >= intval($dataSub['WpBuyLog']['number'])){
+        if ($user->addCart($dataSub)){
+            Helper::redirect('page/product/medicine/list.php');
+        }
+    }
 }
 
 
@@ -161,6 +162,14 @@ if ($_POST) {
                                 <h2>Hạn sử dụng</h2>
                                 <p><?php echo $item_this['HSD']; ?> tháng kể từ ngày sản xuất</p>
                             </div>
+                            <div class="description">
+                                <h2>Tình trạng</h2>
+                                <p><?php 
+                                        if ($item_this['remain_number'] > 0)
+                                           {
+                                            echo $item_this['remain_number'] ." hộp (Còn hàng)";
+                                           } else echo "Hết hàng";?></p>
+                            </div>
                             
                         </div>
                     </div>
@@ -178,8 +187,14 @@ if ($_POST) {
                                 <input type="hidden" name="id" value=<?php echo $item_this['id'];?>>
                                 <input type="hidden" name="price" value=<?php echo $item_this['price'];?>>
                                 <input type="hidden" name="id" value=<?php echo $item_this['id'];?>>
-                                <button type="submit">Thêm vào giỏ hàng</button>
-                                <button type="button" style="background-color: red;" href="list.php">Quay về</button>
+                                <button type="submit" class="active" name="buy_button" id="buy_button">Thêm vào giỏ hàng</button>
+                                <?php 
+                                    if ($item_this['remain_number'] <= 0)
+                                        echo("<script> 
+                                            $('#buy_button').attr('class', 'non_active');
+                                        </script>");
+                                 ?>
+                                <button type="button" class="active" style="background-color: red; border-color:red;" href="list.php">Quay về</button>
                             </form>
                         </div>
                     </div>
