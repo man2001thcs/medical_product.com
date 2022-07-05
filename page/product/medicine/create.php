@@ -80,6 +80,17 @@ if ($_POST) {
 	<section>
 		<dl>
 			<dt>
+				Số lượng hàng hiện tại
+			</dt>
+			<dd>
+				<?php echo $medicine->form->input("remain_number"); ?>
+				<?php echo $medicine->form->error("remain_number"); ?>
+			</dd>
+		</dl>
+	</section>
+	<section>
+		<dl>
+			<dt>
 				HSD (Tháng)
 			</dt>
 			<dd>

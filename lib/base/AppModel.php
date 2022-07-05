@@ -61,6 +61,7 @@ class AppModel {
 		$this->form->setRules($this->rules);
 	}
 	
+	//save data
 	public function save($data) {
 		$this->data = $data;
 		$this->form->data = $data;
@@ -95,6 +96,7 @@ class AppModel {
 	}
 
 
+	//find thing by id
 	public function findById($id) {
 		$data = $this->find(array(		    
 			'conditions' => array($this->alias.'.id' => $id)
@@ -103,6 +105,7 @@ class AppModel {
 		return $data;
 	}
 
+	//new id for next item
 	public function findById_New() {
 		$data = $this->find(array(	
 			'fields' => array($this->alias.'.id'),
@@ -111,6 +114,7 @@ class AppModel {
 		return intval($data[$this->alias]['id']) + 1;
 	}
 
+	//find by name part
 	public function findByNamePart($name) {
 		$temp = "LIKE '%";
 		$temp .= $name . "%'";
@@ -156,7 +160,7 @@ class AppModel {
 		return $this->db->select($this->table);
 	}
 
-	//get data
+	//get data with limit
 	public function getData( $limit = 6, $page = 1) {
      
 		$this->_limit  = $limit;
@@ -183,7 +187,6 @@ class AppModel {
 	}
 
 	//getdata but with condition for bill
-
 	public function getDataWithConM( $limit = 6, $page = 1, $user_id = 0) {
      
 		$this->_limit  = $limit;
