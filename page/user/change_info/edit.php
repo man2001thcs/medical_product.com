@@ -28,7 +28,8 @@ $user->findById($id);
 			'User' => array(
 				'id' => $id,		
 				'address' => $data['User']['address'],
-				'fullname' => $data['User']['fullname']
+				'fullname' => $data['User']['fullname'],
+                'phone_number' => $data['User']['phone_number']
 			)
 		);
 		
@@ -39,35 +40,6 @@ $user->findById($id);
 	    }
 	}
 
-if (isset($_POST['Change'])){
-	$data = $_POST['data'];
-	if ($data['User']['passwordNew'] != $data['User']['re_passwordNew']){
-		echo '<script type="text/javascript">
-			alert("Mật khẩu mới không khớp!!");
-		</script>';
-	}
-
-	if (Helper::hash($data['User']['password']) != $user_info['User']['password']){
-		echo '<script type="text/javascript">
-				 alert("Mật khẩu cũ sai!!");
-		</script>';	 
-	}
-
-	if ((Helper::hash($data['User']['password']) == $user_info['User']['password']) &&
-		    (Helper::hash($data['User']['password']) == $user_info['User']['password'])){
-		$dataS = array(
-		'User' => array(		
-			'id' => $id,	
-			'password' => Helper::hash($data['User']['passwordNew'])
-		)
-	);
-	    if ($user->save($dataS)) {
-			echo '<script type="text/javascript">
-				 alert("Thay đổi thành công!!");
-		</script>';
-	    }
-	}
-}  
 ?>
 <!DOCTYPE html>
 <title>Chỉnh sửa thông tin</title>
@@ -84,7 +56,7 @@ if (isset($_POST['Change'])){
     <div class="bodycontain">
 
 
-        <div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i> Chỉnh sửa thông tin</div>
+        <div class="heading"><i class="fa fa-address-card" aria-hidden="true"></i> Chỉnh sửa thông tin</div>
         <form action="" class="form" method="post">
             <?php echo $user->form->input('id'); ?>
             <section>
@@ -111,57 +83,23 @@ if (isset($_POST['Change'])){
             </section>
             <section>
                 <dl>
+                    <dt>
+                        Số điện thoại
+                    </dt>
+                    <dd>
+                        <?php echo $user->form->input('phone_number'); ?>
+                        <?php echo $user->form->error('phone_number'); ?>
+                    </dd>
+                </dl>
+            </section>
+            <section>
+                <dl>
                     <dd>
                         <input type="submit" name="Save" value="Save" class="btn btn-green">
                     </dd>
                 </dl>
             </section>
         </form>
-        <div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i> Đổi mật khẩu</div>
-        <form action="" class="form" method="post">
-            <?php echo $user->form->input('id'); ?>
-            <section>
-                <dl>
-                    <dt>
-                        Mật khẩu mới
-                    </dt>
-                    <dd>
-                        <?php echo $user->form->input('passwordNew'); ?>
-                        <?php echo $user->form->error('passwordNew'); ?>
-                    </dd>
-                </dl>
-            </section>
-            <section>
-                <dl>
-                    <dt>
-                        Nhập lại mật khẩu
-                    </dt>
-                    <dd>
-                        <?php echo $user->form->input('re_passwordNew'); ?>
-                        <?php echo $user->form->error('re_passwordNew'); ?>
-                    </dd>
-                </dl>
-            </section>
-            <section>
-                <dl>
-                    <dt style=": 200px;">
-                        Xác nhận mật khẩu cũ
-                    </dt>
-                    <dd>
-                        <?php echo $user->form->input('password'); ?>
-                        <?php echo $user->form->error('password'); ?>
-                    </dd>
-                </dl>
-            </section>
-            <section>
-                <dl>
-                    <dd>
-                        <input type="submit" name="Change" value="Change" class="btn btn-green">
-                    </dd>
-                </dl>
-            </section>
-        </form>
-
     </div>
 </body>
 <footer>

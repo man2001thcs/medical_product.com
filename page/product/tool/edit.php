@@ -95,6 +95,17 @@ if (isset($_POST['submit'])) {
 	<section>
 		<dl>
 			<dt>
+				Số lượng hàng đã bán
+			</dt>
+			<dd>
+				<?php echo $medicine->form->input("bought_number"); ?>
+				<?php echo $medicine->form->error("bought_number"); ?>
+			</dd>
+		</dl>
+	</section>
+	<section>
+		<dl>
+			<dt>
 				Nhà sản xuất
 			</dt>
 			<dd>

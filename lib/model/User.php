@@ -66,7 +66,16 @@ class User extends AppModel {
 				"rule" => "notEmpty",
 				"message" => MSG_ERR_NOTEMPTY
 			)
+		),
+		"phone_number" => array(
+			"form" => array(
+				"type" => "textarea"
 			),
+			"notEmpty" => array(
+				"rule" => "notEmpty",
+				"message" => MSG_ERR_NOTEMPTY
+			)
+		),
 		"address" => array(
 			"form" => array(
 				"type" => "textarea"
@@ -150,7 +159,7 @@ class User extends AppModel {
 
 	public function welcome() {
 		$data = $this->session->read(USER_INFO);
-		return $data[$this->alias]['email'];
+		return $data[$this->alias]['fullname'];
 	}
 
 	public function welcomeID() {

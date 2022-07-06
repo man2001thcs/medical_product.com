@@ -6,6 +6,7 @@
 			<ul>
 				<li><a href="<?php echo BASE_URL; ?>page/product/medicine/create.php">Tạo mới</a></li>
 				<li><a href="<?php echo BASE_URL; ?>page/product/medicine/">Danh sách</a></li>
+				<li><a href="<?php echo BASE_URL; ?>page/product/medicine/statistic.php">Thống kê</a></li>
 			</ul>
 		</li>
 		<li>
@@ -13,6 +14,7 @@
 			<ul>
 				<li><a href="<?php echo BASE_URL; ?>page/product/tool/create.php">Tạo mới</a></li>
 				<li><a href="<?php echo BASE_URL; ?>page/product/tool/">Danh sách</a></li>
+				<li><a href="<?php echo BASE_URL; ?>page/product/tool/statistic.php">Thống kê</a></li>
 			</ul>
 		</li>
 		<li>
