@@ -78,6 +78,17 @@ if ($_POST) {
 	<section>
 		<dl>
 			<dt>
+				Số lượng hàng hiện tại
+			</dt>
+			<dd>
+				<?php echo $tool->form->input("remain_number"); ?>
+				<?php echo $tool->form->error("remain_number"); ?>
+			</dd>
+		</dl>
+	</section>
+	<section>
+		<dl>
+			<dt>
 				Nhà sản xuất
 			</dt>
 			<dd>

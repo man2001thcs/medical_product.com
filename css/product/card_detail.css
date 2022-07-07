@@ -214,7 +214,7 @@
     color: #115dd8;
 }
 
-.card .card__footer .action button {
+.card .card__footer .action button.active {
     cursor: pointer;
     border: 1px solid #115dd8;
     padding: 14px 30px;
@@ -226,7 +226,19 @@
     transition: 200ms;
 }
 
-.card .card__footer .action button:hover {
+.card .card__footer .action button.non_active {
+    cursor: pointer;
+    border: 1px solid #5d7aaa;
+    padding: 14px 30px;
+    border-radius: 200px;
+    color: #fff;
+    background: #5f96ec;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    transition: 200ms;
+}
+
+.card .card__footer .action button.active:hover {
     background: #fff;
     color: #115dd8;
 }

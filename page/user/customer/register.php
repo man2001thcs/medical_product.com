@@ -11,6 +11,7 @@ if ($_POST) {
 	$data['User']['password'] = $_POST['password'];
 	$data['User']['fullname'] = $_POST['fullname'];
 	$data['User']['address'] = $_POST['address'];
+	$data['User']['phone_number'] = $_POST['sdt'];
 	$data['User']['created'] = date('Y-m-d H:i:s');
 	$data['User']['modified'] = date('Y-m-d H:i:s');
 
@@ -65,6 +66,7 @@ if ($_POST) {
 						 <input name = "re-password" type="password" placeholder="Nhập lại mật khẩu">
 						 <input name = "fullname" type="text" placeholder="Họ và tên">
 						 <input name = "address" type="text" placeholder="Địa chỉ">
+						 <input name = "sdt" type="text" placeholder="Số điện thoại">
 						 <input type="submit" value="Sign Up" class="login">                       
                     </form>
                  </div>

@@ -23,10 +23,10 @@ $data = $user->findAll();
         <div class="box_table">
             <table>
                 <colgroup>
-                    <col width="25%">
-                    <col width="20%">
-                    <col width="20%">
-                    <col width="35%">
+                    <col width="auto">
+                    <col width="auto">
+                    <col width="auto">
+                    <col width="auto">
                 </colgroup>
                 <thead>
                     <tr>
@@ -34,6 +34,7 @@ $data = $user->findAll();
                         <th>Email</th>
                         <th>Tên</th>
                         <th>Địa chỉ</th>
+                        <th>Số điện thoại</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -54,6 +55,9 @@ $data = $user->findAll();
                         </td>
                         <td>
                             <?php echo $item['address']; ?>
+                        </td>
+                        <td>
+                            <?php echo $item['phone_number']; ?>
                         </td>
                     </tr>
                     <?php endforeach; ?>

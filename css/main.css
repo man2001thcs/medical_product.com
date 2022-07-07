@@ -736,23 +736,6 @@ header {
     padding-bottom: 1%;
 }
 
-header nav ul li img {
-    vertical-align: middle;
-}
-
-header nav ul li a {
-    font-size: 20px;
-    text-decoration: none;
-    color: rgb(243, 238, 238);
-    font-weight: bold;
-}
-
-header nav ul {
-    float: right;
-    margin: 10px 50px 0 0;
-    list-style-type: none;
-}
-
 header .logo {
     margin-left: 3%;
     float: left;
@@ -785,6 +768,41 @@ header .image img {
 .err {
     color: #e70000;
     padding: 0px 0;
+}
+
+header .row .column1 {
+    float: left;
+    width: 70%;
+    padding: 10px;
+    /* Should be removed. Only for demonstration */
+}
+
+header .row .column2 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+
+header .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    header .column1 {
+        width: 100%;
+    }
+    header .column2 {
+        width: 100%;
+    }
 }
 
 

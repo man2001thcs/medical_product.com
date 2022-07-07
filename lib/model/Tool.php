@@ -39,6 +39,32 @@ class Tool extends AppModel {
 				"message" => MSG_ERR_NUMER
 			)
 		),
+		"remain_number" => array(
+			"form" => array(
+				"type" => "text"
+			),
+			"notEmpty" => array(
+				"rule" => "notEmpty",
+				"message" => MSG_ERR_NOTEMPTY
+			),
+			"isNumber" => array(
+				"rule" => "isNumber",
+				"message" => MSG_ERR_NUMER
+			)
+		),
+		"bought_number" => array(
+			"form" => array(
+				"type" => "text"
+			),
+			"notEmpty" => array(
+				"rule" => "notEmpty",
+				"message" => MSG_ERR_NOTEMPTY
+			),
+			"isNumber" => array(
+				"rule" => "isNumber",
+				"message" => MSG_ERR_NUMER
+			)
+		),
 		"manual" => array(
 			"form" => array(
 				"type" => "textarea"
