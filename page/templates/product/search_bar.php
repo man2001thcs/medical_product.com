@@ -1,7 +1,7 @@
 <div class="search_bar">
     <div id="input">
         <form method="POST" action="../../main_page/search/search_return.php">
-            <input type="text" name="search_content">
+            <input type="text" name="search_content" placeholder="Nhập để tìm kiếm">
             <button type="submit" name="search" id="search">
                 <i class="fa fa-search" aria-hidden="true"></i>
             </button>

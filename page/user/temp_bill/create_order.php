@@ -27,15 +27,11 @@ $tool = new Tool();
 $code = isset($_POST['code']) ? intval($_POST['code']) : null;
 
 if (empty($code)) {
-	//Helper::redirect('page/main_page/main/list.php');
+	Helper::redirect('page/main_page/main/list.php');
 }
 
 $day = date('Y-m-d H:i:s');
 $data = $user->getCart();
-
-if (empty($data)) {
-	//Helper::redirect('page/main_page/main/list.php');
-}
 
 if ($_POST) {
 	//if($buy_log->save($data));
@@ -115,7 +111,7 @@ if ($_POST) {
 								}
 								
 							}
-						//$user->destroyCart();
+						$user->destroyCart();
 					}
 					
 					?>

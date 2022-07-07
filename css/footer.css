@@ -149,12 +149,8 @@
     background-color: #00aced
 }
 
-.social-icons a.linkedin:hover {
-    background-color: #007bb6
-}
-
-.social-icons a.dribbble:hover {
-    background-color: #ea4c89
+.social-icons a.youtube:hover {
+    background-color: #c22012
 }
 
 @media (max-width:767px) {

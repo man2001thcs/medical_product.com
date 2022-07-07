@@ -7,9 +7,10 @@
 
 body {
     background-image: linear-gradient(to right bottom, #b91eda, #a02ae0, #8234e5, #5d3be8, #1241eb);
+    background-repeat: no-repeat;
+    background-size: auto;
     margin: 0 auto;
-    padding: 0;
-    width: auto;
+    width: 100%;
     border: 0;
     outline: 0;
     vertical-align: baseline;
@@ -95,7 +96,7 @@ table {
 }
 
 .bodycontain .search_bar #input a {
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 .bodycontain .search_bar #cart_icon {
@@ -104,7 +105,6 @@ table {
     margin-right: 20px;
     float: left;
     border-radius: 15px;
-    border: 1px solid black;
     padding: 5px;
     background-color: rgb(100, 100, 192);
 }
@@ -773,14 +773,13 @@ header .image img {
 header .row .column1 {
     float: left;
     width: 70%;
-    padding: 10px;
     /* Should be removed. Only for demonstration */
 }
 
 header .row .column2 {
     float: left;
     width: 30%;
-    padding: 10px;
+    padding-top: 10px;
     /* Should be removed. Only for demonstration */
 }
 

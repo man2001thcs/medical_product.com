@@ -56,7 +56,7 @@ if (isset($_POST['submit'])) {
 <?php include '../../templates/header/head.php'; ?>
 </div>
 <div class="bodycontain">
-<div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i> Chỉnh sửa thông tin thuốc</div>
+<div class="heading"><i class="fa fa-medkit" aria-hidden="true"></i> Chỉnh sửa thông tin thuốc</div>
 <form action="" class="form" method="post" enctype="multipart/form-data">
 	<?php echo $medicine->form->input('id'); ?>
 	<section>

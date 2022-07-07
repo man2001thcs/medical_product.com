@@ -13,13 +13,16 @@
             <ul class="footer-links">
               <li><a href="../../../page/product/medicine/list.php">Thuốc</a></li>
             </ul>
+            <ul class="footer-links">
+              <li><a href="../../../page/product/tool/list.php">Dụng cụ y tế</a></li>
+            </ul>
           </div>
 
           <div class="col-xs-6 col-md-3">
             <h6>Về chúng tôi</h6>
             <ul class="footer-links">
               <li><a href="../../../page/templates/about_us/contact.php">Thông tin về chúng tôi</a></li>
-              <li><a href="http://scanfcode.com/privacy-policy/">Chính sách bảo mật</a></li>
+              <li><a href="#">Chính sách bảo mật</a></li>
             </ul>
           </div>
         </div>
@@ -35,10 +38,9 @@
 
           <div class="col-md-4 col-sm-6 col-xs-12">
             <ul class="social-icons">
-              <li><a class="facebook" href="https://facebook.com/wheremybrain"><i class="fa fa-facebook"></i></a></li>
-              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              <li><a class="facebook" href="https://facebook.com/wheremybrain"><i class="fa-brands fa-facebook-f"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a class="youtube" href="#"><i class="fa-brands fa-youtube"></i></a></li>   
             </ul>
           </div>
         </div>

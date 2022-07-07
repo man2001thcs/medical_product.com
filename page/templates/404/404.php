@@ -19,11 +19,11 @@ if (!isset($user)) {
         <?php include '../../templates/header/head.php'; ?>
     </div>
     <div class="bodycontain">
-        <div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i> 404: Lỗi không thể truy cập
+        <div class="heading"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 404: Lỗi không thể truy cập
         </div>
 
         <div class="img404">
-            <img src="../../../lib/images/404.png">
+            <img src="../../../lib/images/404.png" style="width: 100%;">
         </div>
     </div>
     </div>
