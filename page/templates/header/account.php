@@ -18,8 +18,8 @@ if ($user->isLoggedIn()) :
             </ul>
         </li>
         <li>
-            <a href="<?php echo BASE_URL; ?>page/user/log/logout.php" style="background-color: red;">Đăng xuất <i
-                    class="fa fa-sign-out" aria-hidden="true" style="color: white;"></i></a>
+            <a href="<?php echo BASE_URL; ?>page/user/log/logout.php" style="background-color: red;">Đăng xuất
+                <i class="fa fa-sign-out" aria-hidden="true" style="color: white;"></i></a>
         </li>
     </ul>
 </nav>
@@ -27,7 +27,7 @@ if ($user->isLoggedIn()) :
 <?php else: ?>
 
 <nav>
-    <ul id="dropmenu_account" style="float:right; margin-right: 10%;" >
+    <ul id="dropmenu_account" style="float:right; margin-right: 10%;">
         <li>
             <a href="<?php echo BASE_URL; ?>page/user/log/login.php" style="background-color: blue;">Đăng nhập <i
                     class="fa fa-sign-in" aria-hidden="true" style="color: white;"></i></a>

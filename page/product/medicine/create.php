@@ -18,8 +18,6 @@ $new_m =  $medicine->findById_New();
 
 
 $target_folder = "medicine_img";
-
-echo $new_m;
 $save_name = $new_m;
 
 $target_dir = "../../../lib/images/medicine_img/";
@@ -53,7 +51,7 @@ if ($_POST) {
 </div>
 
 <div class="bodycontain">
-<div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i> Tạo đơn thuốc</div>
+<div class="heading"><i class="fa fa-medkit" aria-hidden="true"></i> Tạo đơn thuốc</div>
 <form action="" class="form" method="post" enctype="multipart/form-data">
 	<section>
 		<dl>

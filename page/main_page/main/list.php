@@ -43,6 +43,7 @@ $tool = new Tool();
 ?>
 <!DOCTYPE html>
 <title>Danh sách</title>
+<head>
 <?php include "../../templates/css/css.php"; ?>
 <?php include "../../templates/js/js.php"; ?>
 <link href="../../../css/product/product_card.css" rel="stylesheet" type="text/css" media="all">
@@ -66,7 +67,7 @@ $tool = new Tool();
         </script>
 
         <div class="heading">
-            <span><i class="fa fa-font-awesome" aria-hidden="true"></i> Thuốc y tế </span>
+            <span><i class="fa fa-medkit" aria-hidden="true"></i> Thuốc y tế </span>
             <div class="see_all"><a href="../medicine/list.php">Xem tất cả<a></div>
         </div>
 
@@ -121,7 +122,7 @@ $tool = new Tool();
         </div>
 
         <div class="heading">
-            <span><i class="fa fa-font-awesome" aria-hidden="true"></i> Dụng cụ y tế </span>
+            <span><i class="fa fa-stethoscope" aria-hidden="true"></i> Dụng cụ y tế </span>
             <div class="see_all"><a href="../tool/list.php">Xem tất cả<a></div>
         </div>
 
