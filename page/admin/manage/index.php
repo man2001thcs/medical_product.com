@@ -9,6 +9,7 @@ $data = $user->findAll();
 ?>
 <!DOCTYPE html>
 <title>User Management</title>
+<head>
 <?php include "../../templates/css/css.php"; ?>
 <?php include "../../templates/js/js.php"; ?>
 
