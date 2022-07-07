@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: localhost
--- Thời gian đã tạo: Th6 30, 2022 lúc 10:13 AM
+-- Thời gian đã tạo: Th7 07, 2022 lúc 03:25 PM
 -- Phiên bản máy phục vụ: 8.0.29
 -- Phiên bản PHP: 7.4.29
 
@@ -52,6 +52,7 @@ CREATE TABLE `user` (
   `password` varchar(255) DEFAULT NULL,
   `fullname` varchar(255) DEFAULT NULL,
   `address` varchar(255) DEFAULT NULL,
+  `phone_number` varchar(40) DEFAULT NULL,
   `is_admin` tinyint DEFAULT NULL,
   `created` datetime DEFAULT NULL,
   `modified` datetime DEFAULT NULL
@@ -61,10 +62,13 @@ CREATE TABLE `user` (
 -- Đang đổ dữ liệu cho bảng `user`
 --
 
-INSERT INTO `user` (`id`, `email`, `password`, `fullname`, `address`, `is_admin`, `created`, `modified`) VALUES
-(3, 'dochu4@gmail.com', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', 'Chu Thanh Do', 'Long Bien, Ha Noi, Viet Nam', 1, '2022-05-20 03:11:26', '2022-05-20 03:11:26'),
-(11, 'dochu8@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', NULL, '2022-05-22 17:27:16', '2022-05-22 17:27:16'),
-(14, 'dochu2@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', NULL, '2022-06-07 17:01:33', '2022-06-07 17:01:33');
+INSERT INTO `user` (`id`, `email`, `password`, `fullname`, `address`, `phone_number`, `is_admin`, `created`, `modified`) VALUES
+(3, 'dochu4@gmail.com', '8cb2237d0679ca88db6464eac60da96345513964', 'Chu Thành Đô', 'Long Bien, Ha Noi, Viet Nam', '0354324599', 1, '2022-05-20 03:11:26', '2022-05-20 03:11:26'),
+(11, 'dochu8@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', '0', NULL, '2022-05-22 17:27:16', '2022-05-22 17:27:16'),
+(14, 'dochu2@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', '0', NULL, '2022-06-07 17:01:33', '2022-06-07 17:01:33'),
+(15, 'dochu12@gmail.com', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', '0', NULL, '2022-07-02 14:11:08', '2022-07-02 14:11:08'),
+(16, 'dochu1@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', '0', NULL, '2022-07-02 14:20:35', '2022-07-02 14:20:35'),
+(17, 'dochu3@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', '0354324599', NULL, '2022-07-07 15:24:00', '2022-07-07 15:24:00');
 
 -- --------------------------------------------------------
 
@@ -89,14 +93,20 @@ CREATE TABLE `wp_buy_log` (
 --
 
 INSERT INTO `wp_buy_log` (`id`, `user_id`, `medicine_id`, `tool_id`, `price`, `number`, `created`, `total_price`, `code`) VALUES
-(1, 11, 31, 0, '120033', 1, '2022-06-09 10:03:28', 120033, ''),
-(2, 11, 31, 0, '120033', 2, '2022-06-09 10:03:28', 240066, ''),
-(3, 11, 1, 0, '450000', 1, '2022-06-22 11:19:46', 450000, ''),
-(4, 11, 1, 0, '450000', 1, '2022-06-22 13:22:44', 450000, ''),
-(5, 11, 1, 0, '450000', 1, '2022-06-22 13:25:10', 450000, ''),
-(6, 11, 1, 0, '450000', 1, '2022-06-23 07:33:59', 450000, ''),
-(7, 11, 1, 0, '450000', 1, '2022-06-29 10:26:13', 450000, ''),
-(8, 11, 0, 4, '123123', 1, '2022-06-30 08:10:18', 123123, '');
+(1, 3, 1, 0, '450000', 2, '2022-07-05 09:49:46', 900000, ''),
+(2, 3, 0, 6, '1050000', 3, '2022-07-05 09:49:46', 3150000, ''),
+(3, 3, 0, 6, '1050000', 2, '2022-07-05 10:16:53', 2100000, ''),
+(4, 3, 0, 6, '1050000', 2, '2022-07-05 10:18:05', 2100000, ''),
+(5, 3, 0, 6, '1050000', 1, '2022-07-05 10:18:45', 1050000, ''),
+(6, 3, 1, 0, '450000', 2, '2022-07-05 10:19:02', 900000, ''),
+(7, 3, 0, 6, '1050000', 2, '2022-07-05 10:20:57', 2100000, ''),
+(8, 3, 0, 6, '1050000', 2, '2022-07-05 10:21:46', 2100000, ''),
+(9, 3, 0, 6, '1050000', 2, '2022-07-05 10:22:32', 2100000, ''),
+(10, 3, 0, 6, '1050000', 2, '2022-07-05 10:22:53', 2100000, ''),
+(11, 3, 0, 6, '1050000', 2, '2022-07-05 10:23:32', 2100000, ''),
+(12, 3, 0, 6, '1050000', 2, '2022-07-05 10:24:04', 2100000, ''),
+(13, 3, 0, 6, '1050000', 1, '2022-07-05 12:31:44', 1050000, ''),
+(14, 3, 0, 6, '1050000', 1, '2022-07-06 15:34:03', 1050000, '');
 
 -- --------------------------------------------------------
 
@@ -133,8 +143,10 @@ CREATE TABLE `wp_medicine` (
   `id` int NOT NULL,
   `name` varchar(100) DEFAULT NULL,
   `price` int DEFAULT NULL,
+  `remain_number` int NOT NULL,
+  `bought_number` int DEFAULT '0',
   `type` varchar(50) DEFAULT NULL,
-  `HSD` int NOT NULL,
+  `HSD` int DEFAULT NULL,
   `description` text CHARACTER SET utf8mb3 COLLATE utf8_general_ci,
   `manual` text CHARACTER SET utf8mb3 COLLATE utf8_general_ci,
   `created` datetime DEFAULT NULL,
@@ -146,13 +158,9 @@ CREATE TABLE `wp_medicine` (
 -- Đang đổ dữ liệu cho bảng `wp_medicine`
 --
 
-INSERT INTO `wp_medicine` (`id`, `name`, `price`, `type`, `HSD`, `description`, `manual`, `created`, `modified`, `manufacturer_id`) VALUES
-(1, 'Humasis COVID-19 Ag Home Test Kit', 450000, '22', 18, 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', '2022-06-30 08:40:54', '2022-06-30 08:40:54', 4),
-(2, 'Astrazeneca', 120033, '17', 12, '123', '123', '2022-06-30 08:43:09', '2022-06-30 08:43:09', 5),
-(3, 'Astrazeneca', 120033, '17', 12, '123', '123', '2022-06-16 10:12:21', '2022-06-16 10:12:21', 5),
-(4, 'Astrazeneca', 120033, '22', 12, '123', '132', '2022-06-16 10:16:19', '2022-06-16 10:16:19', 5),
-(8, 'Humasis COVID-19 Ag Home Test Kit', 450000, '22', 13, '123', '123', '2022-06-17 05:22:45', '2022-06-17 05:22:45', 4),
-(9, 'blue dose', 123123213, '22', 13, 'ádasd', 'ádasd', '2022-06-29 16:32:03', '2022-06-29 16:32:03', 5);
+INSERT INTO `wp_medicine` (`id`, `name`, `price`, `remain_number`, `bought_number`, `type`, `HSD`, `description`, `manual`, `created`, `modified`, `manufacturer_id`) VALUES
+(1, 'Humasis COVID-19 Ag Home Test Kit', 450000, 108, 12, '22', 18, 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', '2022-07-05 08:54:27', '2022-07-05 08:54:27', 4),
+(2, 'blue dose', 123123, 126, 16, '22', 13, 'ádasd', 'ádasd', '2022-07-06 08:58:05', '2022-07-06 08:58:05', 5);
 
 -- --------------------------------------------------------
 
@@ -203,10 +211,11 @@ CREATE TABLE `wp_tool` (
   `id` int NOT NULL,
   `name` varchar(100) DEFAULT NULL,
   `price` int DEFAULT NULL,
+  `remain_number` int NOT NULL,
+  `bought_number` int NOT NULL,
   `description` text CHARACTER SET utf8mb3 COLLATE utf8_general_ci,
   `manual` text,
   `described` text CHARACTER SET utf8mb3 COLLATE utf8_general_ci,
-  `HSD` int DEFAULT NULL,
   `manufacturer_id` tinyint DEFAULT NULL,
   `created` datetime DEFAULT NULL,
   `modified` datetime DEFAULT NULL
@@ -216,10 +225,10 @@ CREATE TABLE `wp_tool` (
 -- Đang đổ dữ liệu cho bảng `wp_tool`
 --
 
-INSERT INTO `wp_tool` (`id`, `name`, `price`, `description`, `manual`, `described`, `HSD`, `manufacturer_id`, `created`, `modified`) VALUES
-(4, 'Gậy y tế bb', 123123, 'Not\r\n', 'nope baby', '', 36, 5, '2022-06-30 08:51:09', '2022-06-30 08:51:09'),
-(5, 'Gậy y tế', 123123, '4546556464654', NULL, '', NULL, 4, '2022-06-01 05:16:51', '2022-06-01 05:16:51'),
-(6, 'Máy Xông Khí Dung Microlife Neb200', 1050000, 'Phụ kiện máy bao gồm: 2 mask (người lớn và trẻ em), 1 cốc đựng thuốc, 1 càng xông họng, 1 càng xông mũi, 3 miếng lọc khí, dây dẫn khí, sách hướng dẫn sử dụng, phiếu bảo hành sản phẩm.', 'Nên làm sạch tất cả các thành phần của thiết bị trong lần lắp đặt đầu tiên:\r\n\r\nLắp ráp bộ phận máy phun sương. Đảm bảo rằng tất cả các bộ phận đã hoàn thành.\r\nĐổ đầy dung dịch hít vào máy phun sương theo hướng dẫn của bác sĩ. Đảm bảo rằng bạn không vượt quá mức tối đa.\r\nKết nối máy phun sương qua ống dẫn khí với máy nén và cắm cáp vào ổ điện (230V 50Hz AC).\r\nĐể bắt đầu điều trị, đặt nút ON/OFF ở vị trí «l».\r\nỐng xông miệng giúp đưa thuốc đến phổi tốt hơn.\r\n\r\nLựa chọn giữa mặt nạ dành cho người lớn hoặc trẻ em phù hợp, để vừa đủ bao trùm cả mũi và miệng.\r\n\r\nSử dụng các phụ kiện, kể cả ống xông mũi theo chỉ định của bác sĩ.\r\n\r\nTrong suốt quá trình xông, ngồi ở tư thế thoải mái với phần trên cơ thể thẳng đứng, không ngồi dựa lưng vào ghế để đề phòng việc dồn ép khí quản của bạn và làm giảm hiệu quả điều trị. Không nằm khi xông. Dừng quá trình xông nếu bạn cảm thấy có gì không ổn.\r\n\r\nSau khi hoàn thành giai đoạn hít thở mà bác sĩ khuyến nghị, chuyển công tắc ON/OFF sang vị trí «O» để tắt thiết bị và rút phích cắm khỏi ổ cắm.\r\n\r\nXả dung dịch còn lại khỏi máy phun sương và làm sạch thiết bị như mô tả trong phần “Làm sạch và Khử trùng”.\r\n\r\nĐối tượng sử dụng\r\n\r\nSản phẩm dùng cho bệnh nhân viêm mũi, viêm xoang, các bệnh nhân gặp phải vấn đề về đường hô hấp.', 'Máy xông khí dung Microlife NEB200 có các cải tiến về mặt công nghệ giúp người sử dụng dễ dàng hơn trong quá trình phòng và điều trị bệnh liên quan đến đường hô hấp. Sản phẩm được thiết kế nhỏ gọn, chất liệu cao cấp, dễ dàng vận hành và sử dụng, NEB200 đang dần trở thành giải pháp tối ưu trong quá trình phòng và điều trị bệnh.', NULL, 4, '2022-06-30 09:53:19', '2022-06-30 09:53:19');
+INSERT INTO `wp_tool` (`id`, `name`, `price`, `remain_number`, `bought_number`, `description`, `manual`, `described`, `manufacturer_id`, `created`, `modified`) VALUES
+(4, 'Gậy y tế bb', 123123, 0, 0, 'Not\r\n', 'nope baby', '', 5, '2022-06-30 08:51:09', '2022-06-30 08:51:09'),
+(5, 'Gậy y tế', 123123, 0, 0, '4546556464654', NULL, '', 4, '2022-06-01 05:16:51', '2022-06-01 05:16:51'),
+(6, 'Máy Xông Khí Dung Microlife Neb200', 1050000, 11, 2, 'Phụ kiện máy bao gồm: 2 mask (người lớn và trẻ em), 1 cốc đựng thuốc, 1 càng xông họng, 1 càng xông mũi, 3 miếng lọc khí, dây dẫn khí, sách hướng dẫn sử dụng, phiếu bảo hành sản phẩm.', 'Nên làm sạch tất cả các thành phần của thiết bị trong lần lắp đặt đầu tiên:\r\n\r\nLắp ráp bộ phận máy phun sương. Đảm bảo rằng tất cả các bộ phận đã hoàn thành.\r\nĐổ đầy dung dịch hít vào máy phun sương theo hướng dẫn của bác sĩ. Đảm bảo rằng bạn không vượt quá mức tối đa.\r\nKết nối máy phun sương qua ống dẫn khí với máy nén và cắm cáp vào ổ điện (230V 50Hz AC).\r\nĐể bắt đầu điều trị, đặt nút ON/OFF ở vị trí «l».\r\nỐng xông miệng giúp đưa thuốc đến phổi tốt hơn.\r\n\r\nLựa chọn giữa mặt nạ dành cho người lớn hoặc trẻ em phù hợp, để vừa đủ bao trùm cả mũi và miệng.\r\n\r\nSử dụng các phụ kiện, kể cả ống xông mũi theo chỉ định của bác sĩ.\r\n\r\nTrong suốt quá trình xông, ngồi ở tư thế thoải mái với phần trên cơ thể thẳng đứng, không ngồi dựa lưng vào ghế để đề phòng việc dồn ép khí quản của bạn và làm giảm hiệu quả điều trị. Không nằm khi xông. Dừng quá trình xông nếu bạn cảm thấy có gì không ổn.\r\n\r\nSau khi hoàn thành giai đoạn hít thở mà bác sĩ khuyến nghị, chuyển công tắc ON/OFF sang vị trí «O» để tắt thiết bị và rút phích cắm khỏi ổ cắm.\r\n\r\nXả dung dịch còn lại khỏi máy phun sương và làm sạch thiết bị như mô tả trong phần “Làm sạch và Khử trùng”.\r\n\r\nĐối tượng sử dụng\r\n\r\nSản phẩm dùng cho bệnh nhân viêm mũi, viêm xoang, các bệnh nhân gặp phải vấn đề về đường hô hấp.', 'Máy xông khí dung Microlife NEB200 có các cải tiến về mặt công nghệ giúp người sử dụng dễ dàng hơn trong quá trình phòng và điều trị bệnh liên quan đến đường hô hấp. Sản phẩm được thiết kế nhỏ gọn, chất liệu cao cấp, dễ dàng vận hành và sử dụng, NEB200 đang dần trở thành giải pháp tối ưu trong quá trình phòng và điều trị bệnh.', 4, '2022-06-30 09:53:19', '2022-06-30 09:53:19');
 
 -- --------------------------------------------------------
 
@@ -322,13 +331,13 @@ ALTER TABLE `buy_log`
 -- AUTO_INCREMENT cho bảng `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT cho bảng `wp_buy_log`
 --
 ALTER TABLE `wp_buy_log`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT cho bảng `wp_manufacturer`
