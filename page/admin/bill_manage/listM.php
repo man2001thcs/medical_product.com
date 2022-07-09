@@ -31,6 +31,7 @@ $buy_log = new Buy_Log();
 ), 'all');
 */
 //$data = $buy_log->findAll();
+//Quản lý danh sách sản phẩm
 ?>
 <!DOCTYPE html>
 <title>Danh sách hóa đơn đặt hàng</title>
