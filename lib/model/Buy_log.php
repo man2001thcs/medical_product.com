@@ -1,6 +1,6 @@
 <?php
-require_once(dirname(__FILE__).DS. "../base/AppModel.php");
-require_once(dirname(__FILE__).DS. "../base/Helper.php");
+require_once(dirname(__FILE__).DS. "../controller/AppModel.php");
+require_once(dirname(__FILE__).DS. "../controller/Helper.php");
 
 class Buy_log extends AppModel {
 	protected $table = 'wp_buy_log';

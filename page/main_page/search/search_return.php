@@ -2,7 +2,7 @@
 require_once '../../../lib/config/const.php';
 require_once '../../../lib/config/database.php';
 require_once '../../../lib/model/Medicine.php';
-require_once '../../../lib/base/Session.php';
+require_once '../../../lib/controller/Session.php';
 require_once '../../../lib/model/User.php';
 require_once '../../../lib/model/Tool.php';
 

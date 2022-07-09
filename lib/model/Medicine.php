@@ -1,7 +1,7 @@
 <?php
-require_once(dirname(__FILE__).DS. "../base/AppModel.php");
-require_once(dirname(__FILE__).DS. "../base/Helper.php");
-require_once(dirname(__FILE__).DS. "../base/Session.php");
+require_once(dirname(__FILE__).DS. "../controller/AppModel.php");
+require_once(dirname(__FILE__).DS. "../controller/Helper.php");
+require_once(dirname(__FILE__).DS. "../controller/Session.php");
 require_once(dirname(__FILE__).DS. "../model/Medicine_type_s.php");
 require_once(dirname(__FILE__).DS. "../model/Manufacturer.php");
 

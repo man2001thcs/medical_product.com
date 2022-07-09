@@ -1,7 +1,7 @@
 <?php
 require_once '../../../lib/config/const.php';
 require_once '../../../lib/config/database.php';
-require_once '../../../lib/base/Helper.php';
+require_once '../../../lib/controller/Helper.php';
 require_once '../../../lib/model/Medicine.php';
 require_once '../../../lib/model/Tool.php';
 require_once '../../../lib/model/Buy_log.php';
