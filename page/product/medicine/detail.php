@@ -155,6 +155,10 @@ if ($_POST) {
                                 <p><?php echo $data2['support']; ?></p>
                             </div>
                             <div class="description">
+                                <h2>Công dụng</h2>
+                                <p><?php echo nl2br($item_this['described']); ?></p>
+                            </div>
+                            <div class="description">
                                 <h2>Giá đơn thuốc</h2>
                                 <p><?php echo number_format($item_this['price'],0,",","."); ?> Đồng</p>
                             </div>

@@ -96,7 +96,15 @@ class Medicine_M extends AppModel {
 				"message" => MSG_ERR_NOTEMPTY
 			)
 		),
-
+		"described" => array(
+			"form" => array(
+				"type" => "textarea"
+			),
+			"notEmpty" => array(
+				"rule" => "notEmpty",
+				"message" => MSG_ERR_NOTEMPTY
+			)
+		),
 		"type" => array(
 			"form" => array(
 				"type" => "select",

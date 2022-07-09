@@ -4,9 +4,13 @@
 }
 
 .form section input,
-textarea,
-select {
+textarea {
     width: 400px;
+    padding: 5px;
+}
+
+.form section select {
+    width: 300px;
     padding: 5px;
 }
 
