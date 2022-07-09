@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: localhost
--- Thời gian đã tạo: Th7 07, 2022 lúc 03:25 PM
+-- Thời gian đã tạo: Th7 09, 2022 lúc 09:10 AM
 -- Phiên bản máy phục vụ: 8.0.29
 -- Phiên bản PHP: 7.4.29
 
@@ -24,20 +24,17 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `buy_log`
+-- Cấu trúc bảng cho bảng `temp_user`
 --
 
-CREATE TABLE `buy_log` (
+CREATE TABLE `temp_user` (
   `id` int NOT NULL,
-  `user_id` int DEFAULT NULL,
-  `id_medicine` int DEFAULT NULL,
-  `id_tool` int DEFAULT NULL,
-  `medicine_name` varchar(50) DEFAULT NULL,
-  `id_type` int DEFAULT NULL,
-  `day` date DEFAULT NULL,
-  `number` int DEFAULT NULL,
-  `address` varchar(100) DEFAULT NULL,
-  `total_M` int NOT NULL
+  `email` varchar(255) DEFAULT NULL,
+  `password` varchar(255) DEFAULT NULL,
+  `fullname` varchar(255) DEFAULT NULL,
+  `address` varchar(255) DEFAULT NULL,
+  `phone_number` varchar(40) DEFAULT NULL,
+  `created` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3;
 
 -- --------------------------------------------------------
@@ -64,11 +61,12 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `email`, `password`, `fullname`, `address`, `phone_number`, `is_admin`, `created`, `modified`) VALUES
 (3, 'dochu4@gmail.com', '8cb2237d0679ca88db6464eac60da96345513964', 'Chu Thành Đô', 'Long Bien, Ha Noi, Viet Nam', '0354324599', 1, '2022-05-20 03:11:26', '2022-05-20 03:11:26'),
-(11, 'dochu8@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', '0', NULL, '2022-05-22 17:27:16', '2022-05-22 17:27:16'),
+(11, 'dochu8@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', '0354324599', NULL, '2022-05-22 17:27:16', '2022-05-22 17:27:16'),
 (14, 'dochu2@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', '0', NULL, '2022-06-07 17:01:33', '2022-06-07 17:01:33'),
 (15, 'dochu12@gmail.com', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', '0', NULL, '2022-07-02 14:11:08', '2022-07-02 14:11:08'),
 (16, 'dochu1@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', '0', NULL, '2022-07-02 14:20:35', '2022-07-02 14:20:35'),
-(17, 'dochu3@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', '0354324599', NULL, '2022-07-07 15:24:00', '2022-07-07 15:24:00');
+(17, 'dochu3@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', '0354324599', NULL, '2022-07-07 15:24:00', '2022-07-07 15:24:00'),
+(20, 'dochu88@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', '0354324599', 0, '2022-07-09 08:56:16', '2022-07-09 08:56:16');
 
 -- --------------------------------------------------------
 
@@ -149,6 +147,7 @@ CREATE TABLE `wp_medicine` (
   `HSD` int DEFAULT NULL,
   `description` text CHARACTER SET utf8mb3 COLLATE utf8_general_ci,
   `manual` text CHARACTER SET utf8mb3 COLLATE utf8_general_ci,
+  `described` text,
   `created` datetime DEFAULT NULL,
   `modified` datetime DEFAULT NULL,
   `manufacturer_id` tinyint DEFAULT NULL
@@ -158,9 +157,9 @@ CREATE TABLE `wp_medicine` (
 -- Đang đổ dữ liệu cho bảng `wp_medicine`
 --
 
-INSERT INTO `wp_medicine` (`id`, `name`, `price`, `remain_number`, `bought_number`, `type`, `HSD`, `description`, `manual`, `created`, `modified`, `manufacturer_id`) VALUES
-(1, 'Humasis COVID-19 Ag Home Test Kit', 450000, 108, 12, '22', 18, 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', '2022-07-05 08:54:27', '2022-07-05 08:54:27', 4),
-(2, 'blue dose', 123123, 126, 16, '22', 13, 'ádasd', 'ádasd', '2022-07-06 08:58:05', '2022-07-06 08:58:05', 5);
+INSERT INTO `wp_medicine` (`id`, `name`, `price`, `remain_number`, `bought_number`, `type`, `HSD`, `description`, `manual`, `described`, `created`, `modified`, `manufacturer_id`) VALUES
+(1, 'Humasis COVID-19 Ag Home Test Kit', 450000, 108, 12, '22', 18, 'Hộp 5 test, gồm:\r\n\r\nKhay thử, đựng riêng trong túi: 5 khay\r\nỐng nghiệm dùng 1 lần chứa dung dịch đệm chiết mẫu: 5 ống\r\nNắp lọc: 5 cái\r\nTăm bông tiệt trùng để lấy mẫu xét nghiệm: 5 cái\r\n\r\nHoạt chất\r\n• Kháng thể đơn dòng kháng SARS-CoV-2Nucleocapsid\r\n• Kháng thể đơn dòng đặc hiệu với RBD SpikeProtein của SARS-CoV-2\r\n• Kháng thể dê kháng IgG chuột\r\n\r\n', 'Khuyến cáo trước khi dùng\r\n- Đọc kĩ hướng dẫn sử dụng và thực hiện đúng theo từng bước ở phần hướng dẫn chi tiết\r\n- Rửa tay thật kĩ trước khi sử dụng bộ xét nghiệm\r\n- Nếu bộ xét nghiệm được giữ lạnh, để ở nhiệt độ phòng 30 phút trước khi sử dụng\r\n- Nếu người sử dụng từ 3-14 tuổi, phải có sự giám sát của người giám hộ.\r\n\r\nLấy mẫu\r\n1) Sử dụng tăm bông được cung cấp trong bộ xét nghiệm để lấy mẫu dịch ngoáy mũi.\r\n2) Đưa tăm bông vào lỗ mũi trái đến khoảng 2cm và chà mạnh vào thành mũi theo chuyển động tròn 5 lần hoặc ít nhất 15 giây. Tiến hành làm tương tự cho lỗ mũi bên phải với cùng một cây tăm bông.\r\n*Sau khi lấy mẫu, nên xét nghiệm ngay để có kết quả chính xác nhất.', 'Thử covid', '2022-07-05 08:54:27', '2022-07-05 08:54:27', 4),
+(2, 'blue dose', 123123, 126, 16, '22', 13, 'ádasd', 'ádasd', NULL, '2022-07-06 08:58:05', '2022-07-06 08:58:05', 5);
 
 -- --------------------------------------------------------
 
@@ -261,9 +260,9 @@ INSERT INTO `wp_users` (`ID`, `user_login`, `user_pass`, `user_nicename`, `user_
 --
 
 --
--- Chỉ mục cho bảng `buy_log`
+-- Chỉ mục cho bảng `temp_user`
 --
-ALTER TABLE `buy_log`
+ALTER TABLE `temp_user`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -322,16 +321,16 @@ ALTER TABLE `wp_users`
 --
 
 --
--- AUTO_INCREMENT cho bảng `buy_log`
+-- AUTO_INCREMENT cho bảng `temp_user`
 --
-ALTER TABLE `buy_log`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT;
+ALTER TABLE `temp_user`
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT cho bảng `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT cho bảng `wp_buy_log`
