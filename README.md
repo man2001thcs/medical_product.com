@@ -9,7 +9,7 @@ nope
 
 
 //
-
+9/7/2022
 - Không tạo được tài khoản mới
 - Báo lỗi không tồn tại trường phone_number trong bảng user
 
