@@ -12,3 +12,6 @@ nope
 
 - Không tạo được tài khoản mới
 - Báo lỗi không tồn tại trường phone_number trong bảng user
+
+//đã fix
+-account mới thêm cần xác nhận của admin (Đề nghị update lại database).
