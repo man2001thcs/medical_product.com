@@ -9,7 +9,7 @@ if (!isset($user)) {
         <div class="column1">
             <div class="logo" style="height:58px;">
                 <img src="../../../lib/images/medicine_logo.png" width="45" />
-                <div class="title"><a href="../../../page/main_page/main/list.php" style="color:white;">Medicine</a>
+                <div class="title"><a href="../../../page/main_page/main/list.php" style="color:white; text-decoration:none;">Medicine</a>
                 </div>
                 <div class="title" style="font-size:90%; ">Vietnam top 1 medicine website</div>
 

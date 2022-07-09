@@ -772,7 +772,9 @@ header .image img {
 
 header .row .column1 {
     float: left;
-    width: 70%;
+    margin-left: 3%;
+    margin-top: 0.5%;
+    width: 67%;
     /* Should be removed. Only for demonstration */
 }
 
