@@ -25,7 +25,6 @@ $target_dir = "../../../lib/images/medicine_img/";
 
 if ($_POST) {
 	
-
 	$data = $_POST['data'];
 	//echo json_encode($data);
 	$data['WpMedicine']['created'] = date('Y-m-d H:i:s');
