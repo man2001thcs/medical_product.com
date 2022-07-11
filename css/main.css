@@ -949,3 +949,41 @@ header .row:after {
 .closebtn:hover {
     color: black;
 }
+
+/* Row-Col */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 10px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    margin-left: 12px;
+}
+
+.col-75 {
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+}
+
+.col-50 {
+    float: left;
+    width: 175px;
+    margin-top: 6px;
+    margin-left: 12px;
+}
+
+.left-column {
+    width: 50%;
+    float: left;
+}
+
+.right-column {
+    width: 50%;
+    float: right;
+}
