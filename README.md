@@ -15,6 +15,9 @@ nope
 
 //đã fix
 -account mới thêm cần xác nhận của admin (Đề nghị update lại database).
-//đã fix
-11/7 
+
+
+//đã fix 
+
+Ngày 11/7 
 -no more bootstrap
