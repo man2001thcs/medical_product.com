@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="../../../css/bootstrap.css">
 <link rel="stylesheet" href="../../../css/pagination.css">
 <link rel="stylesheet" href="../../../css/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css">
 <link href="../../../css/reset.css" rel="stylesheet" type="text/css" media="all">

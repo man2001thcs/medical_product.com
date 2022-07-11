@@ -8,6 +8,71 @@
     color: #ffffff;
 }
 
+* {
+    box-sizing: border-box;
+}
+
+
+/* Create two equal columns that floats next to each other */
+
+.site-footer .row_footer .column_footer0 {
+    float: left;
+    width: 20%;
+    padding: 20px;
+    text-align: right!important;
+}
+
+.site-footer .row_footer .column_footer1 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+.site-footer .row_footer .column_footer2 {
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+.site-footer .row_footer .column_footer3 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.site-footer .row_footer {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+
+/* Clear floats after the columns */
+
+.site-footer .row_footer:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 1200px) {
+    .site-footer .column_footer0 {
+        width: 100%;
+    }
+    .site-footer .column_footer1 {
+        width: 100%;
+    }
+    .site-footer .column_footer2 {
+        width: 100%;
+    }
+    .site-footer .column_footer3 {
+        width: 100%;
+    }
+}
+
 .site-footer hr {
     border-top-color: #bbb;
     opacity: 0.5
