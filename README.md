@@ -21,3 +21,10 @@ nope
 
 Ngày 11/7 
 -no more bootstrap
+
+Ngày 12/7
+- Lỗi khi tạo user mới: temp_user không tồn tại
+- Tài khoản admin không nên có chức năng mua hàng
+- Màn thống kê nên thống kê dưới dạng biểu đồ. ( Cái này t đang đọc)
+- Chỉnh sửa thông tin dụng cụ y tế bị lỗi
+- Phần đăng ký khách hàng trong tk admin bị lỗi
