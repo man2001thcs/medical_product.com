@@ -66,7 +66,8 @@ INSERT INTO `user` (`id`, `email`, `password`, `fullname`, `address`, `phone_num
 (15, 'dochu12@gmail.com', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', '0', NULL, '2022-07-02 14:11:08', '2022-07-02 14:11:08'),
 (16, 'dochu1@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', '0', NULL, '2022-07-02 14:20:35', '2022-07-02 14:20:35'),
 (17, 'dochu3@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', '0354324599', NULL, '2022-07-07 15:24:00', '2022-07-07 15:24:00'),
-(20, 'dochu88@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', '0354324599', 0, '2022-07-09 08:56:16', '2022-07-09 08:56:16');
+(20, 'dochu88@gmail.com', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Chu Do', 'Long Bien, Ha Noi, Viet Nam', '0354324599', 0, '2022-07-09 08:56:16', '2022-07-09 08:56:16'),
+(21, 'chienhv1@gmail.com','7c4a8d09ca3762af61e59520943dc26494f8941b', 'Chiến Hoàng', 'Hà Nội', '0379527207', 1, '2022-07-12 02:00:00', '2022-07-12 02:00:00');
 
 -- --------------------------------------------------------
 

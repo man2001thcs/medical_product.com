@@ -155,8 +155,8 @@ if ($_POST) {
                                 <p><?php echo $data2['support']; ?></p>
                             </div>
                             <div class="description">
-                                <h2>Công dụng</h2>
-                                <p><?php echo nl2br($item_this['described']); ?></p>
+                                <h2>Mô tả</h2>
+                                <p><?php echo nl2br($item_this['description']); ?></p>
                             </div>
                             <div class="description">
                                 <h2>Giá đơn thuốc</h2>
@@ -198,7 +198,7 @@ if ($_POST) {
                                             $('#buy_button').attr('class', 'non_active');
                                         </script>");
                                  ?>
-                                <button type="button" class="active" style="background-color: red; border-color:red;" href="list.php">Quay về</button>
+                                <button type="button" class="active" style="background-color: red; border-color:red;" href="page/main_page/main/list.php">Quay về</button>
                             </form>
                         </div>
                     </div>

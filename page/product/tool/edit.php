@@ -33,7 +33,7 @@ if (isset($_POST['submit'])) {
 	$data = $_POST['data'];
 	$data['WpTool']['created'] = date('Y-m-d H:i:s');
 	$data['WpTool']['modified'] = date('Y-m-d H:i:s');
-	
+
 	if ($tool->save($data)) {
 		header('Location: index.php');
 	}
@@ -52,116 +52,121 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body>
-<div>
-<?php include '../../templates/header/head.php'; ?>
-</div>
-<div class="bodycontain">
-<div class="heading"><i class="fa fa-stethoscope" aria-hidden="true"></i> Chỉnh sửa thông tin dụng cụ y tế</div>
-<form action="" class="form" method="post" enctype="multipart/form-data">
-	<?php echo $tool->form->input('id'); ?>
-	<section>
-		<dl>
-			<dt>
-				Tên sản phẩm
-			</dt>
-			<dd>
-				<?php echo $tool->form->input("name"); ?>
-				<?php echo $tool->form->error("name"); ?>
-			</dd>
-		</dl>
-	</section>
-	<section>
-		<dl>
-			<dt>
-				Giá
-			</dt>
-			<dd>
-				<?php echo $tool->form->input("price"); ?>
-				<?php echo $tool->form->error("price"); ?>
-			</dd>
-		</dl>
-	</section>
-	<section>
-		<dl>
-			<dt>
-				Số lượng hàng hiện tại
-			</dt>
-			<dd>
-				<?php echo $medicine->form->input("remain_number"); ?>
-				<?php echo $medicine->form->error("remain_number"); ?>
-			</dd>
-		</dl>
-	</section>
-	<section>
-		<dl>
-			<dt>
-				Số lượng hàng đã bán
-			</dt>
-			<dd>
-				<?php echo $medicine->form->input("bought_number"); ?>
-				<?php echo $medicine->form->error("bought_number"); ?>
-			</dd>
-		</dl>
-	</section>
-	<section>
-		<dl>
-			<dt>
-				Nhà sản xuất
-			</dt>
-			<dd>
-				<?php echo $tool->form->input("manufacturer_id"); ?>
-				<?php echo $tool->form->error("manufacturer_id"); ?>
-			</dd>
-		</dl>
-	</section>
-	<section>
-		<dl>
-			<dt>
-				Cấu tạo
-			</dt>
-			<dd>
-				<?php echo $tool->form->input("description"); ?>
-				<?php echo $tool->form->error("description"); ?>
-			</dd>
-		</dl>
-	</section>
-	<section>
-		<dl>
-			<dt>
-				Hướng dẫn sử dụng
-			</dt>
-			<dd>
-				<?php echo $tool->form->input("manual"); ?>
-				<?php echo $tool->form->error("manual"); ?>
-			</dd>
-		</dl>
-	</section>
-	<section>
-		<dl>
-			<dt>
-				Công dụng
-			</dt>
-			<dd>
-				<?php echo $tool->form->input("described"); ?>
-				<?php echo $tool->form->error("described"); ?>
-			</dd>
-		</dl>
-	</section>
-	
-	<?php include '../../../lib/images/save_img.php'; ?>
+	<div>
+		<?php include '../../templates/header/head.php'; ?>
+	</div>
+	<div class="bodycontain">
+		<div class="heading"><i class="fa fa-stethoscope" aria-hidden="true"></i> Chỉnh sửa thông tin dụng cụ y tế</div>
+		<form action="" class="form" method="post" enctype="multipart/form-data">
+			<?php echo $tool->form->input('id'); ?>
+			<div class="left-column">
+				<section>
+					<dl>
+						<dt>
+							Tên sản phẩm
+						</dt>
+						<dd>
+							<?php echo $tool->form->input("name"); ?>
+							<?php echo $tool->form->error("name"); ?>
+						</dd>
+					</dl>
+				</section>
+				<section>
+					<dl>
+						<dt>
+							Giá
+						</dt>
+						<dd>
+							<?php echo $tool->form->input("price"); ?>
+							<?php echo $tool->form->error("price"); ?>
+						</dd>
+					</dl>
+				</section>
+				<section>
+					<dl>
+						<dt>
+							Số lượng hàng hiện tại
+						</dt>
+						<dd>
+							<?php echo $tool->form->input("remain_number"); ?>
+							<?php echo $tool->form->error("remain_number"); ?>
+						</dd>
+					</dl>
+				</section>
+				<section>
+					<dl>
+						<dt>
+							Số lượng hàng đã bán
+						</dt>
+						<dd>
+							<?php echo $tool->form->input("bought_number"); ?>
+							<?php echo $tool->form->error("bought_number"); ?>
+						</dd>
+					</dl>
+				</section>
+				<section>
+					<dl>
+						<dt>
+							Nhà sản xuất
+						</dt>
+						<dd>
+							<?php echo $tool->form->input("manufacturer_id"); ?>
+							<?php echo $tool->form->error("manufacturer_id"); ?>
+						</dd>
+					</dl>
+				</section>
+			</div>
+			<div class="right-column">
+				<section>
+					<dl>
+						<dt>
+							Cấu tạo
+						</dt>
+						<dd>
+							<?php echo $tool->form->input("description"); ?>
+							<?php echo $tool->form->error("description"); ?>
+						</dd>
+					</dl>
+				</section>
+				<section>
+					<dl>
+						<dt>
+							Hướng dẫn sử dụng
+						</dt>
+						<dd>
+							<?php echo $tool->form->input("manual"); ?>
+							<?php echo $tool->form->error("manual"); ?>
+						</dd>
+					</dl>
+				</section>
+				<section>
+					<dl>
+						<dt>
+							Công dụng
+						</dt>
+						<dd>
+							<?php echo $tool->form->input("described"); ?>
+							<?php echo $tool->form->error("described"); ?>
+						</dd>
+					</dl>
+				</section>
+			</div>
 
-	<section>
-		<dl>
-			<dd>
-				<input type="submit" name="submit" value="Save" class="btn btn-green">
-			</dd>
-		</dl>
-	</section>
-</form>
-</div>
+			<?php include '../../../lib/images/save_img.php'; ?>
+
+			<section>
+				<dl>
+					<dd>
+						<input type="submit" name="submit" value="Save" class="btn btn-green">
+					</dd>
+				</dl>
+			</section>
+		</form>
+	</div>
 
 </body>
 <footer>
-    <?php include '../../templates/footer/footer.php'; ?>
+	<?php include '../../templates/footer/footer.php'; ?>
 </footer>
+
 </html>
