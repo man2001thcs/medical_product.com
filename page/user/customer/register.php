@@ -2,8 +2,10 @@
 require_once '../../../lib/config/const.php';
 require_once '../../../lib/config/database.php';
 require_once '../../../lib/model/User.php';
+require_once '../../../lib/model/Temp_user.php';
 
 $user = new User();
+$temp_user = new Temp_user();
 
 if ($_POST) {
 
@@ -13,18 +15,28 @@ if ($_POST) {
 	$data['User']['address'] = $_POST['address'];
 	$data['User']['phone_number'] = $_POST['sdt'];
 	$data['User']['created'] = date('Y-m-d H:i:s');
-	$data['User']['modified'] = date('Y-m-d H:i:s');
+
+	$dataS = array(
+		'TempUser' => array(
+			'email' => $_POST['email'],
+			'password' => $_POST['password'],
+			'fullname' => $_POST['fullname'],
+			'address' => $_POST['address'],
+			'phone_number' => $_POST['sdt'],
+			'created' => date('Y-m-d H:i:s')
+		)
+	);
 
 	if ($user->checkUser($data)){
 		echo ("<script>alert('Tai khoan da ton tai');</script>");
 		
 	} else{
-		if ($data['User']['password'] != $_POST['re-password']){
+		if ($_POST['password'] != $_POST['re-password']){
 			echo ("<script>alert('Mật khẩu không khớp!');</script>");
 		} else{
-			if ($user->saveLogin($data)) {
+			if ($temp_user->saveTemp($dataS)) {
 				Helper::redirect('page/user/log/login.php');
-			}
+			} echo "fail";
 		}		
 	}	
 }
@@ -59,7 +71,7 @@ if ($_POST) {
              <div class="login">
                  <div class="form">
                      <form action="" method="post">
-                         <h2>Đăng nhập</h2>
+                         <h2>Đăng kí</h2>
 				         <?php echo $user->form->error('email'); ?>
                          <input name = "email" type="email" placeholder="Tài khoản">
 						 <input name = "password" type="password" placeholder="Mật khẩu">

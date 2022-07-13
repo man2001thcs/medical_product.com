@@ -9,3 +9,22 @@ nope
 
 
 //
+9/7/2022
+- Không tạo được tài khoản mới
+- Báo lỗi không tồn tại trường phone_number trong bảng user
+
+//đã fix
+-account mới thêm cần xác nhận của admin (Đề nghị update lại database).
+
+
+//đã fix 
+
+Ngày 11/7 
+-no more bootstrap
+
+Ngày 12/7
+- Lỗi khi tạo user mới: temp_user không tồn tại
+- Tài khoản admin không nên có chức năng mua hàng
+- Màn thống kê nên thống kê dưới dạng biểu đồ. ( Cái này t đang đọc)
+- Chỉnh sửa thông tin dụng cụ y tế bị lỗi( đã fix)
+- Phần đăng ký khách hàng trong tk admin bị lỗi

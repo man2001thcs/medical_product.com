@@ -33,6 +33,10 @@
 		</li>
 		<li>
 			<a href="<?php echo BASE_URL; ?>page/admin/manage/">Khách hàng</a>
+			<ul>
+				<li><a href="<?php echo BASE_URL; ?>page/admin/manage/index.php">Danh sách</a></li>
+				<li><a href="<?php echo BASE_URL; ?>page/admin/manage/accept_register.php">Đăng kí</a></li>
+			</ul>
 		</li>
 		<li>
 			<a href="">Hóa đơn</a>

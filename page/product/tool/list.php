@@ -2,7 +2,7 @@
 require_once '../../../lib/config/const.php';
 require_once '../../../lib/config/database.php';
 require_once '../../../lib/model/Tool.php';
-require_once '../../../lib/base/Session.php';
+require_once '../../../lib/controller/Session.php';
 require_once '../../../lib/model/User.php';
 
 
@@ -45,7 +45,7 @@ include "../../templates/js/js.php";
     <div class="bodycontain">
         <?php include '../../templates/product/search_bar.php'; ?>
         <div class="heading"><i class="fa fa-stethoscope" aria-hidden="true"></i>
-            Danh sách dụng cụ y tế       
+            Danh sách dụng cụ y tế
         </div>
 
         <div class="box_list">
@@ -87,7 +87,7 @@ include "../../templates/js/js.php";
                 </li>
                 <?php endforeach; ?>
                 <?php else: ?>
-                Chưa nhập liệu. <a href="create.php">Nhập mới</a> ngay !
+                <h2 style="font-weight: bold;">Không có dữ liệu. <a href="create.php">Nhập mới</a> ngay!</h2>
                 <?php endif; ?>
             </ul>
         </div>

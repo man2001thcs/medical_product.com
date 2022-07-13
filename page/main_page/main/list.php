@@ -2,7 +2,7 @@
 require_once '../../../lib/config/const.php';
 require_once '../../../lib/config/database.php';
 require_once '../../../lib/model/Medicine.php';
-require_once '../../../lib/base/Session.php';
+require_once '../../../lib/controller/Session.php';
 require_once '../../../lib/model/User.php';
 require_once '../../../lib/model/Tool.php';
 //$links = ( isset( $_GET['links'] ) ) ? $_GET['links'] : 7;
@@ -75,7 +75,7 @@ $tool = new Tool();
             <div class="row_con">
                 <?php 
                 		//$medicine->number_All();
-                		$resultM = $medicine->getData( 10, 1);
+                		$resultM = $medicine->getDataRank( 10, 1);
                 		//echo json_encode( $result);
 	                	$dataM = $resultM->data; 
 	                	if (!empty($dataM)) :?>
@@ -130,7 +130,7 @@ $tool = new Tool();
             <div class="row_con">
                 <?php 
                 		//$medicine->number_All();
-                		$resultM = $tool->getData( 10, 1);
+                		$resultM = $tool->getDataRank( 10, 1);
                 		//echo json_encode( $result);
 	                	$dataM = $resultM->data; 
 	                	if (!empty($dataM)) :?>

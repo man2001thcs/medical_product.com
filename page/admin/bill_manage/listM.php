@@ -2,7 +2,7 @@
 require_once '../../../lib/config/const.php';
 require_once '../../../lib/config/database.php';
 require_once '../../../lib/model/Buy_Log.php';
-require_once '../../../lib/base/Session.php';
+require_once '../../../lib/controller/Session.php';
 require_once '../../../lib/model/User.php';
 require_once '../../../lib/model/Medicine.php';
 
@@ -31,6 +31,7 @@ $buy_log = new Buy_Log();
 ), 'all');
 */
 //$data = $buy_log->findAll();
+//Quản lý danh sách sản phẩm
 ?>
 <!DOCTYPE html>
 <title>Danh sách hóa đơn đặt hàng</title>

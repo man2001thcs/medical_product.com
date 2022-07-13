@@ -42,6 +42,7 @@ $data = $user->findAll();
                     <?php if (!empty($data)) : ?>
                     <?php foreach ($data as $item) : 
 				    $item = $item['User'];
+                    
 					if($item['is_admin']==1){continue;};
 					 ?>
                     <tr>

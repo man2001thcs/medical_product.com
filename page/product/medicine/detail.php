@@ -1,7 +1,7 @@
 <?php
 require_once '../../../lib/config/const.php';
 require_once '../../../lib/config/database.php';
-require_once '../../../lib/base/Helper.php';
+require_once '../../../lib/controller/Helper.php';
 require_once '../../../lib/model/Medicine.php';
 require_once '../../../lib/model/Buy_log.php';
 require_once '../../../lib/model/User.php';
@@ -155,6 +155,10 @@ if ($_POST) {
                                 <p><?php echo $data2['support']; ?></p>
                             </div>
                             <div class="description">
+                                <h2>Mô tả</h2>
+                                <p><?php echo nl2br($item_this['description']); ?></p>
+                            </div>
+                            <div class="description">
                                 <h2>Giá đơn thuốc</h2>
                                 <p><?php echo number_format($item_this['price'],0,",","."); ?> Đồng</p>
                             </div>
@@ -194,7 +198,7 @@ if ($_POST) {
                                             $('#buy_button').attr('class', 'non_active');
                                         </script>");
                                  ?>
-                                <button type="button" class="active" style="background-color: red; border-color:red;" href="list.php">Quay về</button>
+                                <button type="button" class="active" style="background-color: red; border-color:red;" href="page/main_page/main/list.php">Quay về</button>
                             </form>
                         </div>
                     </div>
