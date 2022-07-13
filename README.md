@@ -29,5 +29,3 @@ Ngày 12/7
 - Chỉnh sửa thông tin dụng cụ y tế bị lỗi( đã fix)
 - Phần đăng ký khách hàng trong tk admin bị lỗi
 
-Ngày 13/7
-- Không hiển thị danh sách khách hàng thêm mới
