@@ -1,9 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat:300,400,700,800|Open+Sans:300");
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 .card {
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
     transition: 200ms;
     background: #fff;
     border-radius: 10px;
+    display: block;
+    height: fit-content;
 }
 
 .card .card__title {

@@ -14,6 +14,7 @@ if (!$user->isLoggedIn() || !$user->isAdmin()) {
 
 $temp_user = new Temp_user();
 
+
 $data = $temp_user->findAll();
 
 if (isset($_POST['accept'])) {

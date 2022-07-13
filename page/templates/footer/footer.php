@@ -2,6 +2,7 @@
 <link href="../../../css/footer.css" rel="stylesheet" type="text/css" media="all">
 <footer class="site-footer">
     <div class="row_footer">
+        
         <div class="column_footer2">
             <h6>About</h6>
             <p class="text-justify">Medical.com <i>Một trang web bán thuốc đơn giản, hiện đại phù hợp với thời đại
@@ -26,7 +27,6 @@
             </ul>
         </div>
     </div>
-    <hr>
     <div class="row_footer">
         <div class="column_footer3">
             <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by

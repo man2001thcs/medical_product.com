@@ -70,8 +70,10 @@ if ($_POST) {
 
 <!DOCTYPE html>
 <title>Thông tin chi tiết</title>
-<?php include "../../templates/css/css.php"; ?>
-<?php include "../../templates/js/js.php"; ?>
+
+<head>
+    <?php include "../../templates/css/css.php"; ?>
+    <?php include "../../templates/js/js.php"; ?>
 
 </head>
 
@@ -115,7 +117,7 @@ if ($_POST) {
         $data2 = $medicine_type_s->findById($id);
         $data2 = $data2["WpMedicineTypeS"] ?? NULL;
         //echo json_encode($user->getCart());
-?>
+        ?>
 
         <link href="../../../css/product/card_detail.css" rel="stylesheet" type="text/css" media="all">
         <link href="../../../css/product/quantity_button.css" rel="stylesheet" type="text/css" media="all">
@@ -123,7 +125,7 @@ if ($_POST) {
         <script src="../../../lib/script/quantity.js"></script>
 
         <div class="card">
-            <div class="row">
+            <div class="row_card">
                 <div class="column_f">
                     <div class="card__body">
 
@@ -155,8 +157,8 @@ if ($_POST) {
                                 <p><?php echo $data2['support']; ?></p>
                             </div>
                             <div class="description">
-                                <h2>Mô tả</h2>
-                                <p><?php echo nl2br($item_this['description']); ?></p>
+                                <h2>Công dụng</h2>
+                                <p><?php echo nl2br($item_this['described']); ?></p>
                             </div>
                             <div class="description">
                                 <h2>Giá đơn thuốc</h2>
@@ -172,11 +174,12 @@ if ($_POST) {
                                         if ($item_this['remain_number'] > 0)
                                            {
                                             echo $item_this['remain_number'] ." hộp (Còn hàng)";
-                                           } else echo "Hết hàng";?></p>
+                                           } else echo "Hết hàng";?>
+                                </p>
                             </div>
-                            
                         </div>
                     </div>
+
                     <div class="card__footer">
                         <div class="recommend">
                             <p>Khuyên dùng</p>
@@ -191,14 +194,16 @@ if ($_POST) {
                                 <input type="hidden" name="id" value=<?php echo $item_this['id'];?>>
                                 <input type="hidden" name="price" value=<?php echo $item_this['price'];?>>
                                 <input type="hidden" name="id" value=<?php echo $item_this['id'];?>>
-                                <button type="submit" class="active" name="buy_button" id="buy_button">Thêm vào giỏ hàng</button>
+                                <button type="submit" class="active" name="buy_button" id="buy_button">Thêm vào giỏ
+                                    hàng</button>
                                 <?php 
                                     if ($item_this['remain_number'] <= 0)
                                         echo("<script> 
                                             $('#buy_button').attr('class', 'non_active');
                                         </script>");
                                  ?>
-                                <button type="button" class="active" style="background-color: red; border-color:red;" href="page/main_page/main/list.php">Quay về</button>
+                                <button type="button" class="active" style="background-color: red; border-color:red;"
+                                    href="page/main_page/main/list.php">Quay về</button>
                             </form>
                         </div>
                     </div>
@@ -250,15 +255,15 @@ if ($_POST) {
                             </div>
                             <?php endforeach; ?>
                             <?php else: ?>
-                                Chưa có dữ liệu.
-                                <?php endif; ?>
-                                <?php endif; ?>
+                            Chưa có dữ liệu.
+                            <?php endif; ?>
+                            <?php endif; ?>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row_card">
                 <div class="column_f">
                     <?php
                     include '../../templates/product/description.php';  
@@ -266,8 +271,6 @@ if ($_POST) {
                 </div>
             </div>
         </div>
-
-       
     </div>
 </body>
 

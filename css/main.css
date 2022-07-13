@@ -29,8 +29,9 @@ table {
 }
 
 .bodycontain {
+    display: block;
     min-width: 780px;
-    height: auto;
+    height: fit-content;
     width: auto;
     padding: 3% 3% 3%;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.3);
@@ -39,7 +40,7 @@ table {
     height: fit-content;
     margin-left: 4%;
     margin-right: 4%;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 90%;
     border-radius: 2%;
 }
@@ -217,15 +218,22 @@ table {
 ----------------------------------------------------*/
 
 .bodycontain .card {
-    margin-bottom: 3% !important;
+    padding-bottom: 2% !important;
     position: relative;
-    padding-top: 2%;
+    padding-top: 3%;
     padding-left: 2%;
     padding-right: 2%;
     margin-left: auto !important;
+    height: fit-content;
 }
 
-.bodycontain .card .row .column_f {
+.bodycontain .card .row_card::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bodycontain .card .row_card .column_f {
     border: 3px solid gray;
     border-radius: 15px 50px 30px;
     margin-right: 20px;
@@ -233,9 +241,10 @@ table {
     width: 72%;
     padding: 20px;
     margin-bottom: 2%;
+    height: fit-content;
 }
 
-.bodycontain .card .row .column_s {
+.bodycontain .card .row_card .column_s {
     float: left;
     width: 25%;
     height: fit-content;
@@ -251,7 +260,7 @@ table {
     padding-bottom: 2%;
 }
 
-.bodycontain .card .row .column_s h3.header_s {
+.bodycontain .card .row_card .column_s h3.header_s {
     margin: 0;
     margin-bottom: 20px;
     font-size: 20px;
@@ -261,19 +270,19 @@ table {
     color: #115dd8;
 }
 
-.bodycontain .card .row .column_s .suggest {
+.bodycontain .card .row_card .column_s .suggest {
     height: 420px;
     width: fit-content;
     overflow-y: hidden;
     overflow-x: hidden;
 }
 
-.bodycontain .card .row .column_s .suggest:hover {
+.bodycontain .card .row_card .column_s .suggest:hover {
     width: 100%;
     overflow-y: scroll;
 }
 
-.bodycontain .card .row .column_s .suggest .row .column {
+.bodycontain .card .row_card .column_s .suggest .row .column {
     float: left;
     width: 100%;
     margin-left: 2%;
@@ -284,7 +293,7 @@ table {
 
 /* Clear floats after the columns */
 
-.bodycontain .card .row .column_s .suggest .row:after {
+.bodycontain .card .row_card .column_s .suggest .row:after {
     content: "";
     width: auto;
     display: table;
@@ -298,25 +307,25 @@ table {
 /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
 
 @media screen and (max-width: 1400px) {
-    .bodycontain .card .row .column_f {
+    .bodycontain .card .row_card .column_f {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 1100px) {
-    .bodycontain .card .row .column_f {
+    .bodycontain .card .row_card .column_f {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .bodycontain .card .row .column_f {
+    .bodycontain .card .row_card .column_f {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 1400px) {
-    .bodycontain .card .row .column_s {
+    .bodycontain .card .row_card .column_s {
         width: auto;
         height: fit-content;
         overflow-y: hidden;
@@ -325,20 +334,20 @@ table {
 }
 
 @media screen and (max-width: 1400px) {
-    .bodycontain .card .row .column_s .suggest .row .column {
+    .bodycontain .card .row_card .column_s .suggest .row .column {
         width: 225px;
     }
 }
 
 @media screen and (max-width: 1400px) {
-    .bodycontain .card .row .column_s .suggest .row {
+    .bodycontain .card .row_card .column_s .suggest .row {
         width: fit-content;
         height: auto;
     }
 }
 
 @media screen and (max-width: 1400px) {
-    .bodycontain .card .row .column_s .suggest {
+    .bodycontain .card .row_card .column_s .suggest {
         width: fit-content;
         overflow-y: scroll;
         height: 350px;
@@ -950,40 +959,23 @@ header .row:after {
     color: black;
 }
 
+
 /* Row-Col */
-.row:after {
+
+.row_queen .col_queen {
+    float: left;
+    width: 45%;
+}
+
+.row_queen:after {
     content: "";
     display: table;
     clear: both;
     padding: 10px;
 }
 
-.col-25 {
-    float: left;
-    width: 25%;
-    margin-top: 6px;
-    margin-left: 12px;
-}
-
-.col-75 {
-    float: left;
-    width: 70%;
-    margin-top: 6px;
-}
-
-.col-50 {
-    float: left;
-    width: 175px;
-    margin-top: 6px;
-    margin-left: 12px;
-}
-
-.left-column {
-    width: 50%;
-    float: left;
-}
-
-.right-column {
-    width: 50%;
-    float: right;
+@media screen and (max-width: 1200px) {
+    .row_queen .col_queen {
+        width: 100%;
+    }
 }

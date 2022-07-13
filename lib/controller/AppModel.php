@@ -171,7 +171,9 @@ class AppModel
 		$this->db->delete($this->table, array(
 			$this->table . '.id' => $id
 		));
+		return true;
 	}
+
 	//delete by condition
 	public function delete($conditions)
 	{

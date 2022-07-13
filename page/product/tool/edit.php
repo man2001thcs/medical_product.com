@@ -59,108 +59,101 @@ if (isset($_POST['submit'])) {
 		<div class="heading"><i class="fa fa-stethoscope" aria-hidden="true"></i> Chỉnh sửa thông tin dụng cụ y tế</div>
 		<form action="" class="form" method="post" enctype="multipart/form-data">
 			<?php echo $tool->form->input('id'); ?>
-			<div class="left-column">
-				<section>
-					<dl>
-						<dt>
-							Tên sản phẩm
-						</dt>
-						<dd>
-							<?php echo $tool->form->input("name"); ?>
-							<?php echo $tool->form->error("name"); ?>
-						</dd>
-					</dl>
-				</section>
-				<section>
-					<dl>
-						<dt>
-							Giá
-						</dt>
-						<dd>
-							<?php echo $tool->form->input("price"); ?>
-							<?php echo $tool->form->error("price"); ?>
-						</dd>
-					</dl>
-				</section>
-				<section>
-					<dl>
-						<dt>
-							Số lượng hàng hiện tại
-						</dt>
-						<dd>
-							<?php echo $tool->form->input("remain_number"); ?>
-							<?php echo $tool->form->error("remain_number"); ?>
-						</dd>
-					</dl>
-				</section>
-				<section>
-					<dl>
-						<dt>
-							Số lượng hàng đã bán
-						</dt>
-						<dd>
-							<?php echo $tool->form->input("bought_number"); ?>
-							<?php echo $tool->form->error("bought_number"); ?>
-						</dd>
-					</dl>
-				</section>
-				<section>
-					<dl>
-						<dt>
-							Nhà sản xuất
-						</dt>
-						<dd>
-							<?php echo $tool->form->input("manufacturer_id"); ?>
-							<?php echo $tool->form->error("manufacturer_id"); ?>
-						</dd>
-					</dl>
-				</section>
-			</div>
-			<div class="right-column">
-				<section>
-					<dl>
-						<dt>
-							Cấu tạo
-						</dt>
-						<dd>
-							<?php echo $tool->form->input("description"); ?>
-							<?php echo $tool->form->error("description"); ?>
-						</dd>
-					</dl>
-				</section>
-				<section>
-					<dl>
-						<dt>
-							Hướng dẫn sử dụng
-						</dt>
-						<dd>
-							<?php echo $tool->form->input("manual"); ?>
-							<?php echo $tool->form->error("manual"); ?>
-						</dd>
-					</dl>
-				</section>
-				<section>
-					<dl>
-						<dt>
-							Công dụng
-						</dt>
-						<dd>
-							<?php echo $tool->form->input("described"); ?>
-							<?php echo $tool->form->error("described"); ?>
-						</dd>
-					</dl>
-				</section>
-			</div>
+			<div class="row_queen">
+                <div class="col_queen">
+                    <section>
+                        <dl>
+                            <dt>
+                                Tên sản phẩm
+                            </dt>
+                            <dd>
+                                <?php echo $tool->form->input("name"); ?>
+                                <?php echo $tool->form->error("name"); ?>
+                            </dd>
+                        </dl>
+                    </section>
+                    <section>
+                        <dl>
+                            <dt>
+                                Giá
+                            </dt>
+                            <dd>
+                                <?php echo $tool->form->input("price"); ?>
+                                <?php echo $tool->form->error("price"); ?>
+                            </dd>
+                        </dl>
+                    </section>
+                    <section>
+                        <dl>
+                            <dt>
+                                Số lượng hàng hiện tại
+                            </dt>
+                            <dd>
+                                <?php echo $tool->form->input("remain_number"); ?>
+                                <?php echo $tool->form->error("remain_number"); ?>
+                            </dd>
+                        </dl>
+                    </section>
+                    <section>
+                        <dl>
+                            <dt>
+                                Nhà sản xuất
+                            </dt>
+                            <dd>
+                                <?php echo $tool->form->input("manufacturer_id"); ?>
+                                <?php echo $tool->form->error("manufacturer_id"); ?>
+                            </dd>
+                        </dl>
+                    </section>
+                </div>
+                <div class="col_queen">
+                    <section>
+                        <dl>
+                            <dt>
+                                Cấu tạo
+                            </dt>
+                            <dd>
+                                <?php echo $tool->form->input("description"); ?>
+                                <?php echo $tool->form->error("description"); ?>
+                            </dd>
+                        </dl>
+                    </section>
+                    <section>
+                        <dl>
+                            <dt>
+                                Hướng dẫn sử dụng
+                            </dt>
+                            <dd>
+                                <?php echo $tool->form->input("manual"); ?>
+                                <?php echo $tool->form->error("manual"); ?>
+                            </dd>
+                        </dl>
+                    </section>
+                    <section>
+                        <dl>
+                            <dt>
+                                Công dụng
+                            </dt>
+                            <dd>
+                                <?php echo $tool->form->input("described"); ?>
+                                <?php echo $tool->form->error("described"); ?>
+                            </dd>
+                        </dl>
+                    </section>
+                </div>
 
-			<?php include '../../../lib/images/save_img.php'; ?>
-
-			<section>
-				<dl>
-					<dd>
-						<input type="submit" name="submit" value="Save" class="btn btn-green">
-					</dd>
-				</dl>
-			</section>
+                <br />
+                <?php include '../../../lib/images/save_img.php'; ?>
+            </div>
+            <div class="row_queen">
+                <section>
+                    <dl>
+                        <dd>
+                            <input type="submit" name="submit" value="Thay đổi" class="btn btn-green">
+                        </dd>
+                    </dl>
+                </section>
+            </div>
 		</form>
 	</div>
 
