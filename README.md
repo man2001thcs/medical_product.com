@@ -28,3 +28,4 @@ Ngày 12/7
 - Màn thống kê nên thống kê dưới dạng biểu đồ. ( Cái này t đang đọc)
 - Chỉnh sửa thông tin dụng cụ y tế bị lỗi( đã fix)
 - Phần đăng ký khách hàng trong tk admin bị lỗi
+
