@@ -14,7 +14,7 @@ define('LOGGED_IN', 'logged_in');
 define('CART', 'cart');
 define('CART_TOTAL', 'cart_total');
 
-define('BASE_URL', 'http://localhost:3000/');
+define('BASE_URL', 'http://localhost/medical_product.com/');
 
 define('IMG_URL', '../../lib/images/medicine_img/');
 
