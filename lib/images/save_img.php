@@ -3,7 +3,9 @@
 	$target_dir .= $target_folder . "/";
 	//$target_dir .= $target_folder . "/";
 
-    if(isset($_FILES["fileToUpload"])) {
+    if(isset($_FILES["fileToUpload"]) 
+	&& isset($_FILES["fileToUpload"]["name"]) 
+	&& isset($_FILES["fileToUpload"]["tmp_name"])) {
 	    $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 
 	    $uploadOk = 1;
@@ -11,7 +13,10 @@
 
 	    // Check if image file is a actual image or fake image
 	
-	    $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
+		if (!empty($_FILES["fileToUpload"]["tmp_name"])){
+			$check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
+		} else $check = false;
+	   
 	    if($check !== false) {
 	    	//echo "File is an image - " . $check["mime"] . ".";
 	    	$uploadOk = 1;
@@ -58,7 +63,13 @@
 	}
 	//return false;
     ?>
-
+<script>
+    $(document).ready(function() {
+        $("#file_cancel").on("click", function(event) {
+            $("#fileToUpload").val(null);
+        });
+    });
+</script>
 <section>
     <dl>
         <dd>
