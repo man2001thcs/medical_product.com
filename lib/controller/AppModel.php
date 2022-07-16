@@ -393,4 +393,67 @@ class AppModel
 
 		return $html;
 	}
+
+	//delete by condition
+	public function delete2($conditions)
+	{
+		$this->db->delete($this->table, $conditions);
+	}
+	//get all for test
+	public function findAll2()
+	{
+		return $this->db->select($this->table);
+	}
+
+	//get data with limit
+	public function getData2($limit = 6, $page = 1)
+	{
+
+		$this->_limit  = $limit;
+		$this->_page  = $page;
+
+		if ($this->_limit == 'all') {
+			$results = $this->db->select($this->_table);
+		} else {
+			$results = $this->db->select($this->table, array(
+				'offset' => ($this->_limit * ($this->_page - 1)),
+				'limit' => $this->_limit
+			));
+		}
+
+
+		$result         = new stdClass();
+		$result->page   = $this->_page;
+		$result->limit  = $this->_limit;
+		$result->total  = $this->_total;
+		$result->data   = $results;
+
+		return $result;
+	}
+
+	public function getDataRank2($limit = 6, $page = 1)
+	{
+
+		$this->_limit  = $limit;
+		$this->_page  = $page;
+
+		if ($this->_limit == 'all') {
+			$results = $this->db->select($this->_table);
+		} else {
+			$results = $this->db->select($this->table, array(
+				'orders' => $this->alias . '.bought_number' . ' DESC',
+				'offset' => ($this->_limit * ($this->_page - 1)),
+				'limit' => $this->_limit
+			));
+		}
+
+
+		$result         = new stdClass();
+		$result->page   = $this->_page;
+		$result->limit  = $this->_limit;
+		$result->total  = $this->_total;
+		$result->data   = $results;
+
+		return $result;
+	}
 }
