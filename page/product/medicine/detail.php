@@ -124,6 +124,8 @@ if ($_POST) {
         <link href="../../../css/product/product_card.css" rel="stylesheet" type="text/css" media="all">
         <script src="../../../lib/script/quantity.js"></script>
 
+        <!-- detail the product  -->
+
         <div class="card">
             <div class="row_card">
                 <div class="column_f">
@@ -177,6 +179,16 @@ if ($_POST) {
                                            } else echo "Hết hàng";?>
                                 </p>
                             </div>
+
+                             <!-- <div class="description">
+                                <h2>Thành phần</h2>
+                                <p><?php 
+                                        if ($item_this['remain_number'] > 0)
+                                           {
+                                            echo $item_this['description'] ;
+                                           } else echo "Hết hàng";?>
+                                </p>
+                            </div>  -->
                         </div>
                     </div>
 
