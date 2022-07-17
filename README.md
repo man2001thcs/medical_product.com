@@ -29,3 +29,10 @@ Ngày 12/7
 - Chỉnh sửa thông tin dụng cụ y tế bị lỗi( đã fix)
 - Phần đăng ký khách hàng trong tk admin bị lỗi
 
+Ngày 17/7
+- Lỗi khi tạo user mới: temp_user không tồn tại - cài lại db vì tôi thêm temp_user cho đăng kí khách có accept từ admin
+- Tài khoản admin không nên có chức năng mua hàng - Cái n để đó tiện test, mà tôi cũng nghĩ admin vào trang chủ cũng không sao
+- Màn thống kê nên thống kê dưới dạng biểu đồ. ( Cái này t đang đọc) - cái này là framework của google, nếu làm chắc phải tự làm công cụ vẽ, nên tôi nghĩ thôi, 
+  thông kê bảng đơn giản là được
+- Chỉnh sửa thông tin dụng cụ y tế bị lỗi( đã fix)
+- Phần đăng ký khách hàng trong tk admin (fix rồi)
