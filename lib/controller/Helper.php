@@ -23,14 +23,15 @@ class Helper {
 	public static function return_img_M($id) {
 		$temp = '../../../lib/images/medicine_img/';
 		$temp .= $id;
-		$temp .= ".png";
+		$temp .= ".png?" . rand(1,32000);
+		
 		return $temp;
 	}
 
 	public static function return_img_T($id) {
 		$temp = '../../../lib/images/tool_img/';
 		$temp .= $id;
-		$temp .= ".png";
+		$temp .= ".png?" . rand(1,32000);
 		return $temp;
 	}
 
