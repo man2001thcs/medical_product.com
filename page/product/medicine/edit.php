@@ -45,23 +45,22 @@ if (isset($_POST['submit'])) {
 
 ?>
 <!DOCTYPE html>
-<title>Chỉnh sửa thông tin thuốc</title>
-<?php include "../../templates/css/css.php"; ?>
-<?php include "../../templates/js/js.php"; ?>
-<style>
 
-</style>
+<head>
+    <title>Chỉnh sửa thông tin thuốc</title>
+    <?php include "../../templates/css/css.php"; ?>
+    <?php include "../../templates/js/js.php"; ?>
 </head>
 
 <body>
-	<div>
-		<?php include '../../templates/header/head.php'; ?>
-	</div>
-	<div class="bodycontain">
-		<div class="heading"><i class="fa fa-medkit" aria-hidden="true"></i> Chỉnh sửa thông tin thuốc</div>
-		<form action="" class="form" method="post" enctype="multipart/form-data">
-			<?php echo $medicine->form->input('id'); ?>
-			<div class="row_queen">
+    <div>
+        <?php include '../../templates/header/head.php'; ?>
+    </div>
+    <div class="bodycontain">
+        <div class="heading"><i class="fa fa-medkit" aria-hidden="true"></i> Chỉnh sửa thông tin thuốc</div>
+        <form action="" class="form" method="post" enctype="multipart/form-data">
+            <?php echo $medicine->form->input('id'); ?>
+            <div class="row_queen">
                 <div class="col_queen">
                     <section>
                         <dl>
@@ -180,22 +179,11 @@ if (isset($_POST['submit'])) {
                     </dl>
                 </section>
             </div>
-
-            <!-- <div class="row_queen">
-                <section>
-                    <dl>
-                        <dd>
-                            <input type="submit" name="submit" value="Thay đổi" class="btn btn-green">
-                        </dd>
-                    </dl>
-                </section>
-            </div> -->
-		</form>
-	</div>
+    </div>
 
 </body>
 <footer>
-	<?php include '../../templates/footer/footer.php'; ?>
+    <?php include '../../templates/footer/footer.php'; ?>
 </footer>
 
 </html>

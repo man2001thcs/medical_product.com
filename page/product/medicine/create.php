@@ -38,11 +38,10 @@ if ($_POST) {
 
 ?>
 <!DOCTYPE html>
+<head>
 <title>Medicine Create</title>
 <?php include "../../templates/css/css.php"; ?>
 <?php include "../../templates/js/js.php"; ?>
-
-
 </head>
 
 <body>

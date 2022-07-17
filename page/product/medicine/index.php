@@ -36,6 +36,7 @@ $data = array();
 //$data = $medicine->findByAll_num(6, 12);
 ?>
 <!DOCTYPE html>
+<head>
 <title>Quản lý thuốc</title>
 <?php include "../../templates/css/css.php"; ?>
 <?php include "../../templates/js/js.php"; ?>

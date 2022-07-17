@@ -26,47 +26,53 @@ if ($_POST) {
 
 ?>
 <!DOCTYPE html>
-<title>User Login</title>
 
-<link rel="stylesheet" href="../../../css/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.css">
-<link rel="stylesheet" href="../../../css/user/login/login.css">
+<head>
+    <title>User Login</title>
 
-<?php include "../../templates/css/css.php"; ?>
-<?php include "../../templates/js/js.php"; ?>
+    <link rel="stylesheet" href="../../../css/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="../../../css/user/login/login.css">
+
+    <?php include "../../templates/css/css.php"; ?>
+    <?php include "../../templates/js/js.php"; ?>
 
 
 </head>
 
 <body>
-<div>
-<?php include '../../templates/header/head.php'; ?>
+    <div>
+        <?php include '../../templates/header/head.php'; ?>
 
-</div>
-
-<div class="bodycontain_login">
-	<div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i> Đăng nhập</div>
-    <div class="row">
-		<div class="column_img">
-			<img src="../../../lib/images/login_img.png" style="width:100%">
-		</div>
-        <div class="column_log">
-             <div class="login">
-                 <div class="form">
-                     <form action="" method="post">
-                         <h2>Đăng nhập</h2>
-                         <input name = "email" type="email" placeholder="Tài khoản">
-						 <input name = "password" type="password" placeholder="Mật khẩu">
-						 <input type="submit" value="Sign In" class="login">
-                         <p style="color: white;">Chưa có tài khoản? <span>Đăng kí </span> <a href="../customer/register.php" style="color: white;">ngay!</a><p>
-                    </form>
-                 </div>
-             </div>
-	    </div>
     </div>
-</div>
+
+    <div class="bodycontain_login">
+        <div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i> Đăng nhập</div>
+        <div class="row">
+            <div class="column_img">
+                <img src="../../../lib/images/login_img.png" style="width:100%">
+            </div>
+            <div class="column_log">
+                <div class="login">
+                    <div class="form">
+                        <form action="" method="post">
+						    <h2 id="register_con">Đăng nhập</h2>
+                            <h2>Đăng nhập</h2>
+                            <input name="email" type="email" placeholder="Tài khoản">
+                            <input name="password" type="password" placeholder="Mật khẩu">
+                            <input type="submit" value="Sign In" class="login">
+                            <p style="color: white;">Chưa có tài khoản? <span>Đăng kí </span> <a
+                                    href="../customer/register.php" style="color: white;">ngay!</a>
+                            <p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 <footer>
     <?php include '../../templates/footer/footer.php'; ?>
 </footer>
+
 </html>
