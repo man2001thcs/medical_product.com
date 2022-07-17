@@ -7,9 +7,11 @@ require_once '../../../lib/model/User.php';
 
 ?>
 <!DOCTYPE html>
-<title>Medicine Create</title>
-<?php include "../../templates/css/css.php"; ?>
-<?php include "../../templates/js/js.php"; ?>
+
+<head>
+    <title>Medicine Create</title>
+    <?php include "../../templates/css/css.php"; ?>
+    <?php include "../../templates/js/js.php"; ?>
 
 </head>
 

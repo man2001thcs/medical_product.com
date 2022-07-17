@@ -8,9 +8,11 @@ if (!isset($user)) {
 
 ?>
 <!DOCTYPE html>
-<title>404</title>
-<?php include "../../templates/css/css.php"; ?>
-<?php include "../../templates/js/js.php"; ?>
+
+<head>
+    <title>404</title>
+    <?php include "../../templates/css/css.php"; ?>
+    <?php include "../../templates/js/js.php"; ?>
 
 </head>
 

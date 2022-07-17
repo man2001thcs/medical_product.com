@@ -68,9 +68,11 @@ if ($_POST) {
 ?>
 
 <!DOCTYPE html>
-<title>Thông tin chi tiết</title>
-<?php include "../../templates/css/css.php"; ?>
-<?php include "../../templates/js/js.php"; ?>
+
+<head>
+    <title>Thông tin chi tiết</title>
+    <?php include "../../templates/css/css.php"; ?>
+    <?php include "../../templates/js/js.php"; ?>
 
 </head>
 
@@ -139,7 +141,7 @@ if ($_POST) {
                                 <br>
                                 <h2>Tên sản phẩm</h2>
                                 <p style="font-weight: bold"><?php echo $item_this['name']; ?></p>
-                            </div>                  
+                            </div>
                             <div class="description">
                                 <h2>Giá đơn sản phẩm</h2>
                                 <p><?php echo number_format($item_this['price'],0,",","."); ?> Đồng</p>
@@ -158,7 +160,7 @@ if ($_POST) {
                                             echo "Hết hàng";
                                            }?></p>
                             </div>
-                            
+
                         </div>
                     </div>
                     <div class="card__footer">
@@ -174,14 +176,16 @@ if ($_POST) {
                                 </div>
                                 <input type="hidden" name="id" value=<?php echo $item_this['id'];?>>
                                 <input type="hidden" name="price" value=<?php echo $item_this['price'];?>>
-                                <button type="submit" class="active" name="buy_button" id="buy_button">Thêm vào giỏ hàng</button>
+                                <button type="submit" class="active" name="buy_button" id="buy_button">Thêm vào giỏ
+                                    hàng</button>
                                 <?php 
                                     if ($item_this['remain_number'] <= 0)
                                         echo("<script> 
                                             $('#buy_button').attr('class', 'non_active');
                                         </script>");
                                  ?>
-                                <button type="button" class="active" style="background-color: red;  border-color:red;" href="list.php">Quay về</button>
+                                <button type="button" class="active" style="background-color: red;  border-color:red;"
+                                    href="list.php">Quay về</button>
                             </form>
                         </div>
                     </div>
@@ -228,9 +232,9 @@ if ($_POST) {
                             </div>
                             <?php endforeach; ?>
                             <?php else: ?>
-                                Chưa có dữ liệu.
-                                <?php endif; ?>
-                                <?php endif; ?>
+                            Chưa có dữ liệu.
+                            <?php endif; ?>
+                            <?php endif; ?>
                         </div>
                     </div>
                 </div>
@@ -245,7 +249,7 @@ if ($_POST) {
             </div>
         </div>
 
-       
+
     </div>
 </body>
 

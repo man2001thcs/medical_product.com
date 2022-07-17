@@ -39,9 +39,11 @@ if ($_POST) {
 
 ?>
 <!DOCTYPE html>
-<title>Tool Create</title>
-<?php include "../../templates/css/css.php"; ?>
-<?php include "../../templates/js/js.php"; ?>
+
+<head>
+    <title>Tool Create</title>
+    <?php include "../../templates/css/css.php"; ?>
+    <?php include "../../templates/js/js.php"; ?>
 
 </head>
 
@@ -134,10 +136,10 @@ if ($_POST) {
                             </dd>
                         </dl>
                     </section>
-					<?php include '../../../lib/images/save_img.php'; ?>
+                    <?php include '../../../lib/images/save_img.php'; ?>
                 </div>
 
-                
+
             </div>
             <div class="row_queen">
                 <section>

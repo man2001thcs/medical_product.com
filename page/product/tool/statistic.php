@@ -35,46 +35,48 @@ $data = array();
 //$data = $tool->findByAll_num(6, 12);
 ?>
 <!DOCTYPE html>
-<title>Quản lý thuốc</title>
-<?php include "../../templates/css/css.php"; ?>
-<?php include "../../templates/js/js.php"; ?>
+
+<head>
+    <title>Quản lý thuốc</title>
+    <?php include "../../templates/css/css.php"; ?>
+    <?php include "../../templates/js/js.php"; ?>
 
 </head>
 
 <body>
-<div>
-<?php include '../../templates/header/head.php'; ?>
-</div>
-<div class="bodycontain">
-<div class="heading"><i class="fa fa-stethoscope" aria-hidden="true"></i>  Quản lý thuốc</div>
+    <div>
+        <?php include '../../templates/header/head.php'; ?>
+    </div>
+    <div class="bodycontain">
+        <div class="heading"><i class="fa fa-stethoscope" aria-hidden="true"></i> Quản lý thuốc</div>
 
-<div class="box_table">
-	<table>
-		<colgroup>
-			<col width="auto">
-			<col width="auto">
-			<col width="auto">
-			<col width="auto">
-			<col width="auto">
-			<col width="auto">
-			<col width="auto">
-			<col width="auto">
-			<col width="auto">
-			<col width="auto">
-		</colgroup>
-		<thead>
-			<tr>
-				<th>ID</th>
-				<th>Tên thuốc</th>
-				<th>Giá đơn sản phẩm</th>
-				<th>Số lượng còn lại</th>
-				<th>Số lượng đã bán</th>			
-				<th>Công ty sản xuất</th>
-				<th></th>
-			</tr>
-		</thead>
-		<tbody>
-			<?php 
+        <div class="box_table">
+            <table>
+                <colgroup>
+                    <col width="auto">
+                    <col width="auto">
+                    <col width="auto">
+                    <col width="auto">
+                    <col width="auto">
+                    <col width="auto">
+                    <col width="auto">
+                    <col width="auto">
+                    <col width="auto">
+                    <col width="auto">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Tên thuốc</th>
+                        <th>Giá đơn sản phẩm</th>
+                        <th>Số lượng còn lại</th>
+                        <th>Số lượng đã bán</th>
+                        <th>Công ty sản xuất</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php 
 			     //$Paginator  = new Paginator( "WpTool", "wp_tool", $tool->number_All());
 				 $tool->number_All();
 				 $result = $tool->getData( $limit, $page);
@@ -83,7 +85,7 @@ $data = array();
 			    if (!empty($data)) :
 				//$country = unserialize(M_COUNTRY);
 			?>
-				<?php 
+                    <?php 
 				foreach ($data as $item) : $item = $item["WpTool"];
 				//echo json_encode($item); 
 				$id1 = isset($item["manufacturer_id"]) ? intval($item["manufacturer_id"]) : null;
@@ -94,44 +96,44 @@ $data = array();
 				$data1 = $data1["WpManufacturer"] ?? NULL;
 
 				?>
-					<tr>
-						<td class="center">
-							<?php echo $item['id'] ?? ""; ?>
-						</td>
-						<td>
-							<?php echo $item['name'] ?? ""; ?>
-						</td>
-						<td>
-						<?php echo number_format($item['price'],0,",","."); ?> Đồng
-						</td>
-						<td>
-						    <?php echo $item['remain_number'] ?? ""; ?>
-						</td>	
-						<td>
-						    <?php echo $item['bought_number'] ?? ""; ?>
-						</td>	
-						<td>
-							<?php echo $data1['name'] ?? ""; ?>
-						</td>
-						<td class="center">
-							<a href="edit.php?id=<?php echo $item['id']; ?>" class="popup active">Chỉnh sửa</a>
-						</td>
-					</tr>
-				<?php endforeach; ?>
-			<?php else: ?>
-				<tr>
-					<td colspan="9">
-						Chưa nhập liệu. <a href="create.php">Nhập thuốc mới</a> ngay !
-					</td>
-				</tr>
-			<?php endif; ?>			
-		</tbody>
-	</table>
-</div>
-<?php echo $tool->createLinks( $links, 'pagination'); ?> 
+                    <tr>
+                        <td class="center">
+                            <?php echo $item['id'] ?? ""; ?>
+                        </td>
+                        <td>
+                            <?php echo $item['name'] ?? ""; ?>
+                        </td>
+                        <td>
+                            <?php echo number_format($item['price'],0,",","."); ?> Đồng
+                        </td>
+                        <td>
+                            <?php echo $item['remain_number'] ?? ""; ?>
+                        </td>
+                        <td>
+                            <?php echo $item['bought_number'] ?? ""; ?>
+                        </td>
+                        <td>
+                            <?php echo $data1['name'] ?? ""; ?>
+                        </td>
+                        <td class="center">
+                            <a href="edit.php?id=<?php echo $item['id']; ?>" class="popup active">Chỉnh sửa</a>
+                        </td>
+                    </tr>
+                    <?php endforeach; ?>
+                    <?php else: ?>
+                    <tr>
+                        <td colspan="9">
+                            Chưa nhập liệu. <a href="create.php">Nhập thuốc mới</a> ngay !
+                        </td>
+                    </tr>
+                    <?php endif; ?>
+                </tbody>
+            </table>
+        </div>
+        <?php echo $tool->createLinks( $links, 'pagination'); ?>
 
-</div>
-			</div>
+    </div>
+    </div>
 
 
 

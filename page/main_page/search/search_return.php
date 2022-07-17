@@ -45,10 +45,12 @@ if (isset($_POST['search'])){
 //$dataT = $tool->findAll();
 ?>
 <!DOCTYPE html>
-<title>Danh sách</title>
-<?php include "../../templates/css/css.php"; ?>
-<?php include "../../templates/js/js.php"; ?>
-<link href="../../../css/product/product_card.css" rel="stylesheet" type="text/css" media="all">
+
+<head>
+    <title>Danh sách</title>
+    <?php include "../../templates/css/css.php"; ?>
+    <?php include "../../templates/js/js.php"; ?>
+    <link href="../../../css/product/product_card.css" rel="stylesheet" type="text/css" media="all">
 
 </head>
 

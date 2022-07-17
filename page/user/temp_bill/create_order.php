@@ -43,32 +43,33 @@ if ($_POST) {
 ?>
 
 <!DOCTYPE html>
-<title>Thông tin thuốc</title>
-<?php include "../../templates/css/css.php"; ?>
-<?php include "../../templates/js/js.php"; ?>
+
+<head>
+    <title>Thông tin thuốc</title>
+    <?php include "../../templates/css/css.php"; ?>
+    <?php include "../../templates/js/js.php"; ?>
 
 </head>
 
 <body>
-<div>
-<?php include '../../templates/header/head.php'; ?>
-</div>
-<div class="bodycontain">
+    <div>
+        <?php include '../../templates/header/head.php'; ?>
+    </div>
+    <div class="bodycontain">
 
-<script type="text/javascript">
-    function success()
-         {
-			 alert("Đặt đơn thành công!! Code: <?php echo $code; ?>");
-			document.getElementById("infos").style.display="none";			
+        <script type="text/javascript">
+        function success() {
+            alert("Đặt đơn thành công!! Code: <?php echo $code; ?>");
+            document.getElementById("infos").style.display = "none";
         }
-</script>
+        </script>
 
-<div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i> Thông tin hóa đơn:</div>
-<div class="box_list">
-	<ul class="con_medi">
-		<li class="box_medi">
-			<div class="detail_r">
-				    <?php foreach($data as $_item):
+        <div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i> Thông tin hóa đơn:</div>
+        <div class="box_list">
+            <ul class="con_medi">
+                <li class="box_medi">
+                    <div class="detail_r">
+                        <?php foreach($data as $_item):
 					$item = $_item['WpBuyLog']; 
 					$item['code'] = $code;
 					$item['created'] = $day;					
@@ -116,21 +117,25 @@ if ($_POST) {
 					
 					?>
 
-					<div class="txt" id="infos">		
-						<p class="info"><span>Mã id sản phẩm:</span> <?php echo ($item['medicine_id'] == 0) ? $item['tool_id'] : $item['medicine_id']; ?></p>
-						<p class="info"><span>Giá:</span> <?php echo number_format($item['price'],0,",","."); ?> Đồng</p>
-						<p class="info"><span>Ngày:</span> <?php echo $day; ?></p>
-						<p class="info"><span>Số lượng:</span> <?php echo $item['number']; ?></p>   
-					</div>
-					<a class="btn btn-green" href="/medical_product.com/page/main_page/main/list.php" style="background-color: red"> Quay lại </a>
-					<?php endforeach; ?>
-			</div>
-		</li>
-	</ul>
-</div>	
-	</div>
+                        <div class="txt" id="infos">
+                            <p class="info"><span>Mã id sản phẩm:</span>
+                                <?php echo ($item['medicine_id'] == 0) ? $item['tool_id'] : $item['medicine_id']; ?></p>
+                            <p class="info"><span>Giá:</span> <?php echo number_format($item['price'],0,",","."); ?>
+                                Đồng</p>
+                            <p class="info"><span>Ngày:</span> <?php echo $day; ?></p>
+                            <p class="info"><span>Số lượng:</span> <?php echo $item['number']; ?></p>
+                        </div>
+                        <a class="btn btn-green" href="/medical_product.com/page/main_page/main/list.php"
+                            style="background-color: red"> Quay lại </a>
+                        <?php endforeach; ?>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 <footer>
     <?php include '../../templates/footer/footer.php'; ?>
 </footer>
+
 </html>

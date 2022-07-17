@@ -42,9 +42,11 @@ $user->findById($id);
 
 ?>
 <!DOCTYPE html>
-<title>Chỉnh sửa thông tin</title>
-<?php include "../../templates/css/css.php"; ?>
-<?php include "../../templates/js/js.php"; ?>
+
+<head>
+    <title>Chỉnh sửa thông tin</title>
+    <?php include "../../templates/css/css.php"; ?>
+    <?php include "../../templates/js/js.php"; ?>
 
 </head>
 

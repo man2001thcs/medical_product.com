@@ -30,11 +30,11 @@ $medicine = new Medicine_M();
 //$data = $medicine->findAll();
 ?>
 <!DOCTYPE html>
-<title>Danh sách thuốc</title>
-<?php
-include "../../templates/css/css.php";
-include "../../templates/js/js.php";
-?>
+
+<head>
+    <title>Danh sách thuốc</title>
+    <?php include "../../templates/css/css.php"; ?>
+    <?php include "../../templates/js/js.php"; ?>
 </head>
 
 <body>
@@ -45,7 +45,7 @@ include "../../templates/js/js.php";
     <div class="bodycontain">
         <?php include '../../templates/product/search_bar.php'; ?>
         <div class="heading"><i class="fa fa-medkit" aria-hidden="true"></i>
-            Danh sách thuốc        
+            Danh sách thuốc
         </div>
 
         <div class="box_list">
@@ -92,7 +92,7 @@ include "../../templates/js/js.php";
                 </li>
                 <?php endforeach; ?>
                 <?php else: ?>
-                    <h2 style="font-weight: bold;">Không có dữ liệu. <a href="create.php">Nhập mới</a> ngay!</h2>
+                <h2 style="font-weight: bold;">Không có dữ liệu. <a href="create.php">Nhập mới</a> ngay!</h2>
                 <?php endif; ?>
             </ul>
         </div>

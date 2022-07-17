@@ -43,10 +43,11 @@ $tool = new Tool();
 ?>
 <!DOCTYPE html>
 <title>Danh sách</title>
+
 <head>
-<?php include "../../templates/css/css.php"; ?>
-<?php include "../../templates/js/js.php"; ?>
-<link href="../../../css/product/product_card.css" rel="stylesheet" type="text/css" media="all">
+    <?php include "../../templates/css/css.php"; ?>
+    <?php include "../../templates/js/js.php"; ?>
+    <link href="../../../css/product/product_card.css" rel="stylesheet" type="text/css" media="all">
 
 </head>
 
@@ -95,7 +96,7 @@ $tool = new Tool();
                         <div class="content">
                             <div class="img_card">
                                 <a href="../../product/medicine/detail.php?id=<?php echo $item['id']; ?>">
-                                    <img  width="120px" src=<?php echo Helper::return_img_M($item['id']);?>>
+                                    <img width="120px" src=<?php echo Helper::return_img_M($item['id']);?>>
                                 </a>
                             </div>
                             <span class="bg animated fadeInDown">Thuốc y tế</span>

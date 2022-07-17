@@ -30,10 +30,12 @@ $tool = new Tool();
 //$data = $tool->findAll();
 ?>
 <!DOCTYPE html>
-<title>Danh sách thuốc</title>
-<?php
-include "../../templates/css/css.php";
-include "../../templates/js/js.php";
+
+<head>
+    <title>Danh sách thuốc</title>
+    <?php
+        include "../../templates/css/css.php";
+        include "../../templates/js/js.php";
 ?>
 </head>
 

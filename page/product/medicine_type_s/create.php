@@ -26,54 +26,57 @@ if ($_POST) {
 }
 ?>
 <!DOCTYPE html>
-<title>Nhập loại thuốc</title>
-<?php include "../../templates/css/css.php"; ?>
-<?php include "../../templates/js/js.php"; ?>
+
+<head>
+    <title>Nhập loại thuốc</title>
+    <?php include "../../templates/css/css.php"; ?>
+    <?php include "../../templates/js/js.php"; ?>
 
 </head>
 
 <body>
-<div>
-<?php include '../../templates/header/head.php'; ?>
-</div>
-<div class="bodycontain">
+    <div>
+        <?php include '../../templates/header/head.php'; ?>
+    </div>
+    <div class="bodycontain">
 
 
-<div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i> Nhập loại thuốc</div>
-	<form action="" class="form" method="post">
-		<section>
-			<dl>
-				<dt>
-					Tên loại thuốc
-				</dt>
-				<dd>
-					<?php echo $medicine_type_s->form->input("name"); ?>
-					<?php echo $medicine_type_s->form->error("name"); ?>
-				</dd>
-			</dl>
-		</section>
-		<section>
-			<dl>
-				<dt>
-					Hỗ trợ chức năng
-				</dt>
-				<dd>
-					<?php echo $medicine_type_s->form->input("support"); ?>
-					<?php echo $medicine_type_s->form->error("support"); ?>
-				</dd>
-			</dl>
-		</section>
-		<section>
-			<dl>
-				<dd>
-					<input type="submit" name="submit" value="Create" class="btn btn-green">
-				</dd>
-			</dl>
-		</section>
-	</form>
-</div>
+        <div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i> Nhập loại thuốc</div>
+        <form action="" class="form" method="post">
+            <section>
+                <dl>
+                    <dt>
+                        Tên loại thuốc
+                    </dt>
+                    <dd>
+                        <?php echo $medicine_type_s->form->input("name"); ?>
+                        <?php echo $medicine_type_s->form->error("name"); ?>
+                    </dd>
+                </dl>
+            </section>
+            <section>
+                <dl>
+                    <dt>
+                        Hỗ trợ chức năng
+                    </dt>
+                    <dd>
+                        <?php echo $medicine_type_s->form->input("support"); ?>
+                        <?php echo $medicine_type_s->form->error("support"); ?>
+                    </dd>
+                </dl>
+            </section>
+            <section>
+                <dl>
+                    <dd>
+                        <input type="submit" name="submit" value="Create" class="btn btn-green">
+                    </dd>
+                </dl>
+            </section>
+        </form>
+    </div>
 </body>
 <footer>
     <?php include '../../templates/footer/footer.php'; ?>
 </footer>
+
 </html>

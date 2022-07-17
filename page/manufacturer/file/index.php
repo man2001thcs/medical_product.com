@@ -21,10 +21,11 @@ $data = array();
 //$data = $manufacturer->findAll();
 ?>
 <!DOCTYPE html>
-<title>Quản lý thông tin nhà sản xuất</title>
-<?php include "../../templates/css/css.php"; ?>
-<?php include "../../templates/js/js.php"; ?>
 
+<head>
+    <title>Quản lý thông tin nhà sản xuất</title>
+    <?php include "../../templates/css/css.php"; ?>
+    <?php include "../../templates/js/js.php"; ?>
 </head>
 
 <body>

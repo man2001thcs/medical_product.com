@@ -35,9 +35,11 @@ $data = array();
 //$data = $tool->findByAll_num(6, 12);
 ?>
 <!DOCTYPE html>
-<title>Quản lý thuốc</title>
-<?php include "../../templates/css/css.php"; ?>
-<?php include "../../templates/js/js.php"; ?>
+
+<head>
+    <title>Quản lý thuốc</title>
+    <?php include "../../templates/css/css.php"; ?>
+    <?php include "../../templates/js/js.php"; ?>
 
 </head>
 
@@ -119,7 +121,8 @@ $data = array();
                     <?php else: ?>
                     <tr>
                         <td colspan="9">
-                            <h2 style="font-weight: bold;">Không có dữ liệu. <a href="create.php">Nhập mới</a> ngay!</h2>
+                            <h2 style="font-weight: bold;">Không có dữ liệu. <a href="create.php">Nhập mới</a> ngay!
+                            </h2>
                         </td>
                     </tr>
                     <?php endif; ?>

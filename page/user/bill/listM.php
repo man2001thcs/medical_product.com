@@ -26,9 +26,11 @@ $data = $buy_log->find(array(
 //$data = $buy_log->findAll();
 ?>
 <!DOCTYPE html>
-<title>Danh sách hóa đơn đặt hàng</title>
-<?php include "../../templates/css/css.php"; ?>
-<?php include "../../templates/js/js.php"; ?>
+
+<head>
+    <title>Danh sách hóa đơn đặt hàng</title>
+    <?php include "../../templates/css/css.php"; ?>
+    <?php include "../../templates/js/js.php"; ?>
 
 </head>
 
@@ -80,9 +82,9 @@ $data = $buy_log->find(array(
                 <?php endif; ?>
             </ul>
         </div>
-		<?php echo $buy_log->createLinks( $links, 'pagination'); ?>
+        <?php echo $buy_log->createLinks( $links, 'pagination'); ?>
     </div>
-    
+
 </body>
 
 <footer>

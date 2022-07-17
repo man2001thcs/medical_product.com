@@ -35,7 +35,7 @@ table {
     width: auto;
     padding: 3% 3% 3%;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.3);
-    margin-top: 24%;
+    margin-top: 360px;
     background: #F0F2F5;
     height: fit-content;
     margin-left: 4%;
@@ -187,7 +187,7 @@ table {
     margin-left: auto !important;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1450px) {
     .bodycontain .product_con .row_con .column_con {
         width: 30%;
     }
@@ -195,14 +195,7 @@ table {
 
 @media screen and (max-width: 1200px) {
     .bodycontain .product_con .row_con .column_con {
-        width: 40%;
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    .bodycontain .product_con .row_con .column_con {
-        width: 40%;
-        ;
+        width: 50%;
     }
 }
 
@@ -360,18 +353,18 @@ table {
 ----------------------------------------------------*/
 
 .bodycontain_login {
-    position: relative;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.3);
-    padding-top: 3%;
-    padding: 3% 3%;
+    display: block;
+    min-width: 780px;
     height: fit-content;
     width: auto;
-    min-width: 65%;
-    background: #ffffff;
-    margin-top: 20%;
+    padding: 3% 3% 3%;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 24%;
+    background: #F0F2F5;
+    height: fit-content;
     margin-left: 4%;
     margin-right: 4%;
-    margin-bottom: 2%;
+    margin-bottom: 5px;
     font-size: 90%;
     border-radius: 2%;
 }
@@ -380,43 +373,52 @@ table {
     padding-left: 10px;
     text-align: justify;
     font-size: 30px;
-    background: #ffffff;
+    background: #F0F2F5;
     border: none;
     font-weight: bold;
     color: rgb(9, 2, 2);
     margin-bottom: 4%;
 }
 
-.bodycontain_login .column_img {
+.bodycontain_login .row_log .column_img {
     float: left;
     width: 64%;
     padding: 6px;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-52%);
-    transform: translateY(-44%);
     width: 62%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.bodycontain_login .column_img img {
+.bodycontain_login .row_log .column_img img {
     border-radius: 5%;
     border: 5px solid rgb(21, 19, 19);
     margin-top: auto;
     margin-bottom: auto;
+    width: 100%;
 }
 
-.bodycontain_login .column_log {
-    float: right;
+.bodycontain_login .row_log .column_log {
+    float: left;
     width: 36%;
     padding: 10px;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
-.bodycontain_login .row:after {
+.bodycontain_login .row_log:after {
     content: "";
     display: table;
     clear: both;
+}
+
+@media screen and (max-width: 1200px) {
+    .bodycontain_login .row_log .column_img {
+        display: none;
+    }
+    .bodycontain_login .row_log .column_img img {
+        display: hidden;
+    }
+    .bodycontain_login .row_log .column_log {
+        width: 100%;
+    }
 }
 
 
@@ -770,6 +772,7 @@ header .image img {
     margin-top: 0px;
     margin-left: 0px;
     width: 100%;
+    height: 280px;
     background-size: flex;
     padding-bottom: 0%;
 }
