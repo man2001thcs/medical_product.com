@@ -210,7 +210,7 @@ class AppModel
 
 		return $result;
 	}
-
+    //get data with rank
 	public function getDataRank($limit = 6, $page = 1)
 	{
 
@@ -225,6 +225,31 @@ class AppModel
 				'offset' => ($this->_limit * ($this->_page - 1)),
 				'limit' => $this->_limit
 			));
+		}
+
+
+		$result         = new stdClass();
+		$result->page   = $this->_page;
+		$result->limit  = $this->_limit;
+		$result->total  = $this->_total;
+		$result->data   = $results;
+        
+		return $result;
+	}
+
+   //get data with same type (product)
+	public function getDataSameType($types, $limit = 6, $page = 1)
+	{
+
+		$this->_limit  = $limit;
+		$this->_page  = $page;
+
+		if ($this->_limit == 'all') {
+			$results = $this->db->select($this->_table);
+		} else {
+			$results = $this->db->select($this->table, array(
+				'conditions' => array($this->alias . '.type' => $types)
+		    ));
 		}
 
 

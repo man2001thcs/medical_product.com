@@ -227,7 +227,7 @@ if ($_POST) {
                         <div class="row">
                             <?php 
 		                  //$medicine->number_All();
-		                   $resultM = $medicine->getData( 5, 1);
+		                   $resultM = $medicine->getDataSameType($item_this["type"], 5, 1);
 		                   //echo json_encode( $result);
 		                    $dataM = $resultM->data; 
 		                   if (!empty($dataM)) :?>

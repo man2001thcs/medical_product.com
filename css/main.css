@@ -195,7 +195,7 @@ table {
 
 @media screen and (max-width: 1200px) {
     .bodycontain .product_con .row_con .column_con {
-        width: 50%;
+        width: 40%;
     }
 }
 
@@ -305,7 +305,7 @@ table {
     }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1400px) {
     .bodycontain .card .row_card .column_f {
         width: 100%;
     }
@@ -319,22 +319,22 @@ table {
 
 @media screen and (max-width: 1400px) {
     .bodycontain .card .row_card .column_s {
-        width: auto;
+        width: 100%;
         height: fit-content;
         overflow-y: hidden;
-        MARGIN-bottom: 200px;
+        MARGIN-bottom: 220px;
+        overflow-y: none !important;
     }
 }
 
 @media screen and (max-width: 1400px) {
     .bodycontain .card .row_card .column_s .suggest .row .column {
-        width: 225px;
+        width: 230px;
     }
 }
 
 @media screen and (max-width: 1400px) {
     .bodycontain .card .row_card .column_s .suggest .row {
-        width: fit-content;
         height: auto;
     }
 }
@@ -342,8 +342,8 @@ table {
 @media screen and (max-width: 1400px) {
     .bodycontain .card .row_card .column_s .suggest {
         width: fit-content;
-        overflow-y: scroll;
         height: 350px;
+        overflow-y: none !important;
     }
 }
 

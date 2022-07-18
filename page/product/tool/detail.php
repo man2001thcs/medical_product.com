@@ -120,7 +120,7 @@ if ($_POST) {
         <script src="../../../lib/script/quantity.js"></script>
 
         <div class="card">
-            <div class="row">
+            <div class="row_card">
                 <div class="column_f">
                     <div class="card__body">
 
@@ -192,12 +192,12 @@ if ($_POST) {
                 </div>
 
                 <div class="column_s">
-                    <h3 class="header_s">Sản phẩm tương tự</h3>
+                    <h3 class="header_s">Sản phẩm đáng quan tâm</h3>
                     <div class="suggest">
                         <div class="row">
                             <?php 
 		                  //$tool->number_All();
-		                   $resultM = $tool->getData( 5, 1);
+		                   $resultM = $tool->getDataRank( 5, 1);
 		                   //echo json_encode( $result);
 		                    $dataM = $resultM->data; 
 		                   if (!empty($dataM)) :?>
@@ -232,7 +232,7 @@ if ($_POST) {
                             </div>
                             <?php endforeach; ?>
                             <?php else: ?>
-                            Chưa có dữ liệu.
+                                <h2>Không có sản phẩm tương tự</h2>
                             <?php endif; ?>
                             <?php endif; ?>
                         </div>
@@ -240,7 +240,7 @@ if ($_POST) {
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row_card">
                 <div class="column_f">
                     <?php
                     include '../../templates/product/description.php';  

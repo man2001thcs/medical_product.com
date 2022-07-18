@@ -91,7 +91,7 @@ $buy_log = new Buy_Log();
                 </li>
                 <?php endforeach; ?>
                 <?php else: ?>
-                <h2>Chưa có đơn trong lịch sử đặt hàng.</h2>
+                <h2>Không có sản phẩm tương tự</h2>
                 <?php endif; ?>
             </ul>
         </div>

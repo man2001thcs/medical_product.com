@@ -47,15 +47,14 @@ if ($_POST) {
 
     <div class="bodycontain_login">
         <div class="heading"><i class="fa fa-font-awesome" aria-hidden="true"></i> Đăng nhập</div>
-        <div class="row">
+        <div class="row_log">
             <div class="column_img">
-                <img src="../../../lib/images/login_img.png" style="width:100%">
+                <img src="../../../lib/images/login_img.png">
             </div>
             <div class="column_log">
                 <div class="login">
                     <div class="form">
                         <form action="" method="post">
-						    <h2 id="register_con">Đăng nhập</h2>
                             <h2>Đăng nhập</h2>
                             <input name="email" type="email" placeholder="Tài khoản">
                             <input name="password" type="password" placeholder="Mật khẩu">
