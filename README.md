@@ -36,3 +36,8 @@ Ngày 17/7
   thông kê bảng đơn giản là được
 - Chỉnh sửa thông tin dụng cụ y tế bị lỗi( đã fix)
 - Phần đăng ký khách hàng trong tk admin (fix rồi)
+
+Ngày 18/7:
+- Nút xem tất cả ở màn chính sản phẩm dẫn tới URL lỗi(/page/main_page/main/list.php).
+- Nút xem chi tiết dụng cụ y tế ở màn chính bị lỗi(/page/main_page/main/list.php)
+- Sản phẩm tương tự ở màn dụng cụ đang bị sắp xếp theo hàng dọc.
