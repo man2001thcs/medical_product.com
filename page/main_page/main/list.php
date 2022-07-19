@@ -69,7 +69,7 @@ $tool = new Tool();
 
         <div class="heading">
             <span><i class="fa fa-medkit" aria-hidden="true"></i> Thuốc y tế </span>
-            <div class="see_all"><a href="../medicine/list.php">Xem tất cả<a></div>
+            <div class="see_all"><a href="../../product/medicine/list.php">Xem tất cả<a></div>
         </div>
 
         <div class="product_con">
@@ -124,7 +124,7 @@ $tool = new Tool();
 
         <div class="heading">
             <span><i class="fa fa-stethoscope" aria-hidden="true"></i> Dụng cụ y tế </span>
-            <div class="see_all"><a href="../tool/list.php">Xem tất cả<a></div>
+            <div class="see_all"><a href="../../product/tool/list.php">Xem tất cả<a></div>
         </div>
 
         <div class="product_con">

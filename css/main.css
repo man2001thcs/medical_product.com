@@ -247,8 +247,8 @@ table {
     border-top-left-radius: 15px;
     position: relative;
     padding-top: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
     margin-left: auto !important;
     padding-bottom: 2%;
 }
@@ -278,7 +278,6 @@ table {
 .bodycontain .card .row_card .column_s .suggest .row .column {
     float: left;
     width: 100%;
-    margin-left: 2%;
     padding: 10px;
     margin-bottom: 2%;
 }
