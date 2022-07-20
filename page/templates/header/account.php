@@ -13,6 +13,7 @@ if ($user->isLoggedIn()) :
         <li>
             <a href="<?php echo BASE_URL; ?>">Tài khoản</a>
             <ul>
+                <li><a href="<?php echo BASE_URL; ?>page/user/temp_bill/listM.php">Giỏ hàng</a></li>
                 <li><a href="<?php echo BASE_URL; ?>page/user/change_info/edit.php">Thông tin</a></li>
                 <li><a href="<?php echo BASE_URL; ?>page/user/change_info/password.php">Đổi mật khẩu</a></li>
             </ul>
