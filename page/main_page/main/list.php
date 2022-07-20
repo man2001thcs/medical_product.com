@@ -96,7 +96,7 @@ $tool = new Tool();
                         <div class="content">
                             <div class="img_card">
                                 <a href="../../product/medicine/detail.php?id=<?php echo $item['id']; ?>">
-                                    <img width="120px" src=<?php echo Helper::return_img_M($item['id']);?>>
+                                    <img width="150px" height="170px" src=<?php echo Helper::return_img_M($item['id']);?>>
                                 </a>
                             </div>
                             <span class="bg animated fadeInDown">Thuốc y tế</span>
@@ -147,7 +147,7 @@ $tool = new Tool();
                         <div class="content">
                             <div class="img_card">
                                 <a href="../../product/tool/detail.php?id=<?php echo $item['id']; ?>">
-                                    <img width="120px" src=<?php echo Helper::return_img_T($item['id']);?>>
+                                    <img width="150px" height="170px" src=<?php echo Helper::return_img_T($item['id']);?>>
                                 </a>
                             </div>
                             <span class="bg animated fadeInDown">Dụng cụ y tế</span>

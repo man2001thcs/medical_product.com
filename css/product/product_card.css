@@ -15,7 +15,7 @@
 .outer {
     position: relative;
     background: #fff;
-    min-height: 330px;
+    min-height: 350px;
     height: fit-content;
     width: 225px;
     overflow: hidden;
@@ -33,7 +33,7 @@
 }
 
 .content .img_card img {
-    padding-top: 10%;
+    padding-top: 8%;
     padding-bottom: 10%;
     margin-left: auto;
     animation-delay: 0.5s;
@@ -43,6 +43,7 @@
     animation-delay: 0.3s;
     position: absolute;
     padding-left: 20px;
+    padding-right: 12px;
     z-index: 2;
 }
 
@@ -99,7 +100,7 @@
     font-size: 11px;
     color: #111;
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 10px 10px;
     border: 1px solid #aaa;
     font-weight: bold;
 }
@@ -108,7 +109,7 @@
     content: "";
     position: absolute;
     top: 0;
-    right: -10px;
+    right: -5px;
     width: 0%;
     background: #111;
     height: 100%;

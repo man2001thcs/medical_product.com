@@ -19,14 +19,16 @@ $buy_log = new Buy_log();
 //$calendar = new Calendar();
 $medicine = new Medicine_M();
 $tool = new Tool();
+$transport = $_POST['delivery-collection'] ?? null;
+
 
 //echo $total_price;
 
 //$created = isset($_GET['created']) ? $_GET['created'] : null;
 
-$code = isset($_POST['code']) ? intval($_POST['code']) : null;
+$code = isset($_POST['code']) ? $_POST['code'] : null;
 
-if (empty($code)) {
+if (empty($code) || empty($user->getCart())) {
 	Helper::redirect('page/main_page/main/list.php');
 }
 
@@ -45,7 +47,7 @@ if ($_POST) {
 <!DOCTYPE html>
 
 <head>
-    <title>Thông tin thuốc</title>
+    <title>Thông tin thanh toán</title>
     <?php include "../../templates/css/css.php"; ?>
     <?php include "../../templates/js/js.php"; ?>
 
@@ -80,9 +82,10 @@ if ($_POST) {
 							'medicine_id' => $item['medicine_id'],
 							'tool_id' => $item['tool_id'],
 							'price' => $item['price'],
-							'code' => $item['code'],
 							'created' => $item['created'],
-							'total_price' => ($item['number'] * $item['price'])
+							'transport' => $transport,
+							'total_price' => ($item['number'] * $item['price']),
+							'code' => $item['code']
 						)
 					);
 					//echo json_encode($item);
@@ -124,10 +127,15 @@ if ($_POST) {
                                 Đồng</p>
                             <p class="info"><span>Ngày:</span> <?php echo $day; ?></p>
                             <p class="info"><span>Số lượng:</span> <?php echo $item['number']; ?></p>
+                            <?php endforeach; ?>
                         </div>
-                        <a class="btn btn-green" href="/medical_product.com/page/main_page/main/list.php"
-                            style="background-color: red"> Quay lại </a>
-                        <?php endforeach; ?>
+                        <br />
+                        <br />
+                        <div class="txt" id="infos">
+                            <a class="btn btn-green" href="/medical_product.com/page/main_page/main/list.php"
+                                style="background-color: red; padding: 10px; border-radius: 10px; color: white;"> Quay
+                                lại </a>
+                        </div>
                     </div>
                 </li>
             </ul>

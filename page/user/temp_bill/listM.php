@@ -40,19 +40,13 @@ $code = $buy_log->verifyCode();
     <div class="bodycontain">
         <main>
             <div class="basket">
-                <div class="basket-module">
-                    <label for="promo-code">Enter a promotional code</label>
-                    <input id="promo-code" type="text" name="promo-code" maxlength="5" class="promo-code-field">
-                    <button class="promo-code-cta">Apply</button>
-                </div>
-
                 <?php //label ?>
                 <div class="basket-labels">
                     <ul>
-                        <li class="item item-heading">ID sản phẩm</li>
-                        <li class="price">Giá đơn sản phẩm</li>
-                        <li class="quantity">Số lượng</li>
-                        <li class="subtotal">Tổng giá trị</li>
+                        <li class="item item-heading"><strong>ID sản phẩm</strong></li>
+                        <li class="price"><strong>Giá đơn sản phẩm</strong></li>
+                        <li class="quantity"><strong>Số lượng</strong></li>
+                        <li class="subtotal"><strong>Tổng giá trị</strong></li>
                     </ul>
                 </div>
 
@@ -89,8 +83,7 @@ $code = $buy_log->verifyCode();
                 <div class="basket-product">
                     <div class="item">
                         <div class="product-image">
-                            <img src=<?php echo $link_img; ?> alt="Placholder Image 2"
-                                class="product-frame">
+                            <img src=<?php echo $link_img; ?> alt="Placholder Image 2" class="product-frame">
                         </div>
                         <div class="product-details">
                             <h1><strong><span class="item-quantity"><?php echo $item['number']; ?></span> x </strong>
@@ -100,7 +93,7 @@ $code = $buy_log->verifyCode();
                     </div>
                     <div class="price"> <?php echo number_format($item['price'],0,",","."); ?></div>
                     <div class="quantity">
-                        <input type="number" value=<?php echo $item['number']; ?> min="1" class="quantity-field">
+                        <input disabled type="number" value=<?php echo $item['number']; ?> min="1" class="quantity-field">
                     </div>
                     <div class="subtotal"><?php echo number_format($item['price'] * $item['number'],0,",","."); ?></div>
                     <div class="remove">
@@ -118,7 +111,7 @@ $code = $buy_log->verifyCode();
                             <p><strong>Trống, vui lòng thêm item để thanh toán.</strong></p>
                         </div>
                     </div>
-          
+
                 </div>
                 <?php endif; ?>
 
@@ -139,28 +132,27 @@ $code = $buy_log->verifyCode();
                         </div>
                     </div>
 
-
-                    <div class="summary-delivery">
-                        <select name="delivery-collection" class="summary-delivery-selection">
-                            <option value="first-class">Express</option>
-                            <option value="second-class">Shoppe Delivery</option>
-                        </select>
-                    </div>
-
-                    <div class="summary-total">
-                        <div class="total-title">Tổng giá trị</div>
-                        <div class="total-value final-value" id="basket-total">
-                            <?php echo number_format($user->Cart_total_money(),0,",",".");?></div>
-                    </div>
-                    <div class="summary-checkout">
-                        <form action="create_order.php?code=<?php echo $code;?>" method="post">
+                    <form action="create_order.php" method="post">
+                        <input type="hidden" id="code" name="code" value=<?php echo $code;?>>
+                        <div class="summary-delivery">
+                            <select name="delivery-collection" class="summary-delivery-selection">
+                                <option value="Express">Express</option>
+                                <option value="Shoppee">Shoppe Delivery</option>
+                            </select>
+                        </div>
+                        <div class="summary-total">
+                            <div class="total-title">Tổng giá trị</div>
+                            <div class="total-value final-value" id="basket-total">
+                                <?php echo number_format($user->Cart_total_money(),0,",",".");?></div>
+                        </div>
+                        <div class="summary-checkout">
                             <button class="checkout-cta" name="pay_button" type="submit">Hoàn tất hóa đơn</button>
-
-                        </form>
-                    </div>
+                        </div>
+                    </form>
                 </div>
-            </aside>
-        </main>
+    </div>
+    </aside>
+    </main>
 
     </div>
 </body>

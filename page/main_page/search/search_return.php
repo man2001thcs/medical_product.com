@@ -113,7 +113,7 @@ if (isset($_POST['search'])){
                         <div class="content">
                             <div class="img_card">
                                 <a href="../../product/medicine/detail.php?id=<?php echo $item['id']; ?>">
-                                    <img src=<?php echo Helper::return_img_M($item['id']);?> width="60%">
+                                    <img src=<?php echo Helper::return_img_M($item['id']);?> width="150px" height="170px">
                                 </a>
                             </div>
                             <span class="bg animated fadeInDown">Thuốc y tế</span>

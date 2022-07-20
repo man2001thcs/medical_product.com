@@ -180,8 +180,6 @@ class User extends AppModel {
 		if (empty($this->session->read(CART))){
 			$data['stt'] = 1;
 			$data = array( 1 => $data);
-
-			echo 1;
 			$this->session->write(CART, $data);
 			return;
 		}
