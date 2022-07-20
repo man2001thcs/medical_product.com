@@ -1,6 +1,6 @@
 <?php
 /**
-* PHP Simple Model Driver
+* PHP Simple Model Driver (Tham khao tu thay Bui Trung)
 * 
 * @author BuiTrung<trungbq06@gmail.com>
 * @version 1.0
